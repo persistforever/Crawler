@@ -24,7 +24,7 @@ class Conf :
 		cf = ConfigParser.ConfigParser()
 		cf.read(self.filename)
 		arr.append(int(cf.get('zhihu', 'topicidx')))
-		# arr.append(int(cf.get('zhihu', 'maindelta')))
+		arr.append(int(cf.get('zhihu', 'pageidx')))
 		# arr.append(int(cf.get('zhihu', 'subdelta')))
 		return arr
 
@@ -32,7 +32,7 @@ class Conf :
 		cf = ConfigParser.ConfigParser()
 		cf.add_section('zhihu')
 		cf.set('zhihu', 'topicidx', str(arr[0]))
-		# cf.set('zhihu', 'maindelta', str(arr[1]))
+		cf.set('zhihu', 'pageidx', str(arr[1]))
 		# cf.set('zhihu', 'subdelta', str(arr[2]))
 		cf.write(open(self.filename, 'w'))
 
@@ -40,6 +40,7 @@ class Conf :
 class Zhihu :
 	# attributes
 	mainurl = ''
+	maindir = ''
 	qturl = 'http://www.zhihu.com/question/'
 	urlset = []
 	nqurlset = dict()
@@ -54,16 +55,22 @@ class Zhihu :
 		self.nqurlset['http://www.zhihu.com/topic/19618774/questions'] = None
 		self.nqurlset['http://www.zhihu.com/topic/19778287/questions'] = None
 		self.nqurlset['http://www.zhihu.com/topic/19560891/questions'] = None
-		qturl = 'http://www.zhihu.com/question/'
+		self.mainurl = 'http://www.zhihu.com'
+		self.maindir = '../result/data'
 
 	def getQuestion(self, url) :
 		content = urllib2.urlopen(url).read()
 		soup = BeautifulSoup(content)
-		qtdata = soup.contents[2].contents[3].contents[9]
+		alltag = soup.findAll('div')
+		for tag in alltag :
+			if 'class' in [t[0] for t in tag.attrs] :
+				if tag['class'] == 'zg-wrap zu-main question-page' :
+					qtdata = tag
+					break
 		return qtdata
 	
 	def getQuestionList(self, url) :
-		topic, question, count = [], [], []
+		qtlist = []
 		content = urllib2.urlopen(url).read()
 		soup = BeautifulSoup(content)
 		alltag = soup.findAll('div')
@@ -77,11 +84,21 @@ class Zhihu :
 							if div['class'] == 'subtopic' :
 								selfqs = False
 								break
+					allmeta = tag.findAll('meta')
+					for meta in allmeta :
+						if 'content' in [t[0] for t in meta.attrs] :
+							if meta['itemprop'] == 'answerCount' :
+								if int(meta['content']) == 0 :
+									selfqs = False
+									break
 					if selfqs == True :
 						alla = tag.findAll('a')
 						for a in alla :
+							qt = ''
 							if a['class'] == 'question_link' :
-								print a['href']
+								qtlist.append(self.mainurl + a['href'])
+
+		return qtlist
 
 	def getPageNum(self, url) :
 		pageset = []
@@ -106,25 +123,15 @@ class Zhihu :
 			if (page + 1) % 100 == 0 :
 				time.sleep(int(random.random()*100%30))
 
-	def storeTopic(self, maindir) :
-		num = 0
-		for topic in self.topictree :
-			subdir = maindir + '/' + topic
-			if not os.path.exists(subdir) :
-				os.mkdir(subdir)
-			for qt, count in self.topictree[topic] :
-				if count != 0 :
-					try:
-						filepath = subdir + '/' + qt + '.txt'
-						qtdata = self.getQuestion(self.qturl + qt)
-						num += 1
-						with open(filepath, 'w') as fw :
-							fw.write(str(qtdata))
-					except Exception, e:
-						pass
-				if (num + 1) % 1000 == 0 :
-					time.sleep(int(random.random()*100%30))
-			print 'write topic ', topic, 'finished ...'
+	def storeQuestion(self, topic, name, data) :
+		subdir = self.maindir + '/' + str(topic)
+		if not os.path.exists(subdir) :
+			os.mkdir(subdir)
+		filepath = subdir + '/' + str(name) + '.txt'
+		with open(filepath, 'a+') as fw :
+			fw.writelines('!!\n')
+			fw.writelines(str(data))
+			fw.writelines('\n')
 
 	def importURL(self, name) :
 		with codecs.open(name, 'r', 'utf-8') as fo :
@@ -134,16 +141,32 @@ class Zhihu :
 	def process(self) :
 		self.importURL('../result/url.txt')
 		conf = Conf()
-		[topicidx] = conf.readConf()
+		[topicidx, pageidx] = conf.readConf()
 		while topicidx < len(self.urlset) :
 			topicurl = self.urlset[topicidx]
+			print 'topic url is', topicurl
+			if topicurl in self.nqurlset :
+				topicidx += 1
+				continue
 			maxpage = zhihu.getPageNum(topicurl)
-			print maxpage
-			for page in range(1, min(maxpage, 10)) :
-				pageurl = topicurl + '?page=' + str(page)
+			print 'topic max page is', maxpage
+			while pageidx < min(maxpage+1, 6) :
+				pageurl = topicurl + '?page=' + str(pageidx)
+				print 'now page url is', pageurl
 				qsurlset = self.getQuestionList(pageurl)
-			# topicidx += 1
-			# conf.writeConf([topicidx])
+				for qsurl in qsurlset :
+					print 'now question url is', qsurl
+					data = self.getQuestion(qsurl)
+					name = pageidx / 100
+					self.storeQuestion(topicidx, name, data)
+				pageidx += 1
+				conf.writeConf([topicidx, pageidx])
+				if pageidx % 100 == 0 :
+					time.sleep(int(random.random()*30%30)+1)
+			topicidx += 1
+			pageidx = 1
+			conf.writeConf([topicidx, pageidx])
+			# time.sleep(int(random.random()*60%60)+1)
 			break
 
 
