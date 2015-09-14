@@ -1,0 +1,3008 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>  凯迪社区 - 全球华人最具影响力的言论及媒体平台</title>
+<meta name="author" content="凯迪网络">
+<meta name="keywords" content="凯迪社区,凯迪网络">
+<meta name="description" content="凯迪社区">
+<meta name="copyright" content="凯迪网络版权所有" />
+<link rel="icon" href="http://imgcdn.kdnet.net/webset/www/favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="http://imgcdn.kdnet.net/webset/www/favicon.ico" type="image/x-icon" />
+<link rel="bookmark" href="http://imgcdn.kdnet.net/webset/www/favicon.ico" type="image/x-icon" />
+<link rel="apple-touch-icon" href="http://imgcdn.kdnet.net/webset/club/include/g_images/fav.png"/>
+<link rel="apple-touch-icon-precomposed" href="http://imgcdn.kdnet.net/webset/club/include/g_images/fav.png"/>
+<link href="http://imgcdn.kdnet.net/webset/www/g_style/base8-wz.css" rel="stylesheet" type="text/css" />
+<link href="http://imgcdn.kdnet.net/webset/www/g_style/face.css" rel="stylesheet" type="text/css" />
+<link href="http://upfile1.kdnet.net/webset/club/include/style/club_v5.1.4_20141022.css" rel="stylesheet" type="text/css" />
+		
+
+</head>
+<body>
+
+
+
+<div id="update_flag" style="display:none"></div>
+<!--定位消息-->
+<div class="fixed-outer">
+	<div class="fixed-inner"  id="ajax_header_msg">
+		<div class="msg-box clearfix" style="display:none; " id="ajax_header" >
+		</div>
+	</div>
+</div>
+<!--定位消息 End-->
+
+<!--帮助层-->
+<div id="OverlayHelp" style="display:none">
+	<div class="contentWrap">
+	    
+		<div class="help-show"><img src="http://upfile1.kdnet.net/webset/club/include/images/help_login.png" alt="" /></div>
+		
+	</div>
+</div>
+<!--帮助层 End-->
+
+<div id="hidden_frame" style="display:none;"><iframe id="_frame" width="648" height="480" allowTransparency="true" frameborder="0" vspace="0" marginheight="0" marginwidth="0" src=""></iframe></div>
+
+
+
+<!-- 顶部导航栏 -->
+<div class="top-fixed-nav">
+	<div class="nav-con ">
+		<div class="nav-menu-left ">
+			<a href="http://www.kdnet.net" target="_blank" class="lf nav-logo" title="凯迪网络 主流声音">凯迪网络 主流声音</a>
+
+			<!-- 智能首页 -->
+			<ul class="nav-menu nav-menu-intelligent lf now-in-intelligent">
+				<li class="btn-l"><a href="http://club.kdnet.net/myhome.asp" class="nav-option not-new"><b class="nav-icon nav-op-intelligent"></b>智能首页</a></li>
+				<li class="btn-c"><a href="http://hot.kdnet.net/hottopiclist.asp" class="nav-option in-new"><b class="nav-icon nav-op-hot-post"></b>今日热帖</a></li>
+			
+				<li class="btn-c" ><a href="http://club.kdnet.net/list.asp?boardid=98" class="nav-option in-kdgz"><b class="nav-icon"></b>北京会馆<b class="icon-try-con nav-t-new"></b></a></li>
+			
+
+				<!-- li class="btn-r thinker"><a href="http://special.kcis.cn">思享者</a></li -->
+			</ul>
+			<!-- 智能首页 END-->
+
+		</div>
+		
+		<div class="nav-menu-right">
+			
+			<div class="nav-user-msg-f rf">
+				
+                <div class="login-f"><a href="http://user.kdnet.net/login_new.asp" target="_blank" class="btn-gb">登录</a><a href="http://user.kdnet.net/register_new.asp" target="_blank">注册新用户</a></div>
+
+				<div class="nav-menu-ex-f clearfix nav-menu-login">
+					<div class="nav-menu-ex">
+						<i class="dot-ex dot-ex-login"></i>
+						<a href="http://user.kdnet.net/login_new.asp"><b class="nav-icon nav-op-kdnet"></b>凯迪登录</a>
+						<a href="http://data.kdnet.net/sina/auto_bind_sina.php"><b class="nav-icon nav-op-sina"></b>新浪微博登录</a>
+						<a href="http://3g.kdnet.net/qq_connect/example/oauth/index.php"><b class="nav-icon nav-op-qq"></b>QQ登录</a>
+						<a href="https://open.t.qq.com/cgi-bin/oauth2/authorize?client_id=044d4e0dee634a80b74db95002b00e8f&redirect_uri=http%3A%2F%2F3g.kdnet.net%2Fqq%2Fv2%2Fdemo.php&response_type=code"><b class="nav-icon nav-op-tweibo"></b>腾讯微博登录</a>
+						<a href="http://video.kdnet.net/osfcm/example/index.php/sns/session/taobao"><b class="nav-icon nav-op-taobao"></b>淘宝登录</a>
+						<a href="http://3g.kdnet.net/163"><b class="nav-icon nav-op-twangyi"></b>网易微博登录</a>
+					</div>
+				</div>
+				<!-- 头部登录后右二列表 END-->
+				
+			</div>
+
+			<form id="form1" action="http://search.kdnet.net" method="get" target="_blank" class="sear-box-trans rf pore">
+				<a href="javascript:;" class="sear-bg">
+				<input type="submit" name="sa" id="searchsubmit" value="" class="sear-go"/>
+				<input name="q" type="text" id="s" onfocus="javascript:if(this.value=='最悲伤作文'){this.value='';this.className='sear-input sear-in';}" onblur="javascript:if(this.value==''){this.value='最悲伤作文';this.className='sear-input'}" value="最悲伤作文" class="sear-input"/>
+				</a>
+			</form>
+			
+		</div>
+	</div>
+	<div class="nav-opacity"></div>
+	<div class="nav-line-b"></div>
+
+    
+</div>
+
+<div class="nav-space-t"></div>
+<!-- 顶部导航栏 end -->
+		<!-- **************************************weizi [2013-10-14] 新增加社区首页左侧广告 *************************************************** -->
+		<div class="ad-banner-left clearfix">
+        	<div class="ad-banner-left-box">
+                <div class="ad-banner-left-cont" > <!-- id="ad-banner-left-cont" 悬停ID -->
+				
+				<div id="index92" style="width:0;height:0; visibility:hidden; overflow:hidden;">
+					<script type="text/javascript">//<![CDATA[
+					ac_as_id = 95147;
+					ac_format = 0;
+					ac_mode = 1;
+					ac_group_id = 1;
+					ac_server_base_url = "afp.csbew.com/";
+					//]]></script>
+					<script type="text/javascript" src="http://s.csbew.com/k.js"></script>
+				</div>
+				
+				</div>
+                </div>
+        </div>
+         <style>
+        	.ad-banner-left{ height:0; width:1030px; margin:0 auto; position:relative;}
+			.ad-banner-left-box{width:120px; height:auto; position:absolute; left:-120px; top:100px; z-index:1000;}
+			.ad-banner-left-cont{ width:120px; height:240px; position:absolute;}
+        </style>
+       <!-- **************************************weizi [2013-10-14] 新增加社区内容页左侧广告 ********************************************** End -->
+
+<div id="TopScrollDiv" class="topscroll-div"></div>
+<div class="wrapper clearfix w1030px">
+	<div class="lf w840px">	
+		<!--主导航-->
+		<div class="globalnav c-white clearfix">
+			<span><a onclick="AddFavorite(window.location,document.title)" href="javascript:;">收藏</a>
+			
+			
+
+			</span>
+                        <ul class="globalnav-ul">
+			            <li><a href="http://www.kdnet.net" class="current">首页</a> |</li>
+            			<li><a href="http://club.kdnet.net">社区</a> |</li>
+            			<li><a href="http://www.kcis.cn">云情报</a> |</li>
+            			<!--<li><a href="http://video.kdnet.net"><b class="c-alarm">视频</b></a> |</li>
+            			<li><a href="http://t.kdnet.net">微评</a> |</li>-->
+            			<li><a href="http://chat.kdnet.net">夜话</a> |</li>
+            			<li><a href="http://special.kdnet.net">专题</a> |</li>
+            			<li><a href="http://blog.kdnet.net">博客</a> |</li>
+            			<!--<li><a href="http://weekly.kdnet.net">周刊</a> |</li>-->
+						<li><a href="http://school.kdnet.net">凯迪小学</a> |</li>
+						<li><a href="http://lun.kdnet.net/">猫论天下</a> |</li>
+            			<li class="globalnav-last">
+            				<a href="javascript:;" id="globalnav-more-btn">更多</a>
+            				<ul>
+							    <li><a href="http://shop.kdnet.net">凯迪商城</a> </li>
+            					<li><a href="http://research.kdnet.net">传播研究院</a></li>
+								<li><a href="http://3g.kdnet.net/intro.php">手机凯迪网</a></li>
+            				</ul>
+            			</li>
+						</ul>
+		</div>
+		<!--主导航 End-->	
+
+	    <!--头部-->
+		<div class="header clearfix">
+			<div class="logo" title="凯迪社区：全球华人最具影响力的言论及媒体平台">
+				<a href="http://club.kdnet.net">凯迪社区：全球华人最具影响力的言论及媒体平台</a><div class="logo-ms"></div>
+			</div>
+			
+			
+
+			<div style="width:550px;margin:0 auto; margin-top:10px; height:90px;overflow:hidden;"><!--modify sunny 20131231 ad-->
+			<div id="club73" style="width:0;height:0;visibility:hidden;overflow:hidden;"><!--modify sunny 20131231 ad-->
+				<div style="width:468px;margin:0 auto; margin-top:15px; height:60px;overflow:hidden;">
+				
+				<!--
+					<script type="text/javascript">
+						var allyes_siteid='126', allyes_output=1, allyes_channedid='723',allyes_ad_width='468',allyes_ad_height='60',allyes_adspaceid='181-1', allyes_host_addr='mmae.allyes.com';
+					</script>
+					<script type="text/javascript" src="http://1.allyes.com.cn/mediamax/MediaMax.js"></script>
+				-->
+					<script type="text/javascript">//<![CDATA[
+					ac_as_id = 96837;
+					ac_format = 0;
+					ac_mode = 1;
+					ac_group_id = 1;
+					ac_server_base_url = "afp.csbew.com/";
+					//]]></script>
+					<script type="text/javascript" src="http://s.csbew.com/k.js"></script>
+
+				
+				</div>
+			</div>
+			</div><!--modify sunny 20131231 ad-->
+
+
+		</div>
+	    <!--头部 End-->
+
+		<script>
+		var duf_40_40 = 'http://imgcdn.kdnet.net/upload/userface/NoPic_40_40.jpg';
+		</script>		<div class="login-box clearfix">
+			<div class="num-info c-white">
+				<img class="leader-icon" title="注册用户" src="http://www.kdnet.net/g_images/transparent.gif" /><span class="leader fB">14005254</span> 位注册用户，目前在线 <span class="fB">206913</span> 人 | &nbsp;&nbsp;
+			</div>
+			<div class="login-info">
+				 <span class="c-alarm lf" id="dispbbs71" style="width:0;height:0;visibility:hidden;overflow:hidden;"></span>
+			</div>
+			<div class="rf c-white"><a href="http://club.kdnet.net/list.asp?boardid=13">站务专区</a> | <a target="_blank" href="boardstat3.asp?boardid=1#fourth">论坛动态</a> 
+			
+			</div>
+		</div>
+
+		<div class="clubcont-line "></div>
+   <!-- <div class="clubcont-line "></div>-->
+	
+
+	 <!-- **************************************5star [2013-01-17] 新增加 ********************************************** -->
+		<!--社区板块-->
+		<div class="plate clearfix pore">
+			<div id="navSimple" style="display:block;">	<!-- sunny add 20130613 -->
+				<h3 class="fB"><span class="forwardwblog-icon red fB">版块导航</span><span class="fB red">：</span></h3>
+				<ul class="clearfix" id="intellect_board">
+					<li><a href='http://club.kdnet.net/list.asp?boardid=1' >猫眼看人</a></li><li><a href='http://club.kdnet.net/list.asp?boardid=33' >图画人生</a></li><li><a href='http://club.kdnet.net/list.asp?boardid=3' >经济风云</a></li><li><a href='http://club.kdnet.net/list.asp?boardid=96' >史海钩沉</a></li><li><a href='http://club.kdnet.net/list.asp?boardid=89' >时局深度</a></li><li><a href='http://club.kdnet.net/list.asp?boardid=2' >文化散论</a></li><li><a href='http://club.kdnet.net/list.asp?boardid=52' >原创评论</a></li><li><a href='http://club.kdnet.net/list.asp?boardid=44' >会员阅读</a></li><li><a href='http://club.kdnet.net/list.asp?boardid=9' >健康社会</a></li><li class="last-p"><a href='http://club.kdnet.net/list.asp?boardid=73' >凯迪华南</a></li>
+				</ul>
+				<span id="MoreForum" class="moreforum-up c-main"><a href="javascript:;" id="MoreBtn">更多</a></span>
+			</div>
+
+			<div id="navDetailed" class="nav-detailed" style="display:none;">
+				<span id="MoreForum" class="moreforum-down c-main"><a href="javascript:;" id="menuSliadUp">收起</a></span>
+				<div class="clubforum-cont clubforum-cont-more clearfix">
+					<div class="clubforum-sub">
+						<h4>时政经济：</h4>
+						<a href="http://club.kdnet.net/list.asp?boardid=1">猫眼看人</a> | <a href="http://club.kdnet.net/list.asp?boardid=89">时局深度</a> | <a href="http://club.kdnet.net/list.asp?boardid=52">原创评论</a><br />
+						<a href="http://club.kdnet.net/list.asp?boardid=3">经济风云</a> | <a href="http://club.kdnet.net/list.asp?boardid=15">股市泛舟</a> | <a href="http://club.kdnet.net/list.asp?boardid=88">商业创富</a><br />
+						<a href="http://club.kdnet.net/list.asp?boardid=96">史海钩沉</a> | <a href="http://club.kdnet.net/list.asp?boardid=2">文化散论</a> | <a href="http://club.kdnet.net/list.asp?boardid=24">中间地带</a><br />
+						<a href="http://club.kdnet.net/list.asp?boardid=44">会员阅读</a> | <a href="http://club.kdnet.net/list.asp?boardid=25">律师之窗</a> | <a href="http://club.kdnet.net/list.asp?boardid=101">舆情观察</a> 
+					</div>
+					<div class="clubforum-line"></div>
+					<div class="clubforum-sub">
+						<h4>都市生活：</h4>
+						<a href="http://club.kdnet.net/list.asp?boardid=9">健康社会</a> | <a href="http://club.kdnet.net/list.asp?boardid=30">车友评车</a> | <a href="http://club.kdnet.net/list.asp?boardid=61">房产家居</a><br />
+						<a href="http://club.kdnet.net/list.asp?boardid=4">甜蜜旅程</a> | <a href="http://club.kdnet.net/list.asp?boardid=63">消费观察</a> | <a href="http://club.kdnet.net/list.asp?boardid=45">职场生涯</a><br />
+						<a href="http://club.kdnet.net/list.asp?boardid=29">家长里短</a> | <a href="http://club.kdnet.net/list.asp?boardid=60">咱们女人</a> | <a href="http://club.kdnet.net/list.asp?boardid=62">家有宝宝</a><br />
+						<a href="http://club.kdnet.net/list.asp?boardid=58">猫眼鉴宝</a> | <a href="http://club.kdnet.net/list.asp?boardid=40">网络剧场</a> | <a href="http://club.kdnet.net/list.asp?boardid=35">旅游时尚</a>
+					</div>
+					<div class="clubforum-line"></div>
+					<div class="clubforum-sub">
+						<h4>影音娱乐：</h4>
+						<a href="http://club.kdnet.net/list.asp?boardid=33">图画人生</a> | <a href="http://club.kdnet.net/list.asp?boardid=26">影视评论</a><br />
+						<a href="http://club.kdnet.net/list.asp?boardid=86">猫影无忌</a> | <a href="http://club.kdnet.net/list.asp?boardid=27">音乐之声</a><br />
+						<a href="http://club.kdnet.net/list.asp?boardid=7">猫兄鼠妹</a> | <a href="http://club.kdnet.net/list.asp?boardid=16">网友风采</a><br />
+						<a href="http://club.kdnet.net/list.asp?boardid=10">笑话人生</a> | <a href="http://club.kdnet.net/list.asp?boardid=56">游戏天地</a>
+					</div>
+					<div class="clubforum-line"></div>
+					<div class="clubforum-sub">
+						<h4>文化广场：</h4>
+						<a href="http://club.kdnet.net/list.asp?boardid=55">菁菁校园</a> | <a href="http://club.kdnet.net/list.asp?boardid=6">心灵驿站</a><br />
+						<a href="http://club.kdnet.net/list.asp?boardid=5">原创文学</a> | <a href="http://club.kdnet.net/list.asp?boardid=31">汉诗随笔</a><br />
+						<a href="http://club.kdnet.net/list.asp?boardid=32">闲话国粹</a> | <a href="http://club.kdnet.net/list.asp?boardid=8">体育观察</a><br />
+						<a href="http://club.kdnet.net/list.asp?boardid=41">开心科普</a> | <a href="http://club.kdnet.net/list.asp?boardid=18">IT数码</a>
+					</div>
+					<div class="clubforum-line"></div>
+					<div class="clubforum-sub">
+						<h4>地方频道：</h4>
+						
+						<a href="http://club.kdnet.net/list_localhall.asp?boardid=98">北京</a> |
+						<a href="http://club.kdnet.net/list_localhall.asp?boardid=99">上海</a> |
+						<a href="http://club.kdnet.net/list_localhall.asp?boardid=80">广州</a><br />
+						<a target="_blank" href="http://cq.kdnet.net" style="color:#e63922;">重庆</a> |
+						<a href="http://club.kdnet.net/list.asp?boardid=97">深圳</a> |
+						<a href="http://club.kdnet.net/list.asp?boardid=105">苏州</a><br />
+						<a href="http://club.kdnet.net/list.asp?boardid=123">香港</a> |
+						<a href="http://club.kdnet.net/list.asp?boardid=124">台湾</a> |
+						<a href="http://club.kdnet.net/list.asp?boardid=125">美洲</a><br />
+						<a href="http://club.kdnet.net/list.asp?boardid=75">西南</a> |
+						<a href="http://club.kdnet.net/list.asp?boardid=73">华南</a> |
+						<a href="http://club.kdnet.net/list.asp?boardid=77">海南</a><br />
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--社区板块 End-->
+       <!-- **************************************5star [2013-01-17] 新增加 ********************************************** End -->
+	<div class="banner b-border"></div>
+		
+		<!--社区统计-->
+		<div class="statistics-club clearfix">
+			<div class="lf">
+				主题总数：12524202  / 帖子总数：173947747<br />
+				今日论坛共发帖：<span class="c-alarm">15243</span> / 昨日发帖：37516 / 最高日发帖：75754
+			</div>
+		    <div class="rf pt0">
+				<div id="index56" style="width:0;height:0;visibility:hidden;overflow:hidden;"></div>
+				<div id="index57" style="width:0;height:0;visibility:hidden;overflow:hidden;"></div>
+			</div>
+		</div>
+		<!--社区统计 End-->
+		
+    <!--社区首页-->
+	<div class="index-table">
+	<div class="clubcont-line "></div>
+    
+	        <!--一级栏目横幅AD-->
+			<div class="banner b-border">
+						
+							<div id="index47" style="width:0;height:0;visibility:hidden;overflow:hidden;">
+								<div style="width:728px;margin:0 auto; height:90px; overflow:hidden;">
+									
+									<!-- club_banner1_728x90 11-->
+
+									<script type="text/javascript">//<![CDATA[
+									ac_as_id = 101157;
+									ac_format = 0;
+									ac_mode = 1;
+									ac_group_id = 1;
+									ac_server_base_url = "afp.csbew.com/";
+									//]]></script>
+									<script type="text/javascript" src="http://s.csbew.com/k.js"></script>
+
+									
+								</div>
+							</div>
+						
+			</div>
+			<!--一级栏目横幅AD END-->
+
+            <!--二级栏目左边数据-->
+			<a name="68" id="68"></a>
+			<table cellspacing="0" cellpadding="0" id="gb-forumlist1">
+					  <tr>
+						<th colspan="3">
+							<a href="javascript:ReShowList(1,'猫论天下')"><img class="putaway-icon" src="http://www.kdnet.net/g_images/transparent.gif" /></a>猫论天下
+						</th>
+					  </tr>
+					  
+					 
+
+						<tr>
+							<td class="forumicon"><a href="/list.asp?boardid=1"><img src="http://imgcdn.kdnet.net/webset/club/include/images/forum_icon.gif" /></a></td>
+							<td>
+								<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=1">猫眼看人</a></span> ( 今日：<span class="c-alarm">11558</span> / 回帖：88902580 / 主题：2855559  )</h2>
+								<p>【综合信息集散地】历史与人.现实与人.他们都归结在一个“人”字上;历史与现实,就在这简单的一撇一捺之间,但见风云变幻.扑朔迷离……</p>
+								主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑19">值班编辑19</a> </span>
+							</td>
+							<td class="foruminfo">
+								主题：<span class="c-main"><a href="http://club.kdnet.net/dispbbs.asp?id=11143198&boardid=1" title="右派是赢不了的，死心吧" target="_blank">右派是赢不了的，死心吧</a></span><br />
+								作者/日期：<span class="c-main">
+								<a href="http://user.kdnet.net/index.asp?username=荤色两戒2">荤色两戒2</a></span><span class="f12px"> - 2015/9/2 13:07:54</span>
+							</td>
+					  </tr>
+						 
+					 
+
+						<tr>
+							<td class="forumicon"><a href="/list.asp?boardid=88"><img src="http://imgcdn.kdnet.net/webset/club/include/images/forum_icon.gif" /></a></td>
+							<td>
+								<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=88">商业创富</a></span> ( 今日：<span class="c-alarm">38</span> / 回帖：85536 / 主题：30576  )</h2>
+								<p>【南方都市报经济新闻中心特约】创富梦工厂，关注技术创新、商业模式、风险投资、市场策略、渠道建设及销售方法等 ，为创业者、公司人、投资人搭建平台</p>
+								主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑59">值班编辑59</a> </span>
+							</td>
+							<td class="foruminfo">
+								主题：<span class="c-main"><a href="http://club.kdnet.net/dispbbs.asp?id=11143004&boardid=88" title="纪念抗战胜利70周年 青岛华银保卫金融长城贡献力量" target="_blank">纪念抗战胜利70周年 青岛华银保…</a></span><br />
+								作者/日期：<span class="c-main">
+								<a href="http://user.kdnet.net/index.asp?username=醒来会有一脸">醒来会有一脸</a></span><span class="f12px"> - 2015/9/2 11:54:34</span>
+							</td>
+					  </tr>
+						 
+					 
+
+						<tr>
+							<td class="forumicon"><a href="/list.asp?boardid=89"><img src="http://imgcdn.kdnet.net/webset/club/include/images/forum_icon.gif" /></a></td>
+							<td>
+								<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=89">时局深度</a></span> ( 今日：<span class="c-alarm">186</span> / 回帖：476927 / 主题：57271  )</h2>
+								<p>【南方都市报时事新闻中心特约】洞察时局变幻。重磅深度解读。</p>
+								主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑62">值班编辑62</a> </span>
+							</td>
+							<td class="foruminfo">
+								主题：<span class="c-main"><a href="http://club.kdnet.net/dispbbs.asp?id=11143185&boardid=89" title="山西巡视组：省国防科工办干部怨声载道 四处上访" target="_blank">山西巡视组：省国防科工办干部怨声…</a></span><br />
+								作者/日期：<span class="c-main">
+								<a href="http://user.kdnet.net/index.asp?username=栗彦卿">栗彦卿</a></span><span class="f12px"> - 2015/9/2 13:02:46</span>
+							</td>
+					  </tr>
+						 
+					 
+
+						<tr>
+							<td class="forumicon"><a href="/list.asp?boardid=3"><img src="http://imgcdn.kdnet.net/webset/club/include/images/forum_icon.gif" /></a></td>
+							<td>
+								<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=3">经济风云</a></span> ( 今日：<span class="c-alarm">176</span> / 回帖：1998330 / 主题：231867  )</h2>
+								<p>【财经类专版】经济领域风云变幻，只有居高临下，才能尽收眼底。</p>
+								主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑11">值班编辑11</a> </span>
+							</td>
+							<td class="foruminfo">
+								主题：<span class="c-main"><a href="http://club.kdnet.net/dispbbs.asp?id=11143171&boardid=3" title="看着今天上涨的股市，我内心百感交集。" target="_blank">看着今天上涨的股市，我内心百感交…</a></span><br />
+								作者/日期：<span class="c-main">
+								<a href="http://user.kdnet.net/index.asp?username=小姨子">小姨子</a></span><span class="f12px"> - 2015/9/2 12:57:51</span>
+							</td>
+					  </tr>
+						 
+					 
+
+						<tr>
+							<td class="forumicon"><a href="/list.asp?boardid=2"><img src="http://imgcdn.kdnet.net/webset/club/include/images/forum_icon.gif" /></a></td>
+							<td>
+								<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=2">文化散论</a></span> ( 今日：<span class="c-alarm">221</span> / 回帖：2078933 / 主题：194063  )</h2>
+								<p>【文化札记专版】文化动态发布、文化现象评论、学术观点阐述。</p>
+								主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑02">值班编辑02</a> </span>
+							</td>
+							<td class="foruminfo">
+								主题：<span class="c-main"><a href="http://club.kdnet.net/dispbbs.asp?id=11143199&boardid=2" title="台北人民认得准" target="_blank">台北人民认得准</a></span><br />
+								作者/日期：<span class="c-main">
+								<a href="http://user.kdnet.net/index.asp?username=石鼓山人">石鼓山人</a></span><span class="f12px"> - 2015/9/2 13:08:04</span>
+							</td>
+					  </tr>
+						 
+					 
+
+						<tr>
+							<td class="forumicon"><a href="/list.asp?boardid=52"><img src="http://imgcdn.kdnet.net/webset/club/include/images/forum_icon.gif" /></a></td>
+							<td>
+								<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=52">原创评论</a></span> ( 今日：<span class="c-alarm">310</span> / 回帖：1201379 / 主题：167659  )</h2>
+								<p>主要供原创作者发布各类评论信息；活跃原创作者与读者之间的互动交流。</p>
+								主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑10">值班编辑10</a> </span>
+							</td>
+							<td class="foruminfo">
+								主题：<span class="c-main"><a href="http://club.kdnet.net/dispbbs.asp?id=11143070&boardid=52" title=" 股票分红应有“硬杠杠”" target="_blank"> 股票分红应有“硬杠杠”</a></span><br />
+								作者/日期：<span class="c-main">
+								<a href="http://user.kdnet.net/index.asp?username=张传发">张传发</a></span><span class="f12px"> - 2015/9/2 12:20:26</span>
+							</td>
+					  </tr>
+						 
+					 
+
+						<tr>
+							<td class="forumicon"><a href="/list.asp?boardid=24"><img src="http://imgcdn.kdnet.net/webset/club/include/images/forum_icon.gif" /></a></td>
+							<td>
+								<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=24">中间地带</a></span> ( 今日：<span class="c-alarm">94</span> / 回帖：1422204 / 主题：92875  )</h2>
+								<p>【政治评论专版】不分左右，反对极端——在中间地带探索前行……</p>
+								主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑11">值班编辑11</a> </span>
+							</td>
+							<td class="foruminfo">
+								主题：<span class="c-main"><a href="http://club.kdnet.net/dispbbs.asp?id=11142938&boardid=24" title="很多人已经习惯了冷酷的质疑" target="_blank">很多人已经习惯了冷酷的质疑</a></span><br />
+								作者/日期：<span class="c-main">
+								<a href="http://user.kdnet.net/index.asp?username=桑丘保定">桑丘保定</a></span><span class="f12px"> - 2015/9/2 11:32:33</span>
+							</td>
+					  </tr>
+						 
+					 
+
+						<tr>
+							<td class="forumicon"><a href="/list.asp?boardid=25"><img src="http://imgcdn.kdnet.net/webset/club/include/images/forum_icon.gif" /></a></td>
+							<td>
+								<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=25">律师之窗</a></span> ( 今日：<span class="c-alarm">619</span> / 回帖：2182612 / 主题：92980  )</h2>
+								<p>【法律专版】依法治国，律师很重要……</p>
+								主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑22">值班编辑22</a> </span>
+							</td>
+							<td class="foruminfo">
+								主题：<span class="c-main"><a href="http://club.kdnet.net/dispbbs.asp?id=11143126&boardid=25" title="号外号外！！！武汉大学爆出惊天大丑闻啊" target="_blank">号外号外！！！武汉大学爆出惊天大…</a></span><br />
+								作者/日期：<span class="c-main">
+								<a href="http://user.kdnet.net/index.asp?username=寒门学子yc">寒门学子yc</a></span><span class="f12px"> - 2015/9/2 12:37:12</span>
+							</td>
+					  </tr>
+						 
+					 
+
+						<tr>
+							<td class="forumicon"><a href="/list.asp?boardid=15"><img src="http://imgcdn.kdnet.net/webset/club/include/images/forum_icon.gif" /></a></td>
+							<td>
+								<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=15">股市泛舟</a></span> ( 今日：<span class="c-alarm">153</span> / 回帖：1018174 / 主题：43408  )</h2>
+								<p>【股市泛舟】这是经济风云栏目下的专题节目。</p>
+								主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑11">值班编辑11</a> </span>
+							</td>
+							<td class="foruminfo">
+								主题：<span class="c-main"><a href="http://club.kdnet.net/dispbbs.asp?id=11142921&boardid=15" title="预测今日尾盘：红，升，收3200点左右" target="_blank">预测今日尾盘：红，升，收3200…</a></span><br />
+								作者/日期：<span class="c-main">
+								<a href="http://user.kdnet.net/index.asp?username=搞笑大贝勒">搞笑大贝勒</a></span><span class="f12px"> - 2015/9/2 11:26:13</span>
+							</td>
+					  </tr>
+						 
+					 
+
+						<tr>
+							<td class="forumicon"><a href="/list.asp?boardid=44"><img src="http://imgcdn.kdnet.net/webset/club/include/images/forum_icon.gif" /></a></td>
+							<td>
+								<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=44">会员阅读</a></span> ( 今日：<span class="c-alarm">68</span> / 回帖：491939 / 主题：125321  )</h2>
+								<p><font color=red>专供会员阅读的非讨论区。</font></p>
+								主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑30">值班编辑30</a> </span>
+							</td>
+							<td class="foruminfo">
+								主题：<span class="c-main"><a href="http://club.kdnet.net/dispbbs.asp?id=11143181&boardid=44" title=" 拒绝谣言换历史清醒" target="_blank"> 拒绝谣言换历史清醒</a></span><br />
+								作者/日期：<span class="c-main">
+								<a href="http://user.kdnet.net/index.asp?username=亿万人民">亿万人民</a></span><span class="f12px"> - 2015/9/2 13:01:49</span>
+							</td>
+					  </tr>
+						 
+					 
+
+						<tr>
+							<td class="forumicon"><a href="/list.asp?boardid=96"><img src="http://imgcdn.kdnet.net/webset/club/include/images/forum_icon.gif" /></a></td>
+							<td>
+								<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=96">史海钩沉</a></span> ( 今日：<span class="c-alarm">353</span> / 回帖：906976 / 主题：45817  )</h2>
+								<p>史海钩沉</p>
+								主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑11">值班编辑11</a> </span>
+							</td>
+							<td class="foruminfo">
+								主题：<span class="c-main"><a href="http://club.kdnet.net/dispbbs.asp?id=11143137&boardid=96" title="寻人启事中华民国新生二十几亿人,若没饿死哪去了?" target="_blank">寻人启事中华民国新生二十几亿人,…</a></span><br />
+								作者/日期：<span class="c-main">
+								<a href="http://user.kdnet.net/index.asp?username=狗咬吕洞宾1">狗咬吕洞宾1</a></span><span class="f12px"> - 2015/9/2 12:41:53</span>
+							</td>
+					  </tr>
+						 
+					 
+
+						<tr>
+							<td class="forumicon"><a href="/list.asp?boardid=101"><img src="http://imgcdn.kdnet.net/webset/club/include/images/forum_icon.gif" /></a></td>
+							<td>
+								<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=101">舆情观察</a></span> ( 今日：<span class="c-alarm">66</span> / 回帖：182959 / 主题：19287  )</h2>
+								<p>舆情观察</p>
+								主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username="></a> </span>
+							</td>
+							<td class="foruminfo">
+								主题：<span class="c-main"><a href="http://club.kdnet.net/dispbbs.asp?id=11143129&boardid=101" title="号外号外！！！武汉大学爆出惊天大丑闻啊" target="_blank">号外号外！！！武汉大学爆出惊天大…</a></span><br />
+								作者/日期：<span class="c-main">
+								<a href="http://user.kdnet.net/index.asp?username=寒门学子yc">寒门学子yc</a></span><span class="f12px"> - 2015/9/2 12:38:51</span>
+							</td>
+					  </tr>
+						 
+					 
+			</table>
+			<!--二级栏目左边数据 END-->
+
+            <!--二级栏目右边数据-->
+			<table cellspacing="0" cellpadding="0" class="listtype" style="display: none;" id="gb-forumlist_1_1">
+					  <tr>
+						<th colspan="4">
+							<a href="javascript:ReShowList(1,'猫论天下')"><img class="openputaway-icon" src="http://www.kdnet.net/g_images/transparent.gif" /></a>猫论天下
+						</th>
+					  </tr>
+					  
+							<tr>
+						 
+							 <td class="listtypebg">
+											<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=1">猫眼看人</a></span></h2>
+											<p>今日：<span class="c-alarm">11558</span><br />
+											回帖：88902580 / 总帖：2855559</p>
+											主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑19">值班编辑19</a> </span>
+							 </td>
+								
+							 <td >
+											<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=88">商业创富</a></span></h2>
+											<p>今日：<span class="c-alarm">38</span><br />
+											回帖：85536 / 总帖：30576</p>
+											主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑59">值班编辑59</a> </span>
+							 </td>
+								
+							 <td class="listtypebg">
+											<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=89">时局深度</a></span></h2>
+											<p>今日：<span class="c-alarm">186</span><br />
+											回帖：476927 / 总帖：57271</p>
+											主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑62">值班编辑62</a> </span>
+							 </td>
+								
+							 <td >
+											<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=3">经济风云</a></span></h2>
+											<p>今日：<span class="c-alarm">176</span><br />
+											回帖：1998330 / 总帖：231867</p>
+											主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑11">值班编辑11</a> </span>
+							 </td>
+								
+							</tr>
+					  
+							<tr>
+						 
+							 <td class="listtypebg">
+											<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=2">文化散论</a></span></h2>
+											<p>今日：<span class="c-alarm">221</span><br />
+											回帖：2078933 / 总帖：194063</p>
+											主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑02">值班编辑02</a> </span>
+							 </td>
+								
+							 <td >
+											<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=52">原创评论</a></span></h2>
+											<p>今日：<span class="c-alarm">310</span><br />
+											回帖：1201379 / 总帖：167659</p>
+											主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑10">值班编辑10</a> </span>
+							 </td>
+								
+							 <td class="listtypebg">
+											<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=24">中间地带</a></span></h2>
+											<p>今日：<span class="c-alarm">94</span><br />
+											回帖：1422204 / 总帖：92875</p>
+											主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑11">值班编辑11</a> </span>
+							 </td>
+								
+							 <td >
+											<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=25">律师之窗</a></span></h2>
+											<p>今日：<span class="c-alarm">619</span><br />
+											回帖：2182612 / 总帖：92980</p>
+											主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑22">值班编辑22</a> </span>
+							 </td>
+								
+							</tr>
+					  
+							<tr>
+						 
+							 <td class="listtypebg">
+											<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=15">股市泛舟</a></span></h2>
+											<p>今日：<span class="c-alarm">153</span><br />
+											回帖：1018174 / 总帖：43408</p>
+											主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑11">值班编辑11</a> </span>
+							 </td>
+								
+							 <td >
+											<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=44">会员阅读</a></span></h2>
+											<p>今日：<span class="c-alarm">68</span><br />
+											回帖：491939 / 总帖：125321</p>
+											主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑30">值班编辑30</a> </span>
+							 </td>
+								
+							 <td class="listtypebg">
+											<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=96">史海钩沉</a></span></h2>
+											<p>今日：<span class="c-alarm">353</span><br />
+											回帖：906976 / 总帖：45817</p>
+											主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑11">值班编辑11</a> </span>
+							 </td>
+								
+							 <td >
+											<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=101">舆情观察</a></span></h2>
+											<p>今日：<span class="c-alarm">66</span><br />
+											回帖：182959 / 总帖：19287</p>
+											主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username="></a> </span>
+							 </td>
+								
+							</tr>
+					  
+			</table>
+            <!--二级栏目右边数据 END-->
+	
+	        <!--一级栏目横幅AD-->
+			<div class="banner b-border">
+						
+							<div id="index48" style="width:0;height:0;visibility:hidden;overflow:hidden;">
+								<div style="width:728px;margin:0 auto; height:90px; overflow:hidden;">
+								
+									<script type="text/javascript">//<![CDATA[
+									ac_as_id = 101153;
+									ac_format = 0;
+									ac_mode = 1;
+									ac_group_id = 1;
+									ac_server_base_url = "afp.csbew.com/";
+									//]]></script>
+									<script type="text/javascript" src="http://s.csbew.com/k.js"></script>
+								
+								</div>
+							</div>
+						
+			</div>
+			<!--一级栏目横幅AD END-->
+
+            <!--二级栏目左边数据-->
+			<a name="67" id="67"></a>
+			<table cellspacing="0" cellpadding="0" id="gb-forumlist2">
+					  <tr>
+						<th colspan="3">
+							<a href="javascript:ReShowList(2,'生活资讯')"><img class="putaway-icon" src="http://www.kdnet.net/g_images/transparent.gif" /></a>生活资讯
+						</th>
+					  </tr>
+					  
+					 
+
+						<tr>
+							<td class="forumicon"><a href="/list.asp?boardid=92"><img src="http://imgcdn.kdnet.net/webset/club/include/images/forum_icon.gif" /></a></td>
+							<td>
+								<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=92">杂货讨论</a></span> ( 今日：<span class="c-alarm">7</span> / 回帖：59918 / 主题：17551  )</h2>
+								<p>杂货讨论区</p>
+								主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username="></a> </span>
+							</td>
+							<td class="foruminfo">
+								主题：<span class="c-main"><a href="http://club.kdnet.net/dispbbs.asp?id=11142929&boardid=92" title="沙发产业的领导力" target="_blank">沙发产业的领导力</a></span><br />
+								作者/日期：<span class="c-main">
+								<a href="http://user.kdnet.net/index.asp?username=北京远芳_bb">北京远芳_bb</a></span><span class="f12px"> - 2015/9/2 11:28:40</span>
+							</td>
+					  </tr>
+						 
+					 
+
+						<tr>
+							<td class="forumicon"><a href="/list.asp?boardid=9"><img src="http://imgcdn.kdnet.net/webset/club/include/images/forum_icon.gif" /></a></td>
+							<td>
+								<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=9">健康社会</a></span> ( 今日：<span class="c-alarm">49</span> / 回帖：428084 / 主题：117611  )</h2>
+								<p>【健康、医卫类专版】健康社会只能靠健康心灵来支撑。</p>
+								主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑25">值班编辑25</a> </span>
+							</td>
+							<td class="foruminfo">
+								主题：<span class="c-main"><a href="http://club.kdnet.net/dispbbs.asp?id=11142937&boardid=9" title="智慧的人是这样养生的" target="_blank">智慧的人是这样养生的</a></span><br />
+								作者/日期：<span class="c-main">
+								<a href="http://user.kdnet.net/index.asp?username=名医美容养生">名医美容养生</a></span><span class="f12px"> - 2015/9/2 11:32:08</span>
+							</td>
+					  </tr>
+						 
+					 
+
+						<tr>
+							<td class="forumicon"><a href="/list.asp?boardid=29"><img src="http://imgcdn.kdnet.net/webset/club/include/images/forum_icon.gif" /></a></td>
+							<td>
+								<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=29">家长里短</a></span> ( 今日：<span class="c-alarm">13</span> / 回帖：475794 / 主题：55215  )</h2>
+								<p>【家庭专版】叙述家的故事，传播家的温馨。为家庭问题释疑解惑。</p>
+								主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑13">值班编辑13</a> </span>
+							</td>
+							<td class="foruminfo">
+								主题：<span class="c-main"><a href="http://club.kdnet.net/dispbbs.asp?id=11142151&boardid=29" title="女人对性爱的真实想法" target="_blank">女人对性爱的真实想法</a></span><br />
+								作者/日期：<span class="c-main">
+								<a href="http://user.kdnet.net/index.asp?username=刘胡兰猫">刘胡兰猫</a></span><span class="f12px"> - 2015/9/2 5:07:19</span>
+							</td>
+					  </tr>
+						 
+					 
+
+						<tr>
+							<td class="forumicon"><a href="/list.asp?boardid=35"><img src="http://imgcdn.kdnet.net/webset/club/include/images/forum_icon.gif" /></a></td>
+							<td>
+								<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=35">旅游时尚</a></span> ( 今日：<span class="c-alarm">16</span> / 回帖：251545 / 主题：41876  )</h2>
+								<p>【旅游休闲类专版】旅游信息发布、旅游评论；旅游专题讨论。</p>
+								主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑37">值班编辑37</a> </span>
+							</td>
+							<td class="foruminfo">
+								主题：<span class="c-main"><a href="http://club.kdnet.net/dispbbs.asp?id=11143152&boardid=35" title="这里的秋色比北疆还绚烂" target="_blank">这里的秋色比北疆还绚烂</a></span><br />
+								作者/日期：<span class="c-main">
+								<a href="http://user.kdnet.net/index.asp?username=陌生也好">陌生也好</a></span><span class="f12px"> - 2015/9/2 12:47:06</span>
+							</td>
+					  </tr>
+						 
+					 
+
+						<tr>
+							<td class="forumicon"><a href="/list.asp?boardid=45"><img src="http://imgcdn.kdnet.net/webset/club/include/images/forum_icon.gif" /></a></td>
+							<td>
+								<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=45">职场生涯</a></span> ( 今日：<span class="c-alarm">1</span> / 回帖：492974 / 主题：22751  )</h2>
+								<p>交流国内外就业、培训、留学等信息</p>
+								主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑30">值班编辑30</a> </span>
+							</td>
+							<td class="foruminfo">
+								主题：<span class="c-main"><a href="http://club.kdnet.net/dispbbs.asp?id=11141279&boardid=45" title="职场菜鸟新人该如何控制自己情绪" target="_blank">职场菜鸟新人该如何控制自己情绪</a></span><br />
+								作者/日期：<span class="c-main">
+								<a href="http://user.kdnet.net/index.asp?username=CA02">CA02</a></span><span class="f12px"> - 2015/9/1 17:21:34</span>
+							</td>
+					  </tr>
+						 
+					 
+
+						<tr>
+							<td class="forumicon"><a href="/list.asp?boardid=60"><img src="http://imgcdn.kdnet.net/webset/club/include/images/forum_icon.gif" /></a></td>
+							<td>
+								<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=60">咱们女人</a></span> ( 今日：<span class="c-alarm">7</span> / 回帖：1554719 / 主题：39149  )</h2>
+								<p>女人看世界</p>
+								主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑18">值班编辑18</a> </span>
+							</td>
+							<td class="foruminfo">
+								主题：<span class="c-main"><a href="http://club.kdnet.net/dispbbs.asp?id=11143202&boardid=60" title="【最新】恒信注重情感表达，恒信钻饰" target="_blank">【最新】恒信注重情感表达，恒信钻…</a></span><br />
+								作者/日期：<span class="c-main">
+								<a href="http://user.kdnet.net/index.asp?username=gprlvii">gprlvii</a></span><span class="f12px"> - 2015/9/2 13:12:32</span>
+							</td>
+					  </tr>
+						 
+					 
+
+						<tr>
+							<td class="forumicon"><a href="/list.asp?boardid=62"><img src="http://imgcdn.kdnet.net/webset/club/include/images/forum_icon.gif" /></a></td>
+							<td>
+								<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=62">家有宝宝</a></span> ( 今日：<span class="c-alarm">7</span> / 回帖：74496 / 主题：21648  )</h2>
+								<p>家有宝宝</p>
+								主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑08">值班编辑08</a> </span>
+							</td>
+							<td class="foruminfo">
+								主题：<span class="c-main"><a href="http://club.kdnet.net/dispbbs.asp?id=11143167&boardid=62" title="最高法院：父母对孩子施暴从严惩处(图)" target="_blank">最高法院：父母对孩子施暴从严惩处…</a></span><br />
+								作者/日期：<span class="c-main">
+								<a href="http://user.kdnet.net/index.asp?username=另类叛逆">另类叛逆</a></span><span class="f12px"> - 2015/9/2 12:55:30</span>
+							</td>
+					  </tr>
+						 
+					 
+
+						<tr>
+							<td class="forumicon"><a href="/list.asp?boardid=63"><img src="http://imgcdn.kdnet.net/webset/club/include/images/forum_icon.gif" /></a></td>
+							<td>
+								<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=63">消费观察</a></span> ( 今日：<span class="c-alarm">28</span> / 回帖：81734 / 主题：23086  )</h2>
+								<p>消费者谈消费……</p>
+								主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑30|horserose">值班编辑30|horserose</a> </span>
+							</td>
+							<td class="foruminfo">
+								主题：<span class="c-main"><a href="http://club.kdnet.net/dispbbs.asp?id=11142947&boardid=63" title="观艺堂家具：一片属于自己的精神家园" target="_blank">观艺堂家具：一片属于自己的精神家…</a></span><br />
+								作者/日期：<span class="c-main">
+								<a href="http://user.kdnet.net/index.asp?username=三秦明月">三秦明月</a></span><span class="f12px"> - 2015/9/2 11:34:50</span>
+							</td>
+					  </tr>
+						 
+					 
+
+						<tr>
+							<td class="forumicon"><a href="/list.asp?boardid=61"><img src="http://imgcdn.kdnet.net/webset/club/include/images/forum_icon.gif" /></a></td>
+							<td>
+								<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=61">房产家居</a></span> ( 今日：<span class="c-alarm">1</span> / 回帖：83686 / 主题：26445  )</h2>
+								<p>房产家居</p>
+								主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑68">值班编辑68</a> </span>
+							</td>
+							<td class="foruminfo">
+								主题：<span class="c-main"><a href="http://club.kdnet.net/dispbbs.asp?id=11140947&boardid=61" title="想要买房的人注意了！以后过马路不能闯红灯" target="_blank">想要买房的人注意了！以后过马路不…</a></span><br />
+								作者/日期：<span class="c-main">
+								<a href="http://user.kdnet.net/index.asp?username=你说说">你说说</a></span><span class="f12px"> - 2015/9/1 15:54:56</span>
+							</td>
+					  </tr>
+						 
+					 
+
+						<tr>
+							<td class="forumicon"><a href="/list.asp?boardid=30"><img src="http://imgcdn.kdnet.net/webset/club/include/images/forum_icon.gif" /></a></td>
+							<td>
+								<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=30">车友评车</a></span> ( 今日：<span class="c-alarm">35</span> / 回帖：258269 / 主题：43000  )</h2>
+								<p>【汽车类专版】小小一台车，载入精彩人生。车讯发布、汽车评论发布；车友专题讨论。</p>
+								主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑68">值班编辑68</a> </span>
+							</td>
+							<td class="foruminfo">
+								主题：<span class="c-main"><a href="http://club.kdnet.net/dispbbs.asp?id=11143065&boardid=30" title="轮胎起皮危害多 应对措施需落实" target="_blank">轮胎起皮危害多 应对措施需落实</a></span><br />
+								作者/日期：<span class="c-main">
+								<a href="http://user.kdnet.net/index.asp?username=三两天的过">三两天的过</a></span><span class="f12px"> - 2015/9/2 12:18:00</span>
+							</td>
+					  </tr>
+						 
+					 
+
+						<tr>
+							<td class="forumicon"><a href="/list.asp?boardid=58"><img src="http://imgcdn.kdnet.net/webset/club/include/images/forum_icon.gif" /></a></td>
+							<td>
+								<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=58">猫眼鉴宝</a></span> ( 今日：<span class="c-alarm">9</span> / 回帖：48665 / 主题：9142  )</h2>
+								<p>古艺术品收藏走向天堂还是地狱……</p>
+								主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑68">值班编辑68</a> </span>
+							</td>
+							<td class="foruminfo">
+								主题：<span class="c-main"><a href="http://club.kdnet.net/dispbbs.asp?id=11143169&boardid=58" title="直径1.1厘米的珠子最好搭配" target="_blank">直径1.1厘米的珠子最好搭配</a></span><br />
+								作者/日期：<span class="c-main">
+								<a href="http://user.kdnet.net/index.asp?username=ys18j">ys18j</a></span><span class="f12px"> - 2015/9/2 12:56:55</span>
+							</td>
+					  </tr>
+						 
+					 
+			</table>
+			<!--二级栏目左边数据 END-->
+
+            <!--二级栏目右边数据-->
+			<table cellspacing="0" cellpadding="0" class="listtype" style="display: none;" id="gb-forumlist_1_2">
+					  <tr>
+						<th colspan="4">
+							<a href="javascript:ReShowList(2,'生活资讯')"><img class="openputaway-icon" src="http://www.kdnet.net/g_images/transparent.gif" /></a>生活资讯
+						</th>
+					  </tr>
+					  
+							<tr>
+						 
+							 <td class="listtypebg">
+											<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=92">杂货讨论</a></span></h2>
+											<p>今日：<span class="c-alarm">7</span><br />
+											回帖：59918 / 总帖：17551</p>
+											主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username="></a> </span>
+							 </td>
+								
+							 <td >
+											<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=9">健康社会</a></span></h2>
+											<p>今日：<span class="c-alarm">49</span><br />
+											回帖：428084 / 总帖：117611</p>
+											主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑25">值班编辑25</a> </span>
+							 </td>
+								
+							 <td class="listtypebg">
+											<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=29">家长里短</a></span></h2>
+											<p>今日：<span class="c-alarm">13</span><br />
+											回帖：475794 / 总帖：55215</p>
+											主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑13">值班编辑13</a> </span>
+							 </td>
+								
+							 <td >
+											<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=35">旅游时尚</a></span></h2>
+											<p>今日：<span class="c-alarm">16</span><br />
+											回帖：251545 / 总帖：41876</p>
+											主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑37">值班编辑37</a> </span>
+							 </td>
+								
+							</tr>
+					  
+							<tr>
+						 
+							 <td class="listtypebg">
+											<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=45">职场生涯</a></span></h2>
+											<p>今日：<span class="c-alarm">1</span><br />
+											回帖：492974 / 总帖：22751</p>
+											主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑30">值班编辑30</a> </span>
+							 </td>
+								
+							 <td >
+											<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=60">咱们女人</a></span></h2>
+											<p>今日：<span class="c-alarm">7</span><br />
+											回帖：1554719 / 总帖：39149</p>
+											主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑18">值班编辑18</a> </span>
+							 </td>
+								
+							 <td class="listtypebg">
+											<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=62">家有宝宝</a></span></h2>
+											<p>今日：<span class="c-alarm">7</span><br />
+											回帖：74496 / 总帖：21648</p>
+											主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑08">值班编辑08</a> </span>
+							 </td>
+								
+							 <td >
+											<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=63">消费观察</a></span></h2>
+											<p>今日：<span class="c-alarm">28</span><br />
+											回帖：81734 / 总帖：23086</p>
+											主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑30|horserose">值班编辑30|horserose</a> </span>
+							 </td>
+								
+							</tr>
+					  
+							<tr>
+						 
+							 <td class="listtypebg">
+											<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=61">房产家居</a></span></h2>
+											<p>今日：<span class="c-alarm">1</span><br />
+											回帖：83686 / 总帖：26445</p>
+											主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑68">值班编辑68</a> </span>
+							 </td>
+								
+							 <td >
+											<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=30">车友评车</a></span></h2>
+											<p>今日：<span class="c-alarm">35</span><br />
+											回帖：258269 / 总帖：43000</p>
+											主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑68">值班编辑68</a> </span>
+							 </td>
+								
+							 <td class="listtypebg">
+											<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=58">猫眼鉴宝</a></span></h2>
+											<p>今日：<span class="c-alarm">9</span><br />
+											回帖：48665 / 总帖：9142</p>
+											主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑68">值班编辑68</a> </span>
+							 </td>
+								<td></td>
+							</tr>
+					  
+			</table>
+            <!--二级栏目右边数据 END-->
+	
+	        <!--一级栏目横幅AD-->
+			<div class="banner b-border">
+						
+							<div id="index49" style="width:0;height:0;visibility:hidden;overflow:hidden;">
+								<div style="width:728px;margin:0 auto; height:90px; overflow:hidden;">
+								
+								<script type="text/javascript">//<![CDATA[
+								ac_as_id = 101155;
+								ac_format = 0;
+								ac_mode = 1;
+								ac_group_id = 1;
+								ac_server_base_url = "afp.csbew.com/";
+								//]]></script>
+								<script type="text/javascript" src="http://s.csbew.com/k.js"></script>
+																
+								</div>
+							</div>
+						
+			</div>
+			<!--一级栏目横幅AD END-->
+
+            <!--二级栏目左边数据-->
+			<a name="69" id="69"></a>
+			<table cellspacing="0" cellpadding="0" id="gb-forumlist3">
+					  <tr>
+						<th colspan="3">
+							<a href="javascript:ReShowList(3,'影音娱乐')"><img class="putaway-icon" src="http://www.kdnet.net/g_images/transparent.gif" /></a>影音娱乐
+						</th>
+					  </tr>
+					  
+					 
+
+						<tr>
+							<td class="forumicon"><a href="/list.asp?boardid=33"><img src="http://imgcdn.kdnet.net/webset/club/include/images/forum_icon.gif" /></a></td>
+							<td>
+								<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=33">图画人生</a></span> ( 今日：<span class="c-alarm">86</span> / 回帖：1314436 / 主题：104356  )</h2>
+								<p>【网络图片专版】有时候，图片比文字、比声音更有力量。网友贴图专区。</p>
+								主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑22">值班编辑22</a> </span>
+							</td>
+							<td class="foruminfo">
+								主题：<span class="c-main"><a href="http://club.kdnet.net/dispbbs.asp?id=11142863&boardid=33" title="古巴有一个“黑市”网站" target="_blank">古巴有一个“黑市”网站</a></span><br />
+								作者/日期：<span class="c-main">
+								<a href="http://user.kdnet.net/index.asp?username=万里如虎">万里如虎</a></span><span class="f12px"> - 2015/9/2 11:13:12</span>
+							</td>
+					  </tr>
+						 
+					 
+
+						<tr>
+							<td class="forumicon"><a href="/list.asp?boardid=86"><img src="http://imgcdn.kdnet.net/webset/club/include/images/forum_icon.gif" /></a></td>
+							<td>
+								<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=86">猫影无忌</a></span> ( 今日：<span class="c-alarm">76</span> / 回帖：509925 / 主题：12503  )</h2>
+								<p>猫影无忌</p>
+								主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑07|值班编辑05">值班编辑07|值班编辑05</a> </span>
+							</td>
+							<td class="foruminfo">
+								主题：<span class="c-main"><a href="http://club.kdnet.net/dispbbs.asp?id=11141753&boardid=86" title="苗家妇女巧梳妆，进城务工绣花忙" target="_blank">苗家妇女巧梳妆，进城务工绣花忙</a></span><br />
+								作者/日期：<span class="c-main">
+								<a href="http://user.kdnet.net/index.asp?username=银郫徐柏">银郫徐柏</a></span><span class="f12px"> - 2015/9/1 20:47:21</span>
+							</td>
+					  </tr>
+						 
+					 
+
+						<tr>
+							<td class="forumicon"><a href="/list.asp?boardid=26"><img src="http://imgcdn.kdnet.net/webset/club/include/images/forum_icon.gif" /></a></td>
+							<td>
+								<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=26">影视评论</a></span> ( 今日：<span class="c-alarm">94</span> / 回帖：412938 / 主题：69972  )</h2>
+								<p>【影视娱乐类专版】影视动态与影视评论发布；专业人员与业余爱好者的交流平台。</p>
+								主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑46">值班编辑46</a> </span>
+							</td>
+							<td class="foruminfo">
+								主题：<span class="c-main"><a href="http://club.kdnet.net/dispbbs.asp?id=11143105&boardid=26" title="林依轮儿子：去过最穷的地方是广州！" target="_blank">林依轮儿子：去过最穷的地方是广州…</a></span><br />
+								作者/日期：<span class="c-main">
+								<a href="http://user.kdnet.net/index.asp?username=娱乐八爪猫">娱乐八爪猫</a></span><span class="f12px"> - 2015/9/2 12:29:25</span>
+							</td>
+					  </tr>
+						 
+					 
+
+						<tr>
+							<td class="forumicon"><a href="/list.asp?boardid=40"><img src="http://imgcdn.kdnet.net/webset/club/include/images/forum_icon.gif" /></a></td>
+							<td>
+								<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=40">网络剧场</a></span> ( 今日：<span class="c-alarm">6</span> / 回帖：139075 / 主题：46659  )</h2>
+								<p>【视频互动类专版】本站视频互动专栏。目前处于测试运行状态。</p>
+								主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑66">值班编辑66</a> </span>
+							</td>
+							<td class="foruminfo">
+								主题：<span class="c-main"><a href="http://club.kdnet.net/dispbbs.asp?id=11141683&boardid=40" title="花团锦簇的天安门广场" target="_blank">花团锦簇的天安门广场</a></span><br />
+								作者/日期：<span class="c-main">
+								<a href="http://user.kdnet.net/index.asp?username=lchq2020">lchq2020</a></span><span class="f12px"> - 2015/9/1 19:54:28</span>
+							</td>
+					  </tr>
+						 
+					 
+
+						<tr>
+							<td class="forumicon"><a href="/list.asp?boardid=27"><img src="http://imgcdn.kdnet.net/webset/club/include/images/forum_icon.gif" /></a></td>
+							<td>
+								<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=27">音乐之声</a></span> ( 今日：<span class="c-alarm">14</span> / 回帖：4651104 / 主题：59790  )</h2>
+								<p>【音乐专版】音乐欣赏、音乐评论；音乐工作者与爱好者的交流平台。</p>
+								主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑24">值班编辑24</a> </span>
+							</td>
+							<td class="foruminfo">
+								主题：<span class="c-main"><a href="http://club.kdnet.net/dispbbs.asp?id=11142987&boardid=27" title="古筝的常见病有哪些？如何治疗？小编为你一一解答" target="_blank">古筝的常见病有哪些？如何治疗？小…</a></span><br />
+								作者/日期：<span class="c-main">
+								<a href="http://user.kdnet.net/index.asp?username=环球乐器网01">环球乐器网01</a></span><span class="f12px"> - 2015/9/2 11:47:47</span>
+							</td>
+					  </tr>
+						 
+					 
+
+						<tr>
+							<td class="forumicon"><a href="/list.asp?boardid=16"><img src="http://imgcdn.kdnet.net/webset/club/include/images/forum_icon.gif" /></a></td>
+							<td>
+								<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=16">网友风采</a></span> ( 今日：<span class="c-alarm">0</span> / 回帖：83632 / 主题：7532  )</h2>
+								<p>【网友人物图片专版】发布凯迪社区网友个人图片资料。</p>
+								主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑27">值班编辑27</a> </span>
+							</td>
+							<td class="foruminfo">
+								主题：<span class="c-main"><a href="http://club.kdnet.net/dispbbs.asp?id=11140693&boardid=16" title="今日十佳文章" target="_blank">今日十佳文章</a></span><br />
+								作者/日期：<span class="c-main">
+								<a href="http://user.kdnet.net/index.asp?username=HINSON_2v">HINSON_2v</a></span><span class="f12px"> - 2015/9/1 14:11:06</span>
+							</td>
+					  </tr>
+						 
+					 
+
+						<tr>
+							<td class="forumicon"><a href="/list.asp?boardid=7"><img src="http://imgcdn.kdnet.net/webset/club/include/images/forum_icon.gif" /></a></td>
+							<td>
+								<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=7">猫兄鼠妹</a></span> ( 今日：<span class="c-alarm">8</span> / 回帖：436699 / 主题：41203  )</h2>
+								<p>【猫兄鼠妹】乱弹八卦，笑熬浆糊，无厘头的大本营。</p>
+								主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑26">值班编辑26</a> </span>
+							</td>
+							<td class="foruminfo">
+								主题：<span class="c-main"><a href="http://club.kdnet.net/dispbbs.asp?id=11142759&boardid=7" title="【冰哥听音乐】饿狼传说-卡通姑娘激情演绎" target="_blank">【冰哥听音乐】饿狼传说-卡通姑娘…</a></span><br />
+								作者/日期：<span class="c-main">
+								<a href="http://user.kdnet.net/index.asp?username=礼冰">礼冰</a></span><span class="f12px"> - 2015/9/2 10:43:12</span>
+							</td>
+					  </tr>
+						 
+					 
+
+						<tr>
+							<td class="forumicon"><a href="/list.asp?boardid=10"><img src="http://imgcdn.kdnet.net/webset/club/include/images/forum_icon.gif" /></a></td>
+							<td>
+								<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=10">笑话人生</a></span> ( 今日：<span class="c-alarm">11</span> / 回帖：16356195 / 主题：92536  )</h2>
+								<p>【轻松娱乐版块】敢于笑话人生的，也只能是从容处世的智者。</p>
+								主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑37">值班编辑37</a> </span>
+							</td>
+							<td class="foruminfo">
+								主题：<span class="c-main"><a href="http://club.kdnet.net/dispbbs.asp?id=11142804&boardid=10" title="【常不爽】你最愚蠢的撒谎经历是什么？" target="_blank">【常不爽】你最愚蠢的撒谎经历是什…</a></span><br />
+								作者/日期：<span class="c-main">
+								<a href="http://user.kdnet.net/index.asp?username=恶姗姗">恶姗姗</a></span><span class="f12px"> - 2015/9/2 10:59:16</span>
+							</td>
+					  </tr>
+						 
+					 
+
+						<tr>
+							<td class="forumicon"><a href="/list.asp?boardid=56"><img src="http://imgcdn.kdnet.net/webset/club/include/images/forum_icon.gif" /></a></td>
+							<td>
+								<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=56">游戏天地</a></span> ( 今日：<span class="c-alarm">0</span> / 回帖：33431 / 主题：10425  )</h2>
+								<p>网络游戏爱好者交流区</p>
+								主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑46">值班编辑46</a> </span>
+							</td>
+							<td class="foruminfo">
+								主题：<span class="c-main"><a href="http://club.kdnet.net/dispbbs.asp?id=11138022&boardid=56" title="【天谕】玉虚单挑各职业小想法" target="_blank">【天谕】玉虚单挑各职业小想法</a></span><br />
+								作者/日期：<span class="c-main">
+								<a href="http://user.kdnet.net/index.asp?username=天枰久爱不厌">天枰久爱不厌</a></span><span class="f12px"> - 2015/8/31 11:52:07</span>
+							</td>
+					  </tr>
+						 
+					 
+			</table>
+			<!--二级栏目左边数据 END-->
+
+            <!--二级栏目右边数据-->
+			<table cellspacing="0" cellpadding="0" class="listtype" style="display: none;" id="gb-forumlist_1_3">
+					  <tr>
+						<th colspan="4">
+							<a href="javascript:ReShowList(3,'影音娱乐')"><img class="openputaway-icon" src="http://www.kdnet.net/g_images/transparent.gif" /></a>影音娱乐
+						</th>
+					  </tr>
+					  
+							<tr>
+						 
+							 <td class="listtypebg">
+											<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=33">图画人生</a></span></h2>
+											<p>今日：<span class="c-alarm">86</span><br />
+											回帖：1314436 / 总帖：104356</p>
+											主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑22">值班编辑22</a> </span>
+							 </td>
+								
+							 <td >
+											<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=86">猫影无忌</a></span></h2>
+											<p>今日：<span class="c-alarm">76</span><br />
+											回帖：509925 / 总帖：12503</p>
+											主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑07|值班编辑05">值班编辑07|值班编辑05</a> </span>
+							 </td>
+								
+							 <td class="listtypebg">
+											<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=26">影视评论</a></span></h2>
+											<p>今日：<span class="c-alarm">94</span><br />
+											回帖：412938 / 总帖：69972</p>
+											主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑46">值班编辑46</a> </span>
+							 </td>
+								
+							 <td >
+											<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=40">网络剧场</a></span></h2>
+											<p>今日：<span class="c-alarm">6</span><br />
+											回帖：139075 / 总帖：46659</p>
+											主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑66">值班编辑66</a> </span>
+							 </td>
+								
+							</tr>
+					  
+							<tr>
+						 
+							 <td class="listtypebg">
+											<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=27">音乐之声</a></span></h2>
+											<p>今日：<span class="c-alarm">14</span><br />
+											回帖：4651104 / 总帖：59790</p>
+											主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑24">值班编辑24</a> </span>
+							 </td>
+								
+							 <td >
+											<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=16">网友风采</a></span></h2>
+											<p>今日：<span class="c-alarm">0</span><br />
+											回帖：83632 / 总帖：7532</p>
+											主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑27">值班编辑27</a> </span>
+							 </td>
+								
+							 <td class="listtypebg">
+											<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=7">猫兄鼠妹</a></span></h2>
+											<p>今日：<span class="c-alarm">8</span><br />
+											回帖：436699 / 总帖：41203</p>
+											主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑26">值班编辑26</a> </span>
+							 </td>
+								
+							 <td >
+											<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=10">笑话人生</a></span></h2>
+											<p>今日：<span class="c-alarm">11</span><br />
+											回帖：16356195 / 总帖：92536</p>
+											主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑37">值班编辑37</a> </span>
+							 </td>
+								
+							</tr>
+					  
+							<tr>
+						 
+							 <td class="listtypebg">
+											<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=56">游戏天地</a></span></h2>
+											<p>今日：<span class="c-alarm">0</span><br />
+											回帖：33431 / 总帖：10425</p>
+											主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑46">值班编辑46</a> </span>
+							 </td>
+								
+							</tr>
+					  
+			</table>
+            <!--二级栏目右边数据 END-->
+	
+	        <!--一级栏目横幅AD-->
+			<div class="banner b-border">
+						
+							<div id="index50" style="width:0;height:0;visibility:hidden;overflow:hidden;">
+								<div style="width:728px;margin:0 auto; height:90px; overflow:hidden;">
+								
+									<script type="text/javascript">var jd_union_pid="242891149";var jd_union_euid="";</script><script type="text/javascript" src="http://ads.union.jd.com/static/js/union.js"></script>
+								
+								</div>
+							</div>
+						
+			</div>
+			<!--一级栏目横幅AD END-->
+
+            <!--二级栏目左边数据-->
+			<a name="70" id="70"></a>
+			<table cellspacing="0" cellpadding="0" id="gb-forumlist4">
+					  <tr>
+						<th colspan="3">
+							<a href="javascript:ReShowList(4,'文化广场')"><img class="putaway-icon" src="http://www.kdnet.net/g_images/transparent.gif" /></a>文化广场
+						</th>
+					  </tr>
+					  
+					 
+
+						<tr>
+							<td class="forumicon"><a href="/list.asp?boardid=55"><img src="http://imgcdn.kdnet.net/webset/club/include/images/forum_icon.gif" /></a></td>
+							<td>
+								<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=55">菁菁校园</a></span> ( 今日：<span class="c-alarm">35</span> / 回帖：7034042 / 主题：27386  )</h2>
+								<p>校园里的时光，每个人的永远的记忆……</p>
+								主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑12">值班编辑12</a> </span>
+							</td>
+							<td class="foruminfo">
+								主题：<span class="c-main"><a href="http://club.kdnet.net/dispbbs.asp?id=11143021&boardid=55" title="俞敏洪北大开学演讲，相当精彩，值得一看！" target="_blank">俞敏洪北大开学演讲，相当精彩，值…</a></span><br />
+								作者/日期：<span class="c-main">
+								<a href="http://user.kdnet.net/index.asp?username=风中叶子">风中叶子</a></span><span class="f12px"> - 2015/9/2 11:59:50</span>
+							</td>
+					  </tr>
+						 
+					 
+
+						<tr>
+							<td class="forumicon"><a href="/list.asp?boardid=4"><img src="http://imgcdn.kdnet.net/webset/club/include/images/forum_icon.gif" /></a></td>
+							<td>
+								<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=4">甜蜜旅程</a></span> ( 今日：<span class="c-alarm">24</span> / 回帖：418850 / 主题：29788  )</h2>
+								<p>【网友心情日记】人生旅程上一路风景，可在本版驻足留连……</p>
+								主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑31">值班编辑31</a> </span>
+							</td>
+							<td class="foruminfo">
+								主题：<span class="c-main"><a href="http://club.kdnet.net/dispbbs.asp?id=11143149&boardid=4" title="心的归宿，山之远方" target="_blank">心的归宿，山之远方</a></span><br />
+								作者/日期：<span class="c-main">
+								<a href="http://user.kdnet.net/index.asp?username=王叔叔">王叔叔</a></span><span class="f12px"> - 2015/9/2 12:46:32</span>
+							</td>
+					  </tr>
+						 
+					 
+
+						<tr>
+							<td class="forumicon"><a href="/list.asp?boardid=6"><img src="http://imgcdn.kdnet.net/webset/club/include/images/forum_icon.gif" /></a></td>
+							<td>
+								<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=6">心灵驿站</a></span> ( 今日：<span class="c-alarm">4</span> / 回帖：326872 / 主题：52816  )</h2>
+								<p>【海外华人交流专版】漂流心灵在这里栖息，也从这里出发……</p>
+								主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑20">值班编辑20</a> </span>
+							</td>
+							<td class="foruminfo">
+								主题：<span class="c-main"><a href="http://club.kdnet.net/dispbbs.asp?id=11142744&boardid=6" title="《魔乐歌》" target="_blank">《魔乐歌》</a></span><br />
+								作者/日期：<span class="c-main">
+								<a href="http://user.kdnet.net/index.asp?username=残仁氏">残仁氏</a></span><span class="f12px"> - 2015/9/2 10:40:14</span>
+							</td>
+					  </tr>
+						 
+					 
+
+						<tr>
+							<td class="forumicon"><a href="/list.asp?boardid=5"><img src="http://imgcdn.kdnet.net/webset/club/include/images/forum_icon.gif" /></a></td>
+							<td>
+								<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=5">原创文学</a></span> ( 今日：<span class="c-alarm">96</span> / 回帖：1362446 / 主题：87729  )</h2>
+								<p>主要供原创作者发布诗歌、散文、杂文、随笔、文学评论……的园地，满足原创作者与读者之间互动交流需要。</p>
+								主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑02">值班编辑02</a> </span>
+							</td>
+							<td class="foruminfo">
+								主题：<span class="c-main"><a href="http://club.kdnet.net/dispbbs.asp?id=11143186&boardid=5" title="成长路上的感悟" target="_blank">成长路上的感悟</a></span><br />
+								作者/日期：<span class="c-main">
+								<a href="http://user.kdnet.net/index.asp?username=无言守候">无言守候</a></span><span class="f12px"> - 2015/9/2 13:02:50</span>
+							</td>
+					  </tr>
+						 
+					 
+
+						<tr>
+							<td class="forumicon"><a href="/list.asp?boardid=54"><img src="http://imgcdn.kdnet.net/webset/club/include/images/forum_icon.gif" /></a></td>
+							<td>
+								<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=54">原创小说</a></span> ( 今日：<span class="c-alarm">11</span> / 回帖：78517 / 主题：4605  )</h2>
+								<p>主要供原创作者发布小说和故事性文学作品（如影视剧本、舞台剧本等）。也方便作者与读者在同一主题之下互动交流。</p>
+								主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑02">值班编辑02</a> </span>
+							</td>
+							<td class="foruminfo">
+								主题：<span class="c-main"><a href="http://club.kdnet.net/dispbbs.asp?id=11142328&boardid=54" title="中篇连载《美国屌丝于三宝》5" target="_blank">中篇连载《美国屌丝于三宝》5</a></span><br />
+								作者/日期：<span class="c-main">
+								<a href="http://user.kdnet.net/index.asp?username=RogerWu">RogerWu</a></span><span class="f12px"> - 2015/9/2 8:31:17</span>
+							</td>
+					  </tr>
+						 
+					 
+
+						<tr>
+							<td class="forumicon"><a href="/list.asp?boardid=31"><img src="http://imgcdn.kdnet.net/webset/club/include/images/forum_icon.gif" /></a></td>
+							<td>
+								<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=31">汉诗随笔</a></span> ( 今日：<span class="c-alarm">68</span> / 回帖：370981 / 主题：54251  )</h2>
+								<p>【诗歌类专版】诗歌创作与评论。</p>
+								主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑38">值班编辑38</a> </span>
+							</td>
+							<td class="foruminfo">
+								主题：<span class="c-main"><a href="http://club.kdnet.net/dispbbs.asp?id=11142881&boardid=31" title="宋志标：记者先生 记得带上你的墓志铭" target="_blank">宋志标：记者先生 记得带上你的墓…</a></span><br />
+								作者/日期：<span class="c-main">
+								<a href="http://user.kdnet.net/index.asp?username=剑门碧玉">剑门碧玉</a></span><span class="f12px"> - 2015/9/2 11:17:12</span>
+							</td>
+					  </tr>
+						 
+					 
+
+						<tr>
+							<td class="forumicon"><a href="/list.asp?boardid=32"><img src="http://imgcdn.kdnet.net/webset/club/include/images/forum_icon.gif" /></a></td>
+							<td>
+								<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=32">闲话国粹</a></span> ( 今日：<span class="c-alarm">14</span> / 回帖：194356 / 主题：25993  )</h2>
+								<p>【传统文化类专版】倾听历史回声、传承传统文化。</p>
+								主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑38">值班编辑38</a> </span>
+							</td>
+							<td class="foruminfo">
+								主题：<span class="c-main"><a href="http://club.kdnet.net/dispbbs.asp?id=11143048&boardid=32" title="【潘麟导师】为何称罗汉为担板汉？" target="_blank">【潘麟导师】为何称罗汉为担板汉？…</a></span><br />
+								作者/日期：<span class="c-main">
+								<a href="http://user.kdnet.net/index.asp?username=立谷">立谷</a></span><span class="f12px"> - 2015/9/2 12:11:53</span>
+							</td>
+					  </tr>
+						 
+					 
+
+						<tr>
+							<td class="forumicon"><a href="/list.asp?boardid=8"><img src="http://imgcdn.kdnet.net/webset/club/include/images/forum_icon.gif" /></a></td>
+							<td>
+								<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=8">体育观察</a></span> ( 今日：<span class="c-alarm">3</span> / 回帖：140998 / 主题：40091  )</h2>
+								<p>【体育竞技类专版】在竞技场看台上观察久了，观众也是专家；体育动态、体育评论发布。</p>
+								主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑67">值班编辑67</a> </span>
+							</td>
+							<td class="foruminfo">
+								主题：<span class="c-main"><a href="http://club.kdnet.net/dispbbs.asp?id=11142754&boardid=8" title="个人足彩六年心得体会" target="_blank">个人足彩六年心得体会</a></span><br />
+								作者/日期：<span class="c-main">
+								<a href="http://user.kdnet.net/index.asp?username=吉祥分析师">吉祥分析师</a></span><span class="f12px"> - 2015/9/2 10:42:06</span>
+							</td>
+					  </tr>
+						 
+					 
+
+						<tr>
+							<td class="forumicon"><a href="/list.asp?boardid=41"><img src="http://imgcdn.kdnet.net/webset/club/include/images/forum_icon.gif" /></a></td>
+							<td>
+								<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=41">开心科普</a></span> ( 今日：<span class="c-alarm">7</span> / 回帖：186724 / 主题：32945  )</h2>
+								<p>【科学普及类专版】趣味性科技信息、科技争议信息、科技动态与评论。</p>
+								主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑67">值班编辑67</a> </span>
+							</td>
+							<td class="foruminfo">
+								主题：<span class="c-main"><a href="http://club.kdnet.net/dispbbs.asp?id=11142908&boardid=41" title="透视草甘膦" target="_blank">透视草甘膦</a></span><br />
+								作者/日期：<span class="c-main">
+								<a href="http://user.kdnet.net/index.asp?username=孟山都中国">孟山都中国</a></span><span class="f12px"> - 2015/9/2 11:21:44</span>
+							</td>
+					  </tr>
+						 
+					 
+
+						<tr>
+							<td class="forumicon"><a href="/list.asp?boardid=18"><img src="http://imgcdn.kdnet.net/webset/club/include/images/forum_icon.gif" /></a></td>
+							<td>
+								<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=18">IT 数码</a></span> ( 今日：<span class="c-alarm">6</span> / 回帖：259309 / 主题：48323  )</h2>
+								<p>【IT 数码】数码产品的推介与使用交流</p>
+								主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑18">值班编辑18</a> </span>
+							</td>
+							<td class="foruminfo">
+								主题：<span class="c-main"><a href="http://club.kdnet.net/dispbbs.asp?id=11142927&boardid=18" title="紫洋葱网简介" target="_blank">紫洋葱网简介</a></span><br />
+								作者/日期：<span class="c-main">
+								<a href="http://user.kdnet.net/index.asp?username=紫洋葱威客">紫洋葱威客</a></span><span class="f12px"> - 2015/9/2 11:28:37</span>
+							</td>
+					  </tr>
+						 
+					 
+			</table>
+			<!--二级栏目左边数据 END-->
+
+            <!--二级栏目右边数据-->
+			<table cellspacing="0" cellpadding="0" class="listtype" style="display: none;" id="gb-forumlist_1_4">
+					  <tr>
+						<th colspan="4">
+							<a href="javascript:ReShowList(4,'文化广场')"><img class="openputaway-icon" src="http://www.kdnet.net/g_images/transparent.gif" /></a>文化广场
+						</th>
+					  </tr>
+					  
+							<tr>
+						 
+							 <td class="listtypebg">
+											<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=55">菁菁校园</a></span></h2>
+											<p>今日：<span class="c-alarm">35</span><br />
+											回帖：7034042 / 总帖：27386</p>
+											主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑12">值班编辑12</a> </span>
+							 </td>
+								
+							 <td >
+											<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=4">甜蜜旅程</a></span></h2>
+											<p>今日：<span class="c-alarm">24</span><br />
+											回帖：418850 / 总帖：29788</p>
+											主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑31">值班编辑31</a> </span>
+							 </td>
+								
+							 <td class="listtypebg">
+											<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=6">心灵驿站</a></span></h2>
+											<p>今日：<span class="c-alarm">4</span><br />
+											回帖：326872 / 总帖：52816</p>
+											主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑20">值班编辑20</a> </span>
+							 </td>
+								
+							 <td >
+											<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=5">原创文学</a></span></h2>
+											<p>今日：<span class="c-alarm">96</span><br />
+											回帖：1362446 / 总帖：87729</p>
+											主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑02">值班编辑02</a> </span>
+							 </td>
+								
+							</tr>
+					  
+							<tr>
+						 
+							 <td class="listtypebg">
+											<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=54">原创小说</a></span></h2>
+											<p>今日：<span class="c-alarm">11</span><br />
+											回帖：78517 / 总帖：4605</p>
+											主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑02">值班编辑02</a> </span>
+							 </td>
+								
+							 <td >
+											<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=31">汉诗随笔</a></span></h2>
+											<p>今日：<span class="c-alarm">68</span><br />
+											回帖：370981 / 总帖：54251</p>
+											主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑38">值班编辑38</a> </span>
+							 </td>
+								
+							 <td class="listtypebg">
+											<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=32">闲话国粹</a></span></h2>
+											<p>今日：<span class="c-alarm">14</span><br />
+											回帖：194356 / 总帖：25993</p>
+											主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑38">值班编辑38</a> </span>
+							 </td>
+								
+							 <td >
+											<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=8">体育观察</a></span></h2>
+											<p>今日：<span class="c-alarm">3</span><br />
+											回帖：140998 / 总帖：40091</p>
+											主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑67">值班编辑67</a> </span>
+							 </td>
+								
+							</tr>
+					  
+							<tr>
+						 
+							 <td class="listtypebg">
+											<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=41">开心科普</a></span></h2>
+											<p>今日：<span class="c-alarm">7</span><br />
+											回帖：186724 / 总帖：32945</p>
+											主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑67">值班编辑67</a> </span>
+							 </td>
+								
+							 <td >
+											<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=18">IT 数码</a></span></h2>
+											<p>今日：<span class="c-alarm">6</span><br />
+											回帖：259309 / 总帖：48323</p>
+											主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑18">值班编辑18</a> </span>
+							 </td>
+								<td></td><td></td>
+							</tr>
+					  
+			</table>
+            <!--二级栏目右边数据 END-->
+	
+	        <!--一级栏目横幅AD-->
+			<div class="banner b-border">
+						
+							<div id="index51" style="width:0;height:0;visibility:hidden;overflow:hidden;">
+								<div style="width:728px;margin:0 auto; height:90px; overflow:hidden;">
+								
+									<script type="text/javascript">var jd_union_pid="242898163";var jd_union_euid="";</script><script type="text/javascript" src="http://ads.union.jd.com/static/js/union.js"></script>
+								
+								</div>
+							</div>
+						
+			</div>
+			<!--一级栏目横幅AD END-->
+
+            <!--二级栏目左边数据-->
+			<a name="74" id="74"></a>
+			<table cellspacing="0" cellpadding="0" id="gb-forumlist5">
+					  <tr>
+						<th colspan="3">
+							<a href="javascript:ReShowList(5,'地方频道')"><img class="putaway-icon" src="http://www.kdnet.net/g_images/transparent.gif" /></a>地方频道
+						</th>
+					  </tr>
+					  
+					 
+
+						<tr>
+							<td class="forumicon"><a href="/list.asp?boardid=85"><img src="http://imgcdn.kdnet.net/webset/club/include/images/forum_icon.gif" /></a></td>
+							<td>
+								<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=85">会馆工作讨论区</a></span> ( 今日：<span class="c-alarm">0</span> / 回帖：36191 / 主题：34049  )</h2>
+								<p>会馆工作讨论区</p>
+								主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username="></a> </span>
+							</td>
+							<td class="foruminfo">
+								主题：<span class="c-main"><a href="http://club.kdnet.net/dispbbs.asp?id=10864222&boardid=85" title="第三十期凯迪上海下午茶 “谈股票”送审" target="_blank">第三十期凯迪上海下午茶 “谈股票…</a></span><br />
+								作者/日期：<span class="c-main">
+								<a href="http://user.kdnet.net/index.asp?username=值班编辑65">值班编辑65</a></span><span class="f12px"> - 2015/4/29 15:14:25</span>
+							</td>
+					  </tr>
+						 
+					 
+
+						<tr>
+							<td class="forumicon"><a href="/list.asp?boardid=73"><img src="http://imgcdn.kdnet.net/webset/club/include/images/forum_icon.gif" /></a></td>
+							<td>
+								<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=73">凯迪华南</a></span> ( 今日：<span class="c-alarm">48</span> / 回帖：233845 / 主题：30728  )</h2>
+								<p>华南讨论区</p>
+								主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑09">值班编辑09</a> </span>
+							</td>
+							<td class="foruminfo">
+								主题：<span class="c-main"><a href="http://club.kdnet.net/dispbbs.asp?id=11142100&boardid=73" title="孔子“和而不同”是坚持贵贱等级制" target="_blank">孔子“和而不同”是坚持贵贱等级制…</a></span><br />
+								作者/日期：<span class="c-main">
+								<a href="http://user.kdnet.net/index.asp?username=陈捷夫">陈捷夫</a></span><span class="f12px"> - 2015/9/2 1:15:51</span>
+							</td>
+					  </tr>
+						 
+					 
+
+						<tr>
+							<td class="forumicon"><a href="/list.asp?boardid=75"><img src="http://imgcdn.kdnet.net/webset/club/include/images/forum_icon.gif" /></a></td>
+							<td>
+								<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=75">凯迪西南</a></span> ( 今日：<span class="c-alarm">16</span> / 回帖：2401565 / 主题：60011  )</h2>
+								<p>西南地区专题栏目</p>
+								主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑12">值班编辑12</a> </span>
+							</td>
+							<td class="foruminfo">
+								主题：<span class="c-main"><a href="http://club.kdnet.net/dispbbs.asp?id=11142983&boardid=75" title="成都暴雨车比狗慢，集体迟到，哦豁全勤奖没有啦！" target="_blank">成都暴雨车比狗慢，集体迟到，哦豁…</a></span><br />
+								作者/日期：<span class="c-main">
+								<a href="http://user.kdnet.net/index.asp?username=瓜兮兮神戳戳">瓜兮兮神戳戳</a></span><span class="f12px"> - 2015/9/2 11:46:13</span>
+							</td>
+					  </tr>
+						 
+					 
+
+						<tr>
+							<td class="forumicon"><a href="/list.asp?boardid=77"><img src="http://imgcdn.kdnet.net/webset/club/include/images/forum_icon.gif" /></a></td>
+							<td>
+								<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=77">凯迪海南</a></span> ( 今日：<span class="c-alarm">21</span> / 回帖：93856 / 主题：34987  )</h2>
+								<p>凯迪海南频道</p>
+								主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑31">值班编辑31</a> </span>
+							</td>
+							<td class="foruminfo">
+								主题：<span class="c-main"><a href="http://club.kdnet.net/dispbbs.asp?id=11142895&boardid=77" title="视频揭露日军侵略海南暴行" target="_blank">视频揭露日军侵略海南暴行</a></span><br />
+								作者/日期：<span class="c-main">
+								<a href="http://user.kdnet.net/index.asp?username=人去楼不空">人去楼不空</a></span><span class="f12px"> - 2015/9/2 11:18:52</span>
+							</td>
+					  </tr>
+						 
+					 
+
+						<tr>
+							<td class="forumicon"><a href="/list.asp?boardid=80"><img src="http://imgcdn.kdnet.net/webset/club/include/images/forum_icon.gif" /></a></td>
+							<td>
+								<h2><span class="f14px c-main fB"><a href="/list_localhall.asp?boardid=80">凯迪广州</a></span> ( 今日：<span class="c-alarm">1</span> / 回帖：113055 / 主题：11704  )</h2>
+								<p>全方位触摸广州生活的方方面面</p>
+								主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑72">值班编辑72</a> </span>
+							</td>
+							<td class="foruminfo">
+								主题：<span class="c-main"><a href="http://club.kdnet.net/dispbbs.asp?id=11140855&boardid=80" title="有智慧的人既不错失应该交谈的人，也不去说不该说的话" target="_blank">有智慧的人既不错失应该交谈的人，…</a></span><br />
+								作者/日期：<span class="c-main">
+								<a href="http://user.kdnet.net/index.asp?username=李规">李规</a></span><span class="f12px"> - 2015/9/1 15:23:13</span>
+							</td>
+					  </tr>
+						 
+					 
+
+						<tr>
+							<td class="forumicon"><a href="/list.asp?boardid=97"><img src="http://imgcdn.kdnet.net/webset/club/include/images/forum_icon.gif" /></a></td>
+							<td>
+								<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=97">凯迪深圳</a></span> ( 今日：<span class="c-alarm">16</span> / 回帖：34647 / 主题：6586  )</h2>
+								<p>全方位触摸深圳生活的方方面面</p>
+								主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑73">值班编辑73</a> </span>
+							</td>
+							<td class="foruminfo">
+								主题：<span class="c-main"><a href="http://club.kdnet.net/dispbbs.asp?id=11142834&boardid=97" title="深圳“花钱”压力大：半年仅花全年预算27%" target="_blank">深圳“花钱”压力大：半年仅花全年…</a></span><br />
+								作者/日期：<span class="c-main">
+								<a href="http://user.kdnet.net/index.asp?username=汪元">汪元</a></span><span class="f12px"> - 2015/9/2 11:06:07</span>
+							</td>
+					  </tr>
+						 
+					 
+
+						<tr>
+							<td class="forumicon"><a href="/list.asp?boardid=98"><img src="http://imgcdn.kdnet.net/webset/club/include/images/forum_icon.gif" /></a></td>
+							<td>
+								<h2><span class="f14px c-main fB"><a href="/list_localhall.asp?boardid=98">北京会馆</a></span> ( 今日：<span class="c-alarm">60</span> / 回帖：233676 / 主题：25807  )</h2>
+								<p>北京凯迪网友网上聚集地</p>
+								主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑19">值班编辑19</a> </span>
+							</td>
+							<td class="foruminfo">
+								主题：<span class="c-main"><a href="http://club.kdnet.net/dispbbs.asp?id=11142439&boardid=98" title="北京拟将突发事件分级预警 雾霾妨碍交通被纳入" target="_blank">北京拟将突发事件分级预警 雾霾妨…</a></span><br />
+								作者/日期：<span class="c-main">
+								<a href="http://user.kdnet.net/index.asp?username=职高">职高</a></span><span class="f12px"> - 2015/9/2 9:15:09</span>
+							</td>
+					  </tr>
+						 
+					 
+
+						<tr>
+							<td class="forumicon"><a href="/list.asp?boardid=99"><img src="http://imgcdn.kdnet.net/webset/club/include/images/forum_icon.gif" /></a></td>
+							<td>
+								<h2><span class="f14px c-main fB"><a href="/list_localhall.asp?boardid=99">上海会馆</a></span> ( 今日：<span class="c-alarm">23</span> / 回帖：93859 / 主题：22455  )</h2>
+								<p>上海的城市生活在这里</p>
+								主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑11">值班编辑11</a> </span>
+							</td>
+							<td class="foruminfo">
+								主题：<span class="c-main"><a href="http://club.kdnet.net/dispbbs.asp?id=11140866&boardid=99" title="有智慧的人既不错失应该交谈的人，也不去说不该说的话" target="_blank">有智慧的人既不错失应该交谈的人，…</a></span><br />
+								作者/日期：<span class="c-main">
+								<a href="http://user.kdnet.net/index.asp?username=李规">李规</a></span><span class="f12px"> - 2015/9/1 15:27:59</span>
+							</td>
+					  </tr>
+						 
+					 
+
+						<tr>
+							<td class="forumicon"><a href="/list.asp?boardid=104"><img src="http://imgcdn.kdnet.net/webset/club/include/images/forum_icon.gif" /></a></td>
+							<td>
+								<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=104">河南会馆</a></span> ( 今日：<span class="c-alarm">12</span> / 回帖：1534 / 主题：599  )</h2>
+								<p>中原大地网友交流平台</p>
+								主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑23">值班编辑23</a> </span>
+							</td>
+							<td class="foruminfo">
+								主题：<span class="c-main"><a href="http://club.kdnet.net/dispbbs.asp?id=11142636&boardid=104" title="专家提醒：群众不要采摘野外的蘑菇食用" target="_blank">专家提醒：群众不要采摘野外的蘑菇…</a></span><br />
+								作者/日期：<span class="c-main">
+								<a href="http://user.kdnet.net/index.asp?username=卓尔不群8088">卓尔不群8088</a></span><span class="f12px"> - 2015/9/2 10:08:48</span>
+							</td>
+					  </tr>
+						 
+					 
+
+						<tr>
+							<td class="forumicon"><a href="/list.asp?boardid=105"><img src="http://imgcdn.kdnet.net/webset/club/include/images/forum_icon.gif" /></a></td>
+							<td>
+								<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=105">苏州会馆</a></span> ( 今日：<span class="c-alarm">5</span> / 回帖：32971 / 主题：3017  )</h2>
+								<p>苏州凯迪网友网上聚集地</p>
+								主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑36">值班编辑36</a> </span>
+							</td>
+							<td class="foruminfo">
+								主题：<span class="c-main"><a href="http://club.kdnet.net/dispbbs.asp?id=11141943&boardid=105" title="东莞“一夫多妻”现象普遍 女工争相&quot;养&quot;男友" target="_blank">东莞“一夫多妻”现象普遍 女工争…</a></span><br />
+								作者/日期：<span class="c-main">
+								<a href="http://user.kdnet.net/index.asp?username=吴县闲人">吴县闲人</a></span><span class="f12px"> - 2015/9/1 22:18:46</span>
+							</td>
+					  </tr>
+						 
+					 
+
+						<tr>
+							<td class="forumicon"><a href="/list.asp?boardid=106"><img src="http://imgcdn.kdnet.net/webset/club/include/images/forum_icon.gif" /></a></td>
+							<td>
+								<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=106">贵州会馆</a></span> ( 今日：<span class="c-alarm">0</span> / 回帖：36933 / 主题：11530  )</h2>
+								<p>贵州凯迪网友网上聚集地</p>
+								主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑27">值班编辑27</a> </span>
+							</td>
+							<td class="foruminfo">
+								主题：<span class="c-main"><a href="http://club.kdnet.net/dispbbs.asp?id=11139164&boardid=106" title="陈晏任贵州铜仁市代市长" target="_blank">陈晏任贵州铜仁市代市长</a></span><br />
+								作者/日期：<span class="c-main">
+								<a href="http://user.kdnet.net/index.asp?username=转的">转的</a></span><span class="f12px"> - 2015/8/31 19:38:39</span>
+							</td>
+					  </tr>
+						 
+					 
+
+						<tr>
+							<td class="forumicon"><a href="/list.asp?boardid=107"><img src="http://imgcdn.kdnet.net/webset/club/include/images/forum_icon.gif" /></a></td>
+							<td>
+								<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=107">杭州会馆</a></span> ( 今日：<span class="c-alarm">0</span> / 回帖：3192 / 主题：1094  )</h2>
+								<p>杭州凯迪网友网上聚集地</p>
+								主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑36">值班编辑36</a> </span>
+							</td>
+							<td class="foruminfo">
+								主题：<span class="c-main"><a href="http://club.kdnet.net/dispbbs.asp?id=11129241&boardid=107" title="萧山区委书记、区长的渎职犯罪究竟归谁依法惩治！" target="_blank">萧山区委书记、区长的渎职犯罪究竟…</a></span><br />
+								作者/日期：<span class="c-main">
+								<a href="http://user.kdnet.net/index.asp?username=廉政准则">廉政准则</a></span><span class="f12px"> - 2015/8/27 10:47:17</span>
+							</td>
+					  </tr>
+						 
+					 
+
+						<tr>
+							<td class="forumicon"><a href="/list.asp?boardid=123"><img src="http://imgcdn.kdnet.net/webset/club/include/images/forum_icon.gif" /></a></td>
+							<td>
+								<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=123">香港会馆</a></span> ( 今日：<span class="c-alarm">7</span> / 回帖：17006 / 主题：6611  )</h2>
+								<p>香港凯迪网友网上聚集地</p>
+								主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑19">值班编辑19</a> </span>
+							</td>
+							<td class="foruminfo">
+								主题：<span class="c-main"><a href="http://club.kdnet.net/dispbbs.asp?id=11143031&boardid=123" title="台前军官带女星登武装直升机拍照" target="_blank">台前军官带女星登武装直升机拍照</a></span><br />
+								作者/日期：<span class="c-main">
+								<a href="http://user.kdnet.net/index.asp?username=描薛">描薛</a></span><span class="f12px"> - 2015/9/2 12:02:56</span>
+							</td>
+					  </tr>
+						 
+					 
+
+						<tr>
+							<td class="forumicon"><a href="/list.asp?boardid=124"><img src="http://imgcdn.kdnet.net/webset/club/include/images/forum_icon.gif" /></a></td>
+							<td>
+								<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=124">台湾会馆</a></span> ( 今日：<span class="c-alarm">7</span> / 回帖：176413 / 主题：15774  )</h2>
+								<p>台湾凯迪网友网上聚集地</p>
+								主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑22">值班编辑22</a> </span>
+							</td>
+							<td class="foruminfo">
+								主题：<span class="c-main"><a href="http://club.kdnet.net/dispbbs.asp?id=11142848&boardid=124" title="评论：国民党当下的困境前所未现实残酷" target="_blank">评论：国民党当下的困境前所未现实…</a></span><br />
+								作者/日期：<span class="c-main">
+								<a href="http://user.kdnet.net/index.asp?username=西口愚老">西口愚老</a></span><span class="f12px"> - 2015/9/2 11:10:39</span>
+							</td>
+					  </tr>
+						 
+					 
+
+						<tr>
+							<td class="forumicon"><a href="/list.asp?boardid=125"><img src="http://imgcdn.kdnet.net/webset/club/include/images/forum_icon.gif" /></a></td>
+							<td>
+								<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=125">美洲会馆</a></span> ( 今日：<span class="c-alarm">0</span> / 回帖：16443 / 主题：6358  )</h2>
+								<p>凯迪美洲频道</p>
+								主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑13">值班编辑13</a> </span>
+							</td>
+							<td class="foruminfo">
+								主题：<span class="c-main"><a href="http://club.kdnet.net/dispbbs.asp?id=11141975&boardid=125" title="专家:美介入南海无法回避 或用武力恐吓中国" target="_blank">专家:美介入南海无法回避 或用武…</a></span><br />
+								作者/日期：<span class="c-main">
+								<a href="http://user.kdnet.net/index.asp?username=昧爽">昧爽</a></span><span class="f12px"> - 2015/9/1 22:35:16</span>
+							</td>
+					  </tr>
+						 
+					 
+			</table>
+			<!--二级栏目左边数据 END-->
+
+            <!--二级栏目右边数据-->
+			<table cellspacing="0" cellpadding="0" class="listtype" style="display: none;" id="gb-forumlist_1_5">
+					  <tr>
+						<th colspan="4">
+							<a href="javascript:ReShowList(5,'地方频道')"><img class="openputaway-icon" src="http://www.kdnet.net/g_images/transparent.gif" /></a>地方频道
+						</th>
+					  </tr>
+					  
+							<tr>
+						 
+							 <td class="listtypebg">
+											<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=85">会馆工作讨论区</a></span></h2>
+											<p>今日：<span class="c-alarm">0</span><br />
+											回帖：36191 / 总帖：34049</p>
+											主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username="></a> </span>
+							 </td>
+								
+							 <td >
+											<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=73">凯迪华南</a></span></h2>
+											<p>今日：<span class="c-alarm">48</span><br />
+											回帖：233845 / 总帖：30728</p>
+											主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑09">值班编辑09</a> </span>
+							 </td>
+								
+							 <td class="listtypebg">
+											<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=75">凯迪西南</a></span></h2>
+											<p>今日：<span class="c-alarm">16</span><br />
+											回帖：2401565 / 总帖：60011</p>
+											主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑12">值班编辑12</a> </span>
+							 </td>
+								
+							 <td >
+											<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=77">凯迪海南</a></span></h2>
+											<p>今日：<span class="c-alarm">21</span><br />
+											回帖：93856 / 总帖：34987</p>
+											主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑31">值班编辑31</a> </span>
+							 </td>
+								
+							</tr>
+					  
+							<tr>
+						 
+							 <td class="listtypebg">
+											<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=80">凯迪广州</a></span></h2>
+											<p>今日：<span class="c-alarm">1</span><br />
+											回帖：113055 / 总帖：11704</p>
+											主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑72">值班编辑72</a> </span>
+							 </td>
+								
+							 <td >
+											<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=97">凯迪深圳</a></span></h2>
+											<p>今日：<span class="c-alarm">16</span><br />
+											回帖：34647 / 总帖：6586</p>
+											主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑73">值班编辑73</a> </span>
+							 </td>
+								
+							 <td class="listtypebg">
+											<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=98">北京会馆</a></span></h2>
+											<p>今日：<span class="c-alarm">60</span><br />
+											回帖：233676 / 总帖：25807</p>
+											主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑19">值班编辑19</a> </span>
+							 </td>
+								
+							 <td >
+											<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=99">上海会馆</a></span></h2>
+											<p>今日：<span class="c-alarm">23</span><br />
+											回帖：93859 / 总帖：22455</p>
+											主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑11">值班编辑11</a> </span>
+							 </td>
+								
+							</tr>
+					  
+							<tr>
+						 
+							 <td class="listtypebg">
+											<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=104">河南会馆</a></span></h2>
+											<p>今日：<span class="c-alarm">12</span><br />
+											回帖：1534 / 总帖：599</p>
+											主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑23">值班编辑23</a> </span>
+							 </td>
+								
+							 <td >
+											<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=105">苏州会馆</a></span></h2>
+											<p>今日：<span class="c-alarm">5</span><br />
+											回帖：32971 / 总帖：3017</p>
+											主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑36">值班编辑36</a> </span>
+							 </td>
+								
+							 <td class="listtypebg">
+											<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=106">贵州会馆</a></span></h2>
+											<p>今日：<span class="c-alarm">0</span><br />
+											回帖：36933 / 总帖：11530</p>
+											主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑27">值班编辑27</a> </span>
+							 </td>
+								
+							 <td >
+											<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=107">杭州会馆</a></span></h2>
+											<p>今日：<span class="c-alarm">0</span><br />
+											回帖：3192 / 总帖：1094</p>
+											主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑36">值班编辑36</a> </span>
+							 </td>
+								
+							</tr>
+					  
+							<tr>
+						 
+							 <td class="listtypebg">
+											<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=123">香港会馆</a></span></h2>
+											<p>今日：<span class="c-alarm">7</span><br />
+											回帖：17006 / 总帖：6611</p>
+											主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑19">值班编辑19</a> </span>
+							 </td>
+								
+							 <td >
+											<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=124">台湾会馆</a></span></h2>
+											<p>今日：<span class="c-alarm">7</span><br />
+											回帖：176413 / 总帖：15774</p>
+											主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑22">值班编辑22</a> </span>
+							 </td>
+								
+							 <td class="listtypebg">
+											<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=125">美洲会馆</a></span></h2>
+											<p>今日：<span class="c-alarm">0</span><br />
+											回帖：16443 / 总帖：6358</p>
+											主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑13">值班编辑13</a> </span>
+							 </td>
+								<td></td>
+							</tr>
+					  
+			</table>
+            <!--二级栏目右边数据 END-->
+	
+	        <!--一级栏目横幅AD-->
+			<div class="banner b-border">
+						
+			</div>
+			<!--一级栏目横幅AD END-->
+
+            <!--二级栏目左边数据-->
+			<a name="109" id="109"></a>
+			<table cellspacing="0" cellpadding="0" id="gb-forumlist6">
+					  <tr>
+						<th colspan="3">
+							<a href="javascript:ReShowList(6,'凯迪重庆')"><img class="putaway-icon" src="http://www.kdnet.net/g_images/transparent.gif" /></a>凯迪重庆
+						</th>
+					  </tr>
+					  
+					 
+
+						<tr>
+							<td class="forumicon"><a href="/list.asp?boardid=108"><img src="http://imgcdn.kdnet.net/webset/club/include/images/forum_icon.gif" /></a></td>
+							<td>
+								<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=108">重庆会馆</a></span> ( 今日：<span class="c-alarm">3</span> / 回帖：27988 / 主题：12510  )</h2>
+								<p>重庆凯迪网友网上聚集地</p>
+								主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑03">值班编辑03</a> </span>
+							</td>
+							<td class="foruminfo">
+								主题：<span class="c-main"><a href="http://club.kdnet.net/dispbbs.asp?id=11143191&boardid=108" title="重庆有三个不能变，未来难有大作为" target="_blank">重庆有三个不能变，未来难有大作为…</a></span><br />
+								作者/日期：<span class="c-main">
+								<a href="http://user.kdnet.net/index.asp?username=长江浪花">长江浪花</a></span><span class="f12px"> - 2015/9/2 13:03:58</span>
+							</td>
+					  </tr>
+						 
+					 
+
+						<tr>
+							<td class="forumicon"><a href="/list.asp?boardid=110"><img src="http://imgcdn.kdnet.net/webset/club/include/images/forum_icon.gif" /></a></td>
+							<td>
+								<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=110">猫眼观渝</a></span> ( 今日：<span class="c-alarm">0</span> / 回帖：2417 / 主题：375  )</h2>
+								<p>猫眼观渝</p>
+								主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username="></a> </span>
+							</td>
+							<td class="foruminfo">
+								主题：<span class="c-main"><a href="http://club.kdnet.net/dispbbs.asp?id=11134555&boardid=110" title="华东最大的【纺织企业】破产 董事长哀叹民企老板不容易" target="_blank">华东最大的【纺织企业】破产 董事…</a></span><br />
+								作者/日期：<span class="c-main">
+								<a href="http://user.kdnet.net/index.asp?username=上海发展扎根">上海发展扎根</a></span><span class="f12px"> - 2015/8/29 12:45:39</span>
+							</td>
+					  </tr>
+						 
+					 
+
+						<tr>
+							<td class="forumicon"><a href="/list.asp?boardid=111"><img src="http://imgcdn.kdnet.net/webset/club/include/images/forum_icon.gif" /></a></td>
+							<td>
+								<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=111">山城拍客</a></span> ( 今日：<span class="c-alarm">0</span> / 回帖：393 / 主题：133  )</h2>
+								<p>山城拍客</p>
+								主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username="></a> </span>
+							</td>
+							<td class="foruminfo">
+								主题：<span class="c-main"><a href="http://club.kdnet.net/dispbbs.asp?id=11097561&boardid=111" title="包海高铁" target="_blank">包海高铁</a></span><br />
+								作者/日期：<span class="c-main">
+								<a href="http://user.kdnet.net/index.asp?username=高山流水_s9">高山流水_s9</a></span><span class="f12px"> - 2015/8/12 22:40:29</span>
+							</td>
+					  </tr>
+						 
+					 
+
+						<tr>
+							<td class="forumicon"><a href="/list.asp?boardid=112"><img src="http://imgcdn.kdnet.net/webset/club/include/images/forum_icon.gif" /></a></td>
+							<td>
+								<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=112">重庆教育</a></span> ( 今日：<span class="c-alarm">0</span> / 回帖：237 / 主题：107  )</h2>
+								<p>重庆教育</p>
+								主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username="></a> </span>
+							</td>
+							<td class="foruminfo">
+								主题：<span class="c-main"><a href="http://club.kdnet.net/dispbbs.asp?id=10987105&boardid=112" title="中国云教育产业园：用互联网思维探索教育的未来" target="_blank">中国云教育产业园：用互联网思维探…</a></span><br />
+								作者/日期：<span class="c-main">
+								<a href="http://user.kdnet.net/index.asp?username=重庆小王">重庆小王</a></span><span class="f12px"> - 2015/6/24 15:23:19</span>
+							</td>
+					  </tr>
+						 
+					 
+
+						<tr>
+							<td class="forumicon"><a href="/list.asp?boardid=113"><img src="http://imgcdn.kdnet.net/webset/club/include/images/forum_icon.gif" /></a></td>
+							<td>
+								<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=113">巴渝情缘</a></span> ( 今日：<span class="c-alarm">0</span> / 回帖：1451 / 主题：203  )</h2>
+								<p>巴渝情缘</p>
+								主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username="></a> </span>
+							</td>
+							<td class="foruminfo">
+								主题：<span class="c-main"><a href="http://club.kdnet.net/dispbbs.asp?id=11076574&boardid=113" title="爱情感悟" target="_blank">爱情感悟</a></span><br />
+								作者/日期：<span class="c-main">
+								<a href="http://user.kdnet.net/index.asp?username=小雪186">小雪186</a></span><span class="f12px"> - 2015/8/3 18:19:04</span>
+							</td>
+					  </tr>
+						 
+					 
+
+						<tr>
+							<td class="forumicon"><a href="/list.asp?boardid=114"><img src="http://imgcdn.kdnet.net/webset/club/include/images/forum_icon.gif" /></a></td>
+							<td>
+								<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=114">猫人游记</a></span> ( 今日：<span class="c-alarm">1</span> / 回帖：605 / 主题：180  )</h2>
+								<p>猫人游记</p>
+								主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username="></a> </span>
+							</td>
+							<td class="foruminfo">
+								主题：<span class="c-main"><a href="http://club.kdnet.net/dispbbs.asp?id=11141031&boardid=114" title="食物安全教育刻不容缓—曝光香港食物安全潜规则（图）" target="_blank">食物安全教育刻不容缓—曝光香港食…</a></span><br />
+								作者/日期：<span class="c-main">
+								<a href="http://user.kdnet.net/index.asp?username=天上人间流水">天上人间流水</a></span><span class="f12px"> - 2015/9/1 16:09:38</span>
+							</td>
+					  </tr>
+						 
+					 
+
+						<tr>
+							<td class="forumicon"><a href="/list.asp?boardid=115"><img src="http://imgcdn.kdnet.net/webset/club/include/images/forum_icon.gif" /></a></td>
+							<td>
+								<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=115">健康养生</a></span> ( 今日：<span class="c-alarm">1</span> / 回帖：509 / 主题：259  )</h2>
+								<p>健康养生</p>
+								主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username="></a> </span>
+							</td>
+							<td class="foruminfo">
+								主题：<span class="c-main"><a href="http://club.kdnet.net/dispbbs.asp?id=11111276&boardid=115" title="如何睡好觉，能让肌肤更亮丽呢？" target="_blank">如何睡好觉，能让肌肤更亮丽呢？</a></span><br />
+								作者/日期：<span class="c-main">
+								<a href="http://user.kdnet.net/index.asp?username=邢清清">邢清清</a></span><span class="f12px"> - 2015/8/19 9:56:37</span>
+							</td>
+					  </tr>
+						 
+					 
+
+						<tr>
+							<td class="forumicon"><a href="/list.asp?boardid=116"><img src="http://imgcdn.kdnet.net/webset/club/include/images/forum_icon.gif" /></a></td>
+							<td>
+								<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=116">重庆车友</a></span> ( 今日：<span class="c-alarm">0</span> / 回帖：285 / 主题：140  )</h2>
+								<p>重庆车友</p>
+								主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username="></a> </span>
+							</td>
+							<td class="foruminfo">
+								主题：<span class="c-main"><a href="http://club.kdnet.net/dispbbs.asp?id=11085486&boardid=116" title="自动变速箱油脏了会有什么后果？" target="_blank">自动变速箱油脏了会有什么后果？</a></span><br />
+								作者/日期：<span class="c-main">
+								<a href="http://user.kdnet.net/index.asp?username=leilei_wh">leilei_wh</a></span><span class="f12px"> - 2015/8/7 10:55:09</span>
+							</td>
+					  </tr>
+						 
+					 
+
+						<tr>
+							<td class="forumicon"><a href="/list.asp?boardid=117"><img src="http://imgcdn.kdnet.net/webset/club/include/images/forum_icon.gif" /></a></td>
+							<td>
+								<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=117">两江房产</a></span> ( 今日：<span class="c-alarm">0</span> / 回帖：231 / 主题：117  )</h2>
+								<p>两江房产</p>
+								主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username="></a> </span>
+							</td>
+							<td class="foruminfo">
+								主题：<span class="c-main"><a href="http://club.kdnet.net/dispbbs.asp?id=10797211&boardid=117" title="博鳌论坛：“亚洲梦”在这里孵育成长" target="_blank">博鳌论坛：“亚洲梦”在这里孵育成…</a></span><br />
+								作者/日期：<span class="c-main">
+								<a href="http://user.kdnet.net/index.asp?username=安妮的吻别">安妮的吻别</a></span><span class="f12px"> - 2015/3/28 17:12:40</span>
+							</td>
+					  </tr>
+						 
+					 
+
+						<tr>
+							<td class="forumicon"><a href="/list.asp?boardid=118"><img src="http://imgcdn.kdnet.net/webset/club/include/images/forum_icon.gif" /></a></td>
+							<td>
+								<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=118">渝民新婚</a></span> ( 今日：<span class="c-alarm">0</span> / 回帖：134 / 主题：67  )</h2>
+								<p>渝民新婚</p>
+								主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username="></a> </span>
+							</td>
+							<td class="foruminfo">
+								主题：<span class="c-main"><a href="http://club.kdnet.net/dispbbs.asp?id=10973536&boardid=118" title="新郎婚礼服装搭配技巧" target="_blank">新郎婚礼服装搭配技巧</a></span><br />
+								作者/日期：<span class="c-main">
+								<a href="http://user.kdnet.net/index.asp?username=红颜醉倾城">红颜醉倾城</a></span><span class="f12px"> - 2015/6/17 15:56:19</span>
+							</td>
+					  </tr>
+						 
+					 
+
+						<tr>
+							<td class="forumicon"><a href="/list.asp?boardid=119"><img src="http://imgcdn.kdnet.net/webset/club/include/images/forum_icon.gif" /></a></td>
+							<td>
+								<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=119">麻辣吃货</a></span> ( 今日：<span class="c-alarm">0</span> / 回帖：697 / 主题：297  )</h2>
+								<p>麻辣吃货</p>
+								主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username="></a> </span>
+							</td>
+							<td class="foruminfo">
+								主题：<span class="c-main"><a href="http://club.kdnet.net/dispbbs.asp?id=11139122&boardid=119" title="老干妈香辣酱" target="_blank">老干妈香辣酱</a></span><br />
+								作者/日期：<span class="c-main">
+								<a href="http://user.kdnet.net/index.asp?username=junzhan1333">junzhan1333</a></span><span class="f12px"> - 2015/8/31 19:07:30</span>
+							</td>
+					  </tr>
+						 
+					 
+
+						<tr>
+							<td class="forumicon"><a href="/list.asp?boardid=120"><img src="http://imgcdn.kdnet.net/webset/club/include/images/forum_icon.gif" /></a></td>
+							<td>
+								<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=120">渝财有道</a></span> ( 今日：<span class="c-alarm">0</span> / 回帖：210 / 主题：131  )</h2>
+								<p>渝财有道</p>
+								主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username="></a> </span>
+							</td>
+							<td class="foruminfo">
+								主题：<span class="c-main"><a href="http://club.kdnet.net/dispbbs.asp?id=11090830&boardid=120" title="农业众筹模式虽好，尚待培育" target="_blank">农业众筹模式虽好，尚待培育</a></span><br />
+								作者/日期：<span class="c-main">
+								<a href="http://user.kdnet.net/index.asp?username=歆欣">歆欣</a></span><span class="f12px"> - 2015/8/10 10:34:30</span>
+							</td>
+					  </tr>
+						 
+					 
+
+						<tr>
+							<td class="forumicon"><a href="/list.asp?boardid=121"><img src="http://imgcdn.kdnet.net/webset/club/include/images/forum_icon.gif" /></a></td>
+							<td>
+								<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=121">时尚渝女</a></span> ( 今日：<span class="c-alarm">0</span> / 回帖：519 / 主题：245  )</h2>
+								<p>时尚渝女</p>
+								主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username="></a> </span>
+							</td>
+							<td class="foruminfo">
+								主题：<span class="c-main"><a href="http://club.kdnet.net/dispbbs.asp?id=11122975&boardid=121" title="舒珊卫生巾助力女性朋友远离妇科疾病" target="_blank">舒珊卫生巾助力女性朋友远离妇科疾…</a></span><br />
+								作者/日期：<span class="c-main">
+								<a href="http://user.kdnet.net/index.asp?username=等鸟叫的佐助">等鸟叫的佐助</a></span><span class="f12px"> - 2015/8/24 18:05:41</span>
+							</td>
+					  </tr>
+						 
+					 
+
+						<tr>
+							<td class="forumicon"><a href="/list.asp?boardid=122"><img src="http://imgcdn.kdnet.net/webset/club/include/images/forum_icon.gif" /></a></td>
+							<td>
+								<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=122">公益重庆</a></span> ( 今日：<span class="c-alarm">0</span> / 回帖：225 / 主题：83  )</h2>
+								<p>公益重庆</p>
+								主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username="></a> </span>
+							</td>
+							<td class="foruminfo">
+								主题：<span class="c-main"><a href="http://club.kdnet.net/dispbbs.asp?id=11053521&boardid=122" title="专业社工+志愿者”的新模式走进綦江坪上村市民学校" target="_blank">专业社工+志愿者”的新模式走进綦…</a></span><br />
+								作者/日期：<span class="c-main">
+								<a href="http://user.kdnet.net/index.asp?username=梅明">梅明</a></span><span class="f12px"> - 2015/7/24 12:29:19</span>
+							</td>
+					  </tr>
+						 
+					 
+			</table>
+			<!--二级栏目左边数据 END-->
+
+            <!--二级栏目右边数据-->
+			<table cellspacing="0" cellpadding="0" class="listtype" style="display: none;" id="gb-forumlist_1_6">
+					  <tr>
+						<th colspan="4">
+							<a href="javascript:ReShowList(6,'凯迪重庆')"><img class="openputaway-icon" src="http://www.kdnet.net/g_images/transparent.gif" /></a>凯迪重庆
+						</th>
+					  </tr>
+					  
+							<tr>
+						 
+							 <td class="listtypebg">
+											<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=108">重庆会馆</a></span></h2>
+											<p>今日：<span class="c-alarm">3</span><br />
+											回帖：27988 / 总帖：12510</p>
+											主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑03">值班编辑03</a> </span>
+							 </td>
+								
+							 <td >
+											<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=110">猫眼观渝</a></span></h2>
+											<p>今日：<span class="c-alarm">0</span><br />
+											回帖：2417 / 总帖：375</p>
+											主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username="></a> </span>
+							 </td>
+								
+							 <td class="listtypebg">
+											<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=111">山城拍客</a></span></h2>
+											<p>今日：<span class="c-alarm">0</span><br />
+											回帖：393 / 总帖：133</p>
+											主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username="></a> </span>
+							 </td>
+								
+							 <td >
+											<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=112">重庆教育</a></span></h2>
+											<p>今日：<span class="c-alarm">0</span><br />
+											回帖：237 / 总帖：107</p>
+											主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username="></a> </span>
+							 </td>
+								
+							</tr>
+					  
+							<tr>
+						 
+							 <td class="listtypebg">
+											<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=113">巴渝情缘</a></span></h2>
+											<p>今日：<span class="c-alarm">0</span><br />
+											回帖：1451 / 总帖：203</p>
+											主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username="></a> </span>
+							 </td>
+								
+							 <td >
+											<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=114">猫人游记</a></span></h2>
+											<p>今日：<span class="c-alarm">1</span><br />
+											回帖：605 / 总帖：180</p>
+											主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username="></a> </span>
+							 </td>
+								
+							 <td class="listtypebg">
+											<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=115">健康养生</a></span></h2>
+											<p>今日：<span class="c-alarm">1</span><br />
+											回帖：509 / 总帖：259</p>
+											主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username="></a> </span>
+							 </td>
+								
+							 <td >
+											<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=116">重庆车友</a></span></h2>
+											<p>今日：<span class="c-alarm">0</span><br />
+											回帖：285 / 总帖：140</p>
+											主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username="></a> </span>
+							 </td>
+								
+							</tr>
+					  
+							<tr>
+						 
+							 <td class="listtypebg">
+											<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=117">两江房产</a></span></h2>
+											<p>今日：<span class="c-alarm">0</span><br />
+											回帖：231 / 总帖：117</p>
+											主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username="></a> </span>
+							 </td>
+								
+							 <td >
+											<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=118">渝民新婚</a></span></h2>
+											<p>今日：<span class="c-alarm">0</span><br />
+											回帖：134 / 总帖：67</p>
+											主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username="></a> </span>
+							 </td>
+								
+							 <td class="listtypebg">
+											<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=119">麻辣吃货</a></span></h2>
+											<p>今日：<span class="c-alarm">0</span><br />
+											回帖：697 / 总帖：297</p>
+											主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username="></a> </span>
+							 </td>
+								
+							 <td >
+											<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=120">渝财有道</a></span></h2>
+											<p>今日：<span class="c-alarm">0</span><br />
+											回帖：210 / 总帖：131</p>
+											主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username="></a> </span>
+							 </td>
+								
+							</tr>
+					  
+							<tr>
+						 
+							 <td class="listtypebg">
+											<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=121">时尚渝女</a></span></h2>
+											<p>今日：<span class="c-alarm">0</span><br />
+											回帖：519 / 总帖：245</p>
+											主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username="></a> </span>
+							 </td>
+								
+							 <td >
+											<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=122">公益重庆</a></span></h2>
+											<p>今日：<span class="c-alarm">0</span><br />
+											回帖：225 / 总帖：83</p>
+											主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username="></a> </span>
+							 </td>
+								<td></td><td></td>
+							</tr>
+					  
+			</table>
+            <!--二级栏目右边数据 END-->
+	
+	        <!--一级栏目横幅AD-->
+			<div class="banner b-border">
+						
+			</div>
+			<!--一级栏目横幅AD END-->
+
+            <!--二级栏目左边数据-->
+			<a name="37" id="37"></a>
+			<table cellspacing="0" cellpadding="0" id="gb-forumlist7">
+					  <tr>
+						<th colspan="3">
+							<a href="javascript:ReShowList(7,'站务')"><img class="putaway-icon" src="http://www.kdnet.net/g_images/transparent.gif" /></a>站务
+						</th>
+					  </tr>
+					  
+					 
+
+						<tr>
+							<td class="forumicon"><a href="/list.asp?boardid=13"><img src="http://imgcdn.kdnet.net/webset/club/include/images/forum_icon.gif" /></a></td>
+							<td>
+								<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=13">站务专区</a></span> ( 今日：<span class="c-alarm">58</span> / 回帖：2671248 / 主题：52832  )</h2>
+								<p>【网友投诉、咨询专区】本坛受理网友咨询投诉；并欢迎各位大侠惠赐意见和建议，交流技术开发心得。</p>
+								主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=小飞|山泉|值班编辑19">小飞|山泉|值班编辑19</a> </span>
+							</td>
+							<td class="foruminfo">
+								主题：<span class="c-main"><a href="http://club.kdnet.net/dispbbs.asp?id=11142998&boardid=13" title="新人" target="_blank">新人</a></span><br />
+								作者/日期：<span class="c-main">
+								<a href="http://user.kdnet.net/index.asp?username=往事随风_v5">往事随风_v5</a></span><span class="f12px"> - 2015/9/2 11:53:31</span>
+							</td>
+					  </tr>
+						 
+					 
+
+						<tr>
+							<td class="forumicon"><a href="/list.asp?boardid=46"><img src="http://imgcdn.kdnet.net/webset/club/include/images/forum_icon.gif" /></a></td>
+							<td>
+								<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=46">十大美帖</a></span> ( 今日：<span class="c-alarm">0</span> / 回帖：909 / 主题：447  )</h2>
+								<p>凯迪网络2005“十大美帖”候选帖推荐区</p>
+								主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑">值班编辑</a> </span>
+							</td>
+							<td class="foruminfo">
+								主题：<span class="c-main"><a href="http://club.kdnet.net/dispbbs.asp?id=979270&boardid=46" title="十佳评论网友评选结果" target="_blank">十佳评论网友评选结果</a></span><br />
+								作者/日期：<span class="c-main">
+								<a href="http://user.kdnet.net/index.asp?username=总编室">总编室</a></span><span class="f12px"> - 2006/2/11 1:15:49</span>
+							</td>
+					  </tr>
+						 
+					 
+			</table>
+			<!--二级栏目左边数据 END-->
+
+            <!--二级栏目右边数据-->
+			<table cellspacing="0" cellpadding="0" class="listtype" style="display: none;" id="gb-forumlist_1_7">
+					  <tr>
+						<th colspan="4">
+							<a href="javascript:ReShowList(7,'站务')"><img class="openputaway-icon" src="http://www.kdnet.net/g_images/transparent.gif" /></a>站务
+						</th>
+					  </tr>
+					  
+							<tr>
+						 
+							 <td class="listtypebg">
+											<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=13">站务专区</a></span></h2>
+											<p>今日：<span class="c-alarm">58</span><br />
+											回帖：2671248 / 总帖：52832</p>
+											主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=小飞|山泉|值班编辑19">小飞|山泉|值班编辑19</a> </span>
+							 </td>
+								
+							 <td >
+											<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=72">企业家园</a></span></h2>
+											<p>今日：<span class="c-alarm">0</span><br />
+											回帖：1 / 总帖：1</p>
+											主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑05">值班编辑05</a> </span>
+							 </td>
+								
+							 <td class="listtypebg">
+											<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=46">十大美帖</a></span></h2>
+											<p>今日：<span class="c-alarm">0</span><br />
+											回帖：909 / 总帖：447</p>
+											主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑">值班编辑</a> </span>
+							 </td>
+								<td></td>
+							</tr>
+					  
+			</table>
+            <!--二级栏目右边数据 END-->
+	
+	        <!--一级栏目横幅AD-->
+			<div class="banner b-border">
+						
+			</div>
+			<!--一级栏目横幅AD END-->
+
+            <!--二级栏目左边数据-->
+			<a name="71" id="71"></a>
+			<table cellspacing="0" cellpadding="0" id="gb-forumlist8">
+					  <tr>
+						<th colspan="3">
+							<a href="javascript:ReShowList(8,'编辑事务')"><img class="putaway-icon" src="http://www.kdnet.net/g_images/transparent.gif" /></a>编辑事务
+						</th>
+					  </tr>
+					  
+					 
+
+						<tr>
+							<td class="forumicon"><a href="/list.asp?boardid=57"><img src="http://imgcdn.kdnet.net/webset/club/include/images/forum_icon.gif" /></a></td>
+							<td>
+								<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=57">视频创作</a></span> ( 今日：<span class="c-alarm">0</span> / 回帖：949 / 主题：119  )</h2>
+								<p>本站视频创作专用内部区</p>
+								主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑">值班编辑</a> </span>
+							</td>
+							<td class="foruminfo">
+								主题：<span class="c-main"><a href="http://club.kdnet.net/dispbbs.asp?id=11109359&boardid=57" title="20150818视频器材购买清单" target="_blank">20150818视频器材购买清单…</a></span><br />
+								作者/日期：<span class="c-main">
+								<a href="http://user.kdnet.net/index.asp?username=总编室">总编室</a></span><span class="f12px"> - 2015/8/18 13:13:31</span>
+							</td>
+					  </tr>
+						 
+					 
+			</table>
+			<!--二级栏目左边数据 END-->
+
+            <!--二级栏目右边数据-->
+			<table cellspacing="0" cellpadding="0" class="listtype" style="display: none;" id="gb-forumlist_1_8">
+					  <tr>
+						<th colspan="4">
+							<a href="javascript:ReShowList(8,'编辑事务')"><img class="openputaway-icon" src="http://www.kdnet.net/g_images/transparent.gif" /></a>编辑事务
+						</th>
+					  </tr>
+					  
+							<tr>
+						 
+							 <td class="listtypebg">
+											<h2><span class="f14px c-main fB"><a href="/list.asp?boardid=57">视频创作</a></span></h2>
+											<p>今日：<span class="c-alarm">0</span><br />
+											回帖：949 / 总帖：119</p>
+											主持人：<span class="c-main"><a href="http://user.kdnet.net/index.asp?username=值班编辑">值班编辑</a> </span>
+							 </td>
+								
+							</tr>
+					  
+			</table>
+            <!--二级栏目右边数据 END-->
+	
+	        <!--一级栏目横幅AD-->
+			<div class="banner b-border">
+						
+			</div>
+			<!--一级栏目横幅AD END-->
+
+            <!--二级栏目左边数据-->
+			<a name="90" id="90"></a>
+			<table cellspacing="0" cellpadding="0" id="gb-forumlist9">
+					  <tr>
+						<th colspan="3">
+							<a href="javascript:ReShowList(9,'杂货铺')"><img class="putaway-icon" src="http://www.kdnet.net/g_images/transparent.gif" /></a>杂货铺
+						</th>
+					  </tr>
+					  
+					 
+			</table>
+			<!--二级栏目左边数据 END-->
+
+            <!--二级栏目右边数据-->
+			<table cellspacing="0" cellpadding="0" class="listtype" style="display: none;" id="gb-forumlist_1_9">
+					  <tr>
+						<th colspan="4">
+							<a href="javascript:ReShowList(9,'杂货铺')"><img class="openputaway-icon" src="http://www.kdnet.net/g_images/transparent.gif" /></a>杂货铺
+						</th>
+					  </tr>
+					  
+			</table>
+            <!--二级栏目右边数据 END-->
+	
+    </div>
+	<!--社区首页 END-->
+		
+
+
+		<div class="banner b-border"></div>
+		
+		<!--推荐链接-->
+		<div class="link-title c-white"><a href="#/#/#" class="current">推荐链接</a> | <a href="#/#/#">商务推广</a></div>
+		<div class="link-cont-box">
+			<div>
+				<div class="link-cont">
+				<ul class="link-text c-main clearfix">
+				<li><a href="http://bbs1.people.com.cn/" target="_blank">强国社区</a></li><li><a href="http://bbs.ifeng.com/" target="_blank">凤凰网论坛</a></li><li><a href="http://www.chinareform.org.kl1758.com/" target="_blank">中国改革网</a></li><li><a href="http://club.qingdaonews.com/" target="_blank">青青岛社区</a></li><li><a href=" http://www.chinaiiss.com" target="_blank">战略军事  </a></li><li><a href="http://media.iresearch.cn/" target="_blank">艾瑞新媒体</a></li><li><a href="http://bbs.rednet.cn/" target="_blank">红网论坛</a></li><li><a href="http://ido.3mt.com.cn/" target="_blank">iDO社区</a></li><li><a href="http://www.rdsj5.com/" target="_blank">热点事件</a></li><li><a href="http://www.weizhang.cn/" target="_blank">违章查询</a></li><li><a href="http://www.cardbaobao.com" target="_blank">信用卡申请</a></li><li><a href="http://www.jinbifun.com/" target="_blank">金碧坊</a></li><li><a href="http://gz.esf.focus.cn/" target="_blank">广州二手房</a></li><li><a href="http://bbs.ce.cn/bbs/index.php" target="_blank">中经论坛</a></li><li><a href="http://www.boosj.com/" target="_blank">播视网</a></li><li><a href="http://www1.kdnet.net/clubrank.asp" target="_blank">中文论坛排行榜</a></li><li><a href="http://hxlsw.com" target="_blank">浩学历史网</a></li><li><a href="http://bbs.o.cn/" target="_blank">广州论坛</a></li><li><a href="http://www.nianw.com/" target="_blank">念网</a></li><li><a href="http://www.luzhouol.cn/" target="_blank">蜀南网  </a></li><li><a href="http://www.ispeak.cn/ " target="_blank">IS语音平台</a></li><li><a href="http://www.jguo.cn/" target="_blank">中国传统文化 </a></li><li><a href="http://bbs.kshot.com/ " target="_blank">昆山论坛</a></li><li><a href="http://sh.esf.focus.cn/ " target="_blank">上海搜狐二手房</a></li><li><a href="http://bbs.51.com/" target="_blank">51同城论坛</a></li><li><a href="http://bbs.8264.com/" target="_blank">驴友论坛</a></li><li><a href="http://www.imp3.net" target="_blank">随身数码影音</a></li><li><a href="http://www.86590.com/" target="_blank">途悦网</a></li><li><a href="http://www.360mt.com" target="_blank">360媒体网</a></li><li><a href="http://bbs.sssc.cn/" target="_blank">盛世收藏论坛</a></li><li><a href="http://www.bjtvnews.com " target="_blank">华北新闻网</a></li><li><a href="http://bbs.xwh.cn/  " target="_blank">长春论坛</a></li><li><a href="http://www.spaqiot.com/" target="_blank">食品安全物联网</a></li><li><a href="http://shentu.daka258.com" target="_blank">慧聪</a></li><li><a href="http://www.erji.net" target="_blank">耳机大家坛 </a></li><li><a href="http://luo.bo/" target="_blank">萝卜网 </a></li><li><a href="http://bbs.musicool.cn" target="_blank">炫音音乐论坛 </a></li><li><a href="http://www.sf42.cn" target="_blank">天津e网</a></li><li><a href="http://www.cqzol.com" target="_blank">重庆论坛</a></li><li><a href="http://www.chouti.com" target="_blank">抽屉新热榜 </a></li><li><a href="http://www.cloopen.com/ " target="_blank">云通讯平台  </a></li><li><a href="http://www.jyyuan.com" target="_blank">江阴信息港</a></li><li><a href="http://i.s1979.com" target="_blank">时刻社区</a></li><li><a href="http://bbs.artron.net/" target="_blank">雅昌艺术网</a></li><li><a href="http://www.junshi.com" target="_blank">中华军事网</a></li><li><a href="http://china.findlaw.cn/online/" target="_blank">律师在线</a></li><li><a href="http://www.huaian100.com" target="_blank">淮安都市网</a></li><li><a href="http://www2.scdtwyzx.com" target="_blank">北极星电力网</a></li><li><a href="http://bbs.haiwainet.cn" target="_blank">海外网唐人街BBS</a></li><li><a href="http://ww2.scdtwyzx.com" target="_blank">军事新闻</a></li><li><a href="http://www.jyhr.cn" target="_blank">无锡招聘网   </a></li><li><a href="http://www.wandaclub.cc" target="_blank">万达广场社区</a></li><li><a href="http://www.lvse.com/" target="_blank">绿色网</a></li><li><a href="http://www.qiye.gov.cn/" target="_blank">中国企业网</a></li><li><a href="http://lvyou.jyyuan.com/" target="_blank">江阴旅游</a></li><li><a href="http://www.ppnews.cn" target="_blank">品评新闻网</a></li><li><a href="http://www.gggjs.com/" target="_blank">3G军事</a></li><li><a href="http://www.sanjun.com/" target="_blank">三军情报</a></li><li><a href="http://sg.qsgct999.cn/" target="_blank">经典语录</a></li><li><a href="http://www.r021.com" target="_blank">爱上海论坛</a></li><li><a href="http://www.eepw.com.cn/" target="_blank">电子产品世界</a></li><li><a href="www.doc66.com" target="_blank">文库</a></li><li><a href="www.66one.net" target="_blank">作文</a></li><li><a href="http://bbs.voc.com.cn/" target="_blank">华声论坛</a></li><li><a href="http://www.qianlongnews.com/" target="_blank">千龙网企业频道</a></li><li><a href="http://www.chinareform.org.cn/" target="_blank">中国改革论坛</a></li><li><a href="http://www.tiexue.net/" target="_blank">铁血网</a></li><li><a href="http://ju.jyyuan.com" target="_blank">暨阳社区</a></li>
+				</ul>
+				<ul class="link-img clearfix">
+				
+				</ul>
+				</div>
+			</div>
+			<div>
+				<div class="link-cont">
+				<ul class="link-text c-main clearfix">
+				<li><a href="https://www.leadoor.com/rhlc/index.html" target="_blank">利多网</a></li><li><a href="http://jnvit.yyk.qqyy.com/" target="_blank">济南白癜风医院</a></li><li><a href="http://www.52yanqing.com" target="_blank">言情小说免费阅读</a></li><li><a href="http://www.aohuatimes.com/" target="_blank">沈阳翻译公司</a></li><li><a href="http://www.banyou.com/" target="_blank">伴游网</a></li><li><a href="http://www.qiyesou.com/" target="_blank">企业建站</a></li><li><a href="http://www.macgood.com/" target="_blank">mac软件</a></li><li><a href="http://www.86daigou.com/" target="_blank">代购</a></li><li><a href="http://www.yy521.com/2012zuixingequ/" target="_blank">伤感音乐网</a></li><li><a href="http://www.ic98.com/buy/" target="_blank">求购信息</a></li><li><a href="http://www.yinduyiruisha8888.com/" target="_blank">印度易瑞沙 </a></li><li><a href="http://www.niwodai.com/" target="_blank">网贷</a></li><li><a href="http://www.i39.com.cn" target="_blank">39商城</a></li><li><a href="http://www.nanjixiong.com/" target="_blank">3d打印机</a></li><li><a href="http://www.88810000.cn/" target="_blank">西安白癜风医院</a></li><li><a href="http://kl1758.com" target="_blank">神途发布网</a></li><li><a href="http://www.chapuw.com" target="_blank">查谱网</a></li><li><a href="http://www.mtzxyy.com" target="_blank">北京整形医院</a></li><li><a href="http://www.mmbao.com" target="_blank">买卖宝</a></li><li><a href="http://www.kanshu.com/kpzx/" target="_blank">关注健康 </a></li><li><a href="http://www.cp126.com/pl5.asp" target="_blank">排列五</a></li><li><a href="http://pfxbk.xywy.com/psf/" target="_blank">破伤风</a></li><li><a href="http://www.ddty.net" target="_blank">标识设计</a></li><li><a href="http://www.cszx360.cn" target="_blank">长松咨询</a></li><li><a href="http://www.xianmenol.com/" target="_blank">澳门</a></li><li><a href="http://www.alafy.com/ditu.html" target="_blank">策划地图</a></li><li><a href="http://www.fengsuda.com" target="_blank">玻璃钢屋顶风机</a></li><li><a href="http://jiankang.58.com/" target="_blank">58同城健康</a></li><li><a href="http://www.dkl888.com" target="_blank">棋牌游戏</a></li><li><a href="http://www.militaryy.cn/mingyi/" target="_blank">北京治癫痫病</a></li><li><a href="http://www.huabeibianxian.com/" target="_blank">花呗套现</a></li><li><a href="http://www.51etong.com/jrsy/hpv/" target="_blank">HPV</a></li><li><a href="http://zsyqaw.com" target="_blank">奥美定</a></li><li><a href="http://www.cchxtv.tv" target="_blank">中视娱乐网</a></li><li><a href="http://463.01ny.cn/njnpx/yxb/" target="_blank">南京银屑病医院</a></li><li><a href="http://www.deppon.com/product/express.html" target="_blank">德邦</a></li><li><a href="http://www.haost.com" target="_blank">神途发布网</a></li><li><a href="http://www.gangqinzulin.com/" target="_blank">钢琴回收</a></li><li><a href="http://www.ncuk.cn/" target="_blank">英国留学预科</a></li><li><a href="http://www.69981.com/xxzx/" target="_blank">健康播报</a></li><li><a href="http://www.st123.com" target="_blank">神途</a></li><li><a href="http://www.lvmae.com" target="_blank">绿蚂蚁</a></li><li><a href="http://www.heicha.com" target="_blank">黑茶</a></li><li><a href="http://www.bibitie.com/qiuyi/" target="_blank">白癜风</a></li><li><a href="http://xabdf.newsyc.com/" target="_blank">陕西白癜风专科医院</a></li><li><a href="http://www.sijiazhentan.org/" target="_blank">广州私家侦探</a></li><li><a href="http://www.qqts.net/" target="_blank">奇趣探索网</a></li><li><a href="http://www.kongbao369.com" target="_blank">空包网</a></li><li><a href="http://www.gagahi.com" target="_blank">GaGaHi国际交友</a></li><li><a href="http://www.dajiazhao.com" target="_blank">免费算命网</a></li><li><a href="http://www.5ilive.com" target="_blank">cctv5在线直播</a></li><li><a href="http://jt.xywy.com/" target="_blank">截瘫</a></li><li><a href="http://www.zhiboba.top/ " target="_blank">直播吧</a></li><li><a href="http://www.v1.cn/jkzx/" target="_blank">第一健康咨询</a></li><li><a href="http://www.v1.cn/hyzx/" target="_blank">健康行业资讯</a></li><li><a href="http://www.weshequ.com/ytzx/" target="_blank">新媒体健康平台</a></li><li><a href="http://yaodaiyou.com/ypml/pcpn/2015060804.html" target="_blank">阿比特龙</a></li><li><a href="http://www.ynxd.net" target="_blank">玛咖</a></li><li><a href="http://www.zhuazhuayu.com" target="_blank">抓抓鱼</a></li><li><a href="http://www.lovelytooth.com" target="_blank">深圳牙科医院</a></li><li><a href="http://www.dggy8.com" target="_blank">泡棉</a></li><li><a href="http://www.yunnaqu.com" target="_blank">运哪去网</a></li><li><a href="http://www.fayifa.com/dianxian/" target="_blank">如何治疗癫痫</a></li><li><a href="http://www.danqi.com/" target="_blank">丹七健康网</a></li><li><a href="http://www.888888868.com" target="_blank">丽江搬家</a></li><li><a href="http://www.7791.com.cn/" target="_blank">搞笑视频</a></li><li><a href="http://www.hzsrsj.gov.cn" target="_blank">杭州市人事局</a></li><li><a href="http://www.zgchadao.com/" target="_blank">茶道</a></li><li><a href="http://www.porttown.com.cn/" target="_blank">国际船舶</a></li><li><a href="http://www.pjpjamq.com" target="_blank">黄花梨手串</a></li><li><a href="http://hf.xinfang.cn/" target="_blank">合肥新房网</a></li><li><a href="http://www.yzruiji.com" target="_blank">斗式提升机</a></li><li><a href="http://www.toushibao.com/" target="_blank">应用性能管理</a></li><li><a href="http://www.ttx.cn/120ask/jk/" target="_blank">健康快讯</a></li><li><a href="http://www.csxb.com" target="_blank">空压机</a></li><li><a href="http://www.xinrancompressor.cn" target="_blank">空气压缩机</a></li><li><a href="http://www.xinrangroup.cn" target="_blank">螺杆空压机</a></li><li><a href="http://www.553787.com/" target="_blank">繁昌论坛</a></li><li><a href="http://www.heiya.cn" target="_blank">娱乐新闻</a></li><li><a href="http://www.nbwave.com/" target="_blank">空气能热水器</a></li>
+				</ul>
+				</div>
+			</div>
+		</div>
+		<!--推荐链接 End-->
+				<!--尾部-->
+		<div class="footer-club">
+			本站律师声明：本站互动区域原创内容版权属作者和本站共同所有。<br />
+			网络非盈利转载须注明作者姓名和文章的来源出处，其他媒体利用除注明作者姓名和文章的来源出处外还须按规定付酬。侵权必究。<br />
+			法律顾问：广信君达律师事务所 刘东栓 赵广群律师<br /><br />
+			Copyright &copy; 2000~2015 <span class="c-main">
+			<a href="http://www.kdnet.net">kdnet.net</a></span> corporation. All Rights Reserved<br />
+			<span class="c-sub">
+			
+			<a href="http://about.kdnet.net/brief.php" target=_blank>关于凯迪</a> <span class="c-secsub">|</span> <a href="http://about.kdnet.net/join.php" target=_blank>联系我们</a> <span class="c-secsub">|</span> <a href="http://about.kdnet.net/join.php" target=_blank>广告服务</a> <span class="c-secsub">|</span> <a href="http://about.kdnet.net/copyright.php" target=_blank>法律声明</a> <span class="c-secsub">|
+		</span> <a href="http://about.kdnet.net/join-us.php" target=_blank>加入凯迪</a> <span class="c-secsub">|
+		</span> <a href="http://about.kdnet.net/sitemap.php" target=_blank>网站地图</a>
+			</span>
+		</div>
+		<!--尾部 End-->
+
+			
+		
+</div>
+
+                					<!--用户右侧-->
+					<div class="rf w188px web-right clearfix">
+		
+				     <div>
+				</div>
+				<!--个人中心（右）END-->
+				<div class="space10"></div>
+	
+	
+				<!-- 右侧广告 -->
+				<div class="rf w180px clearfix">
+					<div class="banner"><div id="index52" style="width:0;height:0;visibility:hidden;overflow:hidden;">
+					
+						<script type="text/javascript">//<![CDATA[
+						ac_as_id = 101159;
+						ac_format = 0;
+						ac_mode = 1;
+						ac_group_id = 1;
+						ac_server_base_url = "afp.csbew.com/";
+						//]]></script>
+						<script type="text/javascript" src="http://s.csbew.com/k.js"></script>
+					
+					</div>
+					</div>
+
+					<div class="space10"></div>
+
+					<!--最新热点-->
+					
+
+		<div class="gb-coffee">
+			<div class="gb-t">
+		    	<div class="gb-tl"></div>
+		        <div class="title"><a href="http://www.kcis.cn" target=_blank>KCIS公共观察</a></div>
+		    	<div class="gb-tr"></div>
+		    </div>
+		    <div class="gb-c">
+  <ul class="hot-list-club">
+<li>
+<a href="http://www.kcis.cn/club/11130584" title="苏炳添：9秒99不是终点" target="_blank">苏炳添：9秒99不是终点</a>
+</li>
+<li>
+<a href="http://www.kcis.cn/club/11126895" title="文明广州2.0：走走停停吃吃喝喝中见文明" target="_blank">文明广州2.0：走走停停吃吃喝喝中见文明</a>
+</li>
+<li>
+<a href="http://www.kcis.cn/club/11124787" title="世界看天津：8·12天津滨海新区爆炸事故的外国声音" target="_blank">世界看天津：8·12天津滨海新区爆炸事故的外国声音</a>
+</li>
+</ul>
+</div>
+			
+			<div class="gb-b">
+		    	<div class="gb-bl"></div>
+		    	<div class="gb-br"></div>
+		    </div>
+		</div>
+					<!--最新热点 End-->
+				
+					<div class="banner">
+					<div id="index54" style="width:0;height:0;visibility:hidden;overflow:hidden;">
+					
+					<script type="text/javascript">//<![CDATA[
+					ac_as_id = 101143;
+					ac_format = 0;
+					ac_mode = 1;
+					ac_group_id = 1;
+					ac_server_base_url = "afp.csbew.com/";
+					//]]></script>
+					<script type="text/javascript" src="http://s.csbew.com/k.js"></script>
+
+					
+					</div>
+					</div>
+					<div class="space10"></div>
+
+					
+					<div class="gb-coffee">
+						<div class="gb-t">
+							<div class="gb-tl"></div>
+							<div class="title"><a href=" http://www.kdnet.net" target="_blank">精彩推荐</a></div>
+							<div class="gb-tr"></div>
+						</div>
+						<div class="gb-c">
+							<ul class="hot-list-club">
+								<li>
+									<div id="index58" style="width:0;height:0;visibility:hidden;overflow:hidden;"></div>
+								</li>
+								<li>
+									<div id="index59" style="width:0;height:0;visibility:hidden;overflow:hidden;"></div>
+								</li>
+								<li>
+									<div id="index60" style="width:0;height:0;visibility:hidden;overflow:hidden;"></div>
+								</li>
+								<li class="no-border">
+									<div id="index61" style="width:0;height:0;visibility:hidden;overflow:hidden;"></div>
+								</li>
+							</ul>
+						</div>
+
+						<div class="gb-b">
+							<div class="gb-bl"></div>
+							<div class="gb-br"></div>
+						</div>
+					</div>
+					
+
+					<div class="banner">
+					<div id="index55" style="width:0;height:0;visibility:hidden;overflow:hidden;">
+					
+						<script type="text/javascript">//<![CDATA[
+						ac_as_id = 101145;
+						ac_format = 0;
+						ac_mode = 1;
+						ac_group_id = 1;
+						ac_server_base_url = "afp.csbew.com/";
+						//]]></script>
+						<script type="text/javascript" src="http://s.csbew.com/k.js"></script>
+					
+					</div>
+					</div>
+
+					<div class="space10"></div>
+					<div class="banner"><div id="index53" style="width:0;height:0;visibility:hidden;overflow:hidden;">
+
+					
+					<script type="text/javascript">//<![CDATA[
+					ac_as_id = 101121;
+					ac_format = 0;
+					ac_mode = 1;
+					ac_group_id = 1;
+					ac_server_base_url = "afp.csbew.com/";
+					//]]></script>
+					<script type="text/javascript" src="http://s.csbew.com/k.js"></script>
+					
+
+					</div></div>
+					<div class="space10"></div>
+					<div class="banner"></div>
+					
+					<!-- **************************************weizi [2013-10-15] 新增加社区首页页右侧广告 *************************************************** -->
+					<div style="height:600px; position:relative;" class="clearfix">
+						<div class="scllor-banner"><!-- id="Scllor-banner" 悬停ID-->
+						<div id="index88" style="width:0;height:0;visibility:hidden;overflow:hidden;">
+							<div id='div-gpt-ad-1381289765658-0' style='width:160px; height:600px;'>
+								<script type="text/javascript">//<![CDATA[
+								ac_as_id = 96973;
+								ac_format = 0;
+								ac_mode = 1;
+								ac_group_id = 1;
+								ac_server_base_url = "afp.csbew.com/";
+								//]]></script>
+								<script type="text/javascript" src="http://s.csbew.com/k.js"></script>
+							</div>
+						</div>
+						</div>
+					</div>
+					<!-- **************************************weizi [2013-10-15] 新增加社区首页页右侧广告 ********************************************** End -->
+					
+					<div class="space10"></div>
+				</div>
+				<!-- 右侧广告 End -->
+
+</div>
+<!--用户右侧 END-->
+
+<!--帮助层-->
+<div id="OverlayHelp">
+	<div class="contentWrap"  style="display:none;">
+		<div class="help-show"><img src="http://upfile1.kdnet.net/webset/club/include/images/help_user.png" alt="" /></div>
+	</div>
+</div>
+<!--帮助层 End-->
+
+<script type="text/javascript" language="javascript" src="http://imgcdn.kdnet.net/webset/club/include/javascript/t_club.js"></script>
+<script type="text/javascript" src="http://super.cat898.com/js/loger.js"></script>
+<script type="text/javascript" language="javascript" src="http://imgcdn.kdnet.net/webset/club/include/javascript/index.js"></script><!--AJAX版面-->
+	
+	<div id="panda_club_dispbbs_s_59" style="display:none"><script type="text/javascript" src="http://super.kdnet.net/data/position/p59.js" type="text/javascript"></script></div>
+	<script type="text/javascript" src="http://www.kdnet.net/g_javascript/globalpanda.js"></script>
+	
+ <script type="text/javascript">
+  $(document).ready(function () { 
+
+            
+			//左侧普通物料 + 右侧 悬停
+//			function tools(){
+//			var adBannerH=$(".nav-con").height()+$(".proving-n-msg").outerHeight();
+//			var ScllorbannerH=$(".web-right").outerHeight()-600;
+//			var top=$(document).scrollTop();
+//			if(($.browser.msie==true)&&($.browser.version==6.0)){
+//				//if(top>adBannerH)$("#ad-banner-left-cont").css({position:"absolute",top:370});
+//				if(top>adBannerH)$("#ad-banner-left-cont").css({position:"absolute",top:top-adBannerH});
+//				if(top>ScllorbannerH)$("#Scllor-banner").css({position:"absolute",top:top-adBannerH});
+//			}else{
+//				//if(top>adBannerH)$("#ad-banner-left-cont").css({position:"fixed",top:370});
+//				if(top>adBannerH)$("#ad-banner-left-cont").css({position:"fixed",top:adBannerH});
+//			  if(top>ScllorbannerH)$("#Scllor-banner").css({position:"fixed",top:adBannerH});
+//			}
+//			if(top<=adBannerH)$("#ad-banner-left-cont").css({position:"static",top:-adBannerH});
+//			if(top<=adBannerH)$("#ad-banner-left-cont").css({position:"static",top:-adBannerH});
+//			if(top<=ScllorbannerH)$("#Scllor-banner").css({position:"static",top:0});
+//			}
+
+			
+			//左侧对联物料 + 右侧 悬停
+			function tools(){
+			var adBannerH=$(".nav-con").height()+$(".proving-n-msg").outerHeight();
+			var ScllorbannerH=$(".web-right").outerHeight()-600;
+			var top=$(document).scrollTop();
+			if(($.browser.msie==true)&&($.browser.version==6.0)){
+				if(top>adBannerH)$("#ad-banner-left-cont").css({position:"absolute",top:top-405});
+				if(top>ScllorbannerH)$("#Scllor-banner").css({position:"absolute",top:top-adBannerH});
+			}else{
+				if(top>adBannerH)$("#ad-banner-left-cont").css({position:"fixed",top:100});
+				if(top>ScllorbannerH)$("#Scllor-banner").css({position:"fixed",top:adBannerH});
+			}
+			if(top<=adBannerH)$("#ad-banner-left-cont").css({position:"static",top:100});
+			if(top<=ScllorbannerH)$("#Scllor-banner").css({position:"static",top:0});
+			}
+
+			$(function(){
+				window.onscroll=tools;
+				window.onresize=tools;
+			});
+			
+
+    $(".globalnav-ul li").hover(
+        function () {
+            $("ul", this).show();
+            $(this).addClass("hover");
+        }, 
+        function () {
+            $("ul", this).hide();  
+            $(this).removeClass("hover");       
+        }
+    );
+
+	$(function(){
+		window.onscroll=tools;
+		window.onresize=tools;
+	});
+	
+
+    $("#OverlayHelp").overlay({ mask:{color:'#000', opacity:0.5 },top:"0",right:"50",closeOnClick:true,closeOnEsc:true});
+	$("#OverlayHelp").click(function(){ $("#OverlayHelp").overlay().close(); })
+});
+var positions =55;
+//主菜单停留位置
+var loadtabs = new Array("1")
+document.domain = 'kdnet.net';   
+</script>
+<script src="http://club.kdnet.net/javascript/jquery.1.5.1.min.js"></script>
+<script type="text/javascript" language="javascript" src="http://imgcdn.kdnet.net/webset/www/g_javascript/jquery.tools.min.js"></script>
+<!--jquery.tools-->
+<script src="http://tracking.cat898.com/about/log.js"></script>
+<script>
+var tracking_starttime = "1441199632";
+tracking_log();
+</script>
+	
+	<script type="text/javascript" src="http://super.cat898.com/js/jquery.flash.min.js"></script>
+	<script type="text/javascript">
+	$(function(){
+		var $adident = {"page":"club","ident":[["index47",1],["index48",1],["index49",1],["index50",1],["index51",1],["index52",1],["index53",1],["index54",1],["index55",1],["index56",1],["index57",1],["index58",1],["index59",1],["index60",1],["index61",1],["dispbbs71",1],["club73",1],["index88",1],["index92",1]]};
+		$.ajax({
+			url:'http://super.cat898.com/?c=ad',
+			dataType:'script',
+			data:$adident,
+			timeout:5000,
+			success:function(e){
+			}
+		});
+	});
+	</script>
+	
+<script> 
+//推荐链接&财富链接
+$(".link-title").tabs(".link-cont-box > div",{event: 'mouseover',effect: 'fade'});
+</script>
+	
+	<div id="fmedia_club_index"><!--<script type="text/javascript" src="http://panda.kdnet.net/data/fmedia/fmedia_club_index.js"></script>-->
+	</div>
+	
+<script src="http://tracking.cat898.com/about/popadlog.js"></script>
+<script type="text/javascript">
+tracking_log_popad();
+//更多个人信息显示、隐藏
+$('.more-show').click(function(){
+	$(this).hide();
+	$('.detailed-more-cont').fadeIn();
+});
+$('.more-hide').click(function(){
+	$('.more-show').fadeIn();
+	$('.detailed-more-cont').hide();
+});
+document.onmousemove=function (){document.getElementById('update_flag').innerHTML=1;};
+document.onscroll=function (){document.getElementById('update_flag').innerHTML=1;};
+</script>
+<script type="text/javascript" language="javascript" src="http://upfile1.kdnet.net/webset/www/g_javascript/FunLib.js"></script><!-- 公共JS -->
+	<div id="overlay-outer" style="position: absolute; top: 182px;">
+	<div class="clubforum-box" id="overlay">
+		<div class="contentWrap"></div>
+	</div>
+	</div>
+</body>
+<script type="text/javascript">
+	//当浏览器窗口宽度小于1280时，左侧联盟广告向左偏移10像素
+	function rePubM(){
+		if ($(window).width()<=1280) {$("#cproIframe1holder").css({ marginLeft: "-17px"})} 
+		else {} 
+	}
+	$(function(){
+		//窗口宽度小于1280，广告向左偏移10像素
+		$(window).bind('resize',function(){
+			rePubM();
+		});
+		//初次加载分辨率小于1280，广告向左偏移10像素
+		rePubM();
+	});
+
+	//当浏览器窗口宽度小于1024时，左侧联盟广告清除
+	function rePubR(){
+		if ($(window).width()<=1024) {$("#cproIframe1holder").remove()} 
+		else {} 
+	}
+	$(function(){
+		//窗口宽度小于1024，广告清除
+		$(window).bind('resize',function(){
+			rePubR();
+		});
+		//初次加载分辨率小于1024，广告清除
+		rePubR();
+	});
+</script>
+</html>
+<script>
+//改变尺寸时进行相关操作
+var bwidth = false;
+function reTopNav(){
+	var sWidth = document.body.scrollWidth, oWidth = document.body.offsetWidth;
+	if($.browser.mozilla){ sWidth=$(document).width(); oWidth=$(window).width(); }
+	if(document.body.style.overflow != "hidden" && document.body.scroll!="no" && sWidth > oWidth){
+		$('.top-fixed-nav').addClass('top-fixed-nav-s2');
+		var allHeight = $('.top-fixed-nav').height();
+		$('.nav-opacity').css({'height':allHeight+'px'});
+		$('.nav-line-b').css({'top':allHeight+'px'});
+		if($('.proving-n-msg').length && !$('.proving-n-msg').is(':hidden')){
+			$('.nav-space-t').css({'padding-top':(allHeight+2+$('.proving-n-msg').height()+12)+'px'});
+		}else{
+			$('.nav-space-t').css({'padding-top':(allHeight+2)+'px'});
+		}
+		$('.msg-box').css({'margin-top':(allHeight+2)+'px'});
+		$('.proving-n-msg').css({'position':'relative','top':(allHeight+2)+'px'});
+		bwidth = true;
+	} else {
+		$('.top-fixed-nav').removeClass('top-fixed-nav-s2');
+		var allHeight = $('.top-fixed-nav').height();
+		$('.nav-opacity').css({'height':allHeight+'px'});
+		$('.nav-line-b').css({'top':allHeight+'px'});
+		if($('.proving-n-msg').length && !$('.proving-n-msg').is(':hidden')){
+			$('.nav-space-t').css({'padding-top':(allHeight+2+$('.proving-n-msg').height()+12)+'px'});
+		}else{
+			$('.nav-space-t').css({'padding-top':(allHeight+2)+'px'});
+		}
+		$('.msg-box').css({'margin-top':(allHeight+2)+'px'});
+		$('.proving-n-msg').css({'position':'relative','top':'0px'});
+		bwidth = false;
+	}
+}
+
+//添加浏览器滚动判断
+var scrollY = 0;
+function showHideTopNav(){
+	if(typeof(document.body.style.minWidth) != 'undefined') {
+		var topFixedNavHeight = $('.top-fixed-nav').height();
+		$(window).scroll(function(){
+			if($(window).scrollTop()==0 || $(window).scrollTop()<(topFixedNavHeight+2)){
+				$('.top-fixed-nav').stop().css({'position':'absolute','top':'0px'});
+				$('.top-fixed-nav .nav-opacity').stop().css({'position':'absolute','top':'0px'});
+				$('.top-fixed-nav .tooltip').stop().show().css({'opacity':'1'});
+				$('#ajax_header').stop().show().css({'opacity':'1'});
+				if(bwidth){
+					$('.proving-n-msg').css({'position':'relative','top':(topFixedNavHeight+2)+'px'});
+				} else {
+					$('.proving-n-msg').css({'position':'relative','top':'0px'});
+				}
+			} else {
+				if(scrollY > $(window).scrollTop()){
+					if(bwidth){
+						$('.proving-n-msg').css({'position':'relative','top':(topFixedNavHeight+2)+'px'});
+					} else {
+						$('.proving-n-msg').css({'position':'relative','top':'0px'});
+					}
+					$('.top-fixed-nav').css({'position':'fixed'});
+					if(!$('.top-fixed-nav').is(":animated")){
+						$('.top-fixed-nav, .nav-opacity').animate({top:'0px'});
+						$('.top-fixed-nav .tooltip').fadeIn(500);
+						$('#ajax_header').fadeIn(500);
+						$('.top-fixed-nav .nav-opacity').css({'position':'fixed'});
+					}
+				} else {
+					if($(window).scrollTop() < (topFixedNavHeight+65)){
+						if(bwidth){
+							$('.proving-n-msg').css({'position':'fixed','top':(topFixedNavHeight+2)+'px'});
+						} else {
+							$('.proving-n-msg').css({'position':'fixed','top':'0px'});
+						}
+					}
+					if(!$('.top-fixed-nav').is(":animated")){
+						$('.top-fixed-nav .tooltip').fadeOut(500);
+						$('#ajax_header').fadeOut(500);
+						$('.top-fixed-nav, .nav-opacity').animate({top:'-'+(topFixedNavHeight+2)+'px'});
+						$('.proving-n-msg').css({'position':'fixed','top':'0px'});
+						scrollY = $(window).scrollTop();
+					}
+				}
+			}
+			scrollY = $(window).scrollTop();
+		});
+	}
+}
+showHideTopNav();
+//-- 新增 end -------------------------------------------------------------------------------------------------------------------
+</script>
+
+<script type="text/javascript" language="javascript" src="http://imgcdn.kdnet.net/webset/www/g_javascript/club.js"></script>
+<script type="text/javascript">
+	    document.onmousemove=function (){document.getElementById('update_flag').innerHTML=1;};
+		document.onscroll=function (){document.getElementById('update_flag').innerHTML=1;};
+
+ $(document).ready(function () {
+	upheader_total(0);
+	setInterval("upheader_total(1)",60000); 
+
+	//展开浮动导航栏下拉列表
+	var showTopNavMenu = function(){
+		$('.top-fixed-nav .nav-menu li').hover(
+			function(){ $(this).find('.nav-menu-ex-f').stop(false,true).fadeIn(200); },
+			function(){ $(this).find('.nav-menu-ex-f').stop(false,true).fadeOut(200); }
+		);
+		$('.nav-user-msg-f').hover(
+			function(){ $(this).find('.nav-menu-ex-f').stop(false,true).fadeIn(200); },
+			function(){ $(this).find('.nav-menu-ex-f').stop(false,true).fadeOut(200); }
+		);
+	};
+	showTopNavMenu();
+
+	//浏览器长度自判断
+	if(typeof(document.body.style.minWidth) != 'undefined') {
+		//改变尺寸时进行判断
+		reTopNav();
+		$(window).resize(function(){
+			reTopNav();
+		});
+	}
+	update_intellect_board();
+
+//文字滚动
+$(function(){
+	$.fn.extend({
+		MsgScroll:function(opt,callback){
+			if(!opt) var opt={};
+			var _this=this.eq(0).find("ul:first");
+			var lineH=_this.find("li:first").height(), line=opt.line?parseInt(opt.line,10):parseInt(this.height()/lineH,10),speed=opt.speed?parseInt(opt.speed,10):500,timer=opt.timer?parseInt(opt.timer,10):3000; if(line==0) line=1;
+			var upHeight=0-line*lineH;
+			scrollUp=function(){ _this.animate({ marginTop:upHeight },speed,function(){ for(i=1;i<=line;i++){ _this.find("li:first").appendTo(_this); } _this.css({marginTop:0}); }); };
+			_this.hover(function(){ clearInterval(timerID); },
+			function(){ timerID=setInterval("scrollUp()",timer); }).mouseout();
+		}
+	})
+});
+
+	//文字滚动
+	$(".nav-scroll-msg").MsgScroll({line:1,speed:1000,timer:6000});
+});
+
+//5star [2013-01-17] 新增加-----------------------------------------------------------
+//社区更多版块
+var scrollH=182;
+$(window).scroll( function() { 
+	scrollH = 182-$(window).scrollTop();
+	$("#overlay-outer").css({ top: scrollH });
+ } );
+
+$(function () {
+	/* sunny add 20130613 begin */
+	$('#MoreBtn').click(function(){
+		//设置cookies
+		var exp = new Date();
+		exp.setTime (exp.getTime()+3600000000);
+		document.cookie = 'menunavstyle=navDetailed' + '; expires=' + exp.toGMTString()+'; path=/';
+
+		$('#navSimple').slideUp();
+		$('#navDetailed').slideDown();
+	});
+	$('#menuSliadUp').click(function(){
+		//设置cookies
+		var exp = new Date();
+		exp.setTime (exp.getTime()+3600000000);
+		document.cookie = 'menunavstyle=navSimple' + '; expires=' + exp.toGMTString()+'; path=/';
+
+		$('#navDetailed').slideUp();
+		$('#navSimple').slideDown();
+	});
+	/* sunny add 20130613 end */
+
+	/*隐藏提示--另外用cookice控制只显示一次*/	
+	 hideTooltip()
+})
+</script><script language="javascript" src="http://my.kdnet.net/client/index.php"></script>
+<script type="text/javascript">//<![CDATA[
+ac_as_id = 93459;
+ac_format = 0;
+ac_mode = 1;
+ac_group_id = 1;
+ac_server_base_url = "afp.csbew.com/";
+//]]></script>
+<script>
+if(document.documentElement.clientWidth>1180 && deviceType!="phone")
+{
+    document.write("<script language='javascript' src='http://s.csbew.com/k.js'><\/script>");
+}
+</script>

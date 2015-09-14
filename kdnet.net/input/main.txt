@@ -1,0 +1,1955 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0040)http://club.kdnet.net/list.asp?boardid=1 -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=GBK"><script src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/ex" async=""></script><script src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/ex(1)" async=""></script><script src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/ex(2)" async=""></script><script charset="utf-8" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/main.js" async="" mod_name="tanxssp-main"></script><script charset="utf-8" async="" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/tanxssp.js"></script><script charset="utf-8" async="" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/tanxssp.js"></script>
+
+<title>猫眼看人  凯迪社区 - 全球华人最具影响力的言论及媒体平台</title>
+<meta name="author" content="凯迪网络">
+<meta name="keywords" content="凯迪社区,凯迪网络">
+<meta name="description" content="凯迪社区">
+<meta name="copyright" content="凯迪网络版权所有">
+<link rel="icon" href="http://imgcdn.kdnet.net/webset/www/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="http://imgcdn.kdnet.net/webset/www/favicon.ico" type="image/x-icon">
+<link rel="bookmark" href="http://imgcdn.kdnet.net/webset/www/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" href="http://imgcdn.kdnet.net/webset/club/include/g_images/fav.png">
+<link rel="apple-touch-icon-precomposed" href="http://imgcdn.kdnet.net/webset/club/include/g_images/fav.png">
+<link href="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/base10_v5_20140516.css" rel="stylesheet" type="text/css">
+<link href="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/face.css" rel="stylesheet" type="text/css">
+<link href="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/club_v5.1.4_20141022.css" rel="stylesheet" type="text/css">
+		
+
+<script type="text/javascript" charset="gbk" id="tanx-s-mm_34021018_3435525_20598981" async="" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/ex(3)"></script><script type="text/javascript" charset="gbk" id="tanx-s-mm_34021018_3435525_20604307" async="" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/ex(4)"></script><script type="text/javascript" charset="gbk" id="tanx-s-mm_34021018_3435525_20608284" async="" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/ex(5)"></script></head>
+<body><div id="WzTtDiV" style="visibility: hidden; position: absolute; overflow: hidden; padding: 0px; width: 0px; left: 0px; top: 0px;"></div>
+
+
+
+<div id="update_flag" style="display:none">1</div>
+<!--定位消息-->
+<div class="fixed-outer">
+	<div class="fixed-inner" id="ajax_header_msg">
+		<div class="msg-box clearfix" style="display:none; " id="ajax_header">
+		</div>
+	</div>
+</div>
+<!--定位消息 End-->
+
+<!--帮助层-->
+<div id="OverlayHelp" style="display:none">
+	<div class="contentWrap">
+	    
+		<div class="help-show"><img src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/help_login.png" alt=""></div>
+		
+	</div>
+</div>
+<!--帮助层 End-->
+
+<div id="hidden_frame" style="display:none;"><iframe id="_frame" width="648" height="480" allowtransparency="true" frameborder="0" vspace="0" marginheight="0" marginwidth="0" src=""></iframe></div>
+
+
+
+<!-- 顶部导航栏 -->
+<div class="top-fixed-nav">
+	<div class="nav-con ">
+		<div class="nav-menu-left ">
+			<a href="http://www.kdnet.net/" target="_blank" class="lf nav-logo" title="凯迪网络 主流声音">凯迪网络 主流声音</a>
+
+			<!-- 智能首页 -->
+			<ul class="nav-menu nav-menu-intelligent lf now-in-intelligent">
+				<li class="btn-l"><a href="http://club.kdnet.net/myhome.asp" class="nav-option not-new"><b class="nav-icon nav-op-intelligent"></b>智能首页</a></li>
+				<li class="btn-c"><a href="http://hot.kdnet.net/hottopiclist.asp" class="nav-option in-new"><b class="nav-icon nav-op-hot-post"></b>今日热帖</a></li>
+			
+				<li class="btn-c"><a href="http://club.kdnet.net/list.asp?boardid=98" class="nav-option in-kdgz"><b class="nav-icon"></b>北京会馆<b class="icon-try-con nav-t-new"></b></a></li>
+			
+
+				<!--li class="btn-r thinker"><a href="http://special.kcis.cn">思享者</a></li-->
+			</ul>
+			<!-- 智能首页 END-->
+
+		</div>
+		
+		<div class="nav-menu-right">
+			
+			<div class="nav-user-msg-f rf">
+				
+                <div class="login-f"><a href="http://user.kdnet.net/login_new.asp" target="_blank" class="btn-gb">登录</a><a href="http://user.kdnet.net/register_new.asp" target="_blank">注册新用户</a></div>
+
+				<div class="nav-menu-ex-f clearfix nav-menu-login">
+					<div class="nav-menu-ex">
+						<i class="dot-ex dot-ex-login"></i>
+						<a href="http://user.kdnet.net/login_new.asp"><b class="nav-icon nav-op-kdnet"></b>凯迪登录</a>
+						<a href="http://data.kdnet.net/sina/auto_bind_sina.php"><b class="nav-icon nav-op-sina"></b>新浪微博登录</a>
+						<a href="http://3g.kdnet.net/qq_connect/example/oauth/index.php"><b class="nav-icon nav-op-qq"></b>QQ登录</a>
+						<a href="https://open.t.qq.com/cgi-bin/oauth2/authorize?client_id=044d4e0dee634a80b74db95002b00e8f&redirect_uri=http%3A%2F%2F3g.kdnet.net%2Fqq%2Fv2%2Fdemo.php&response_type=code"><b class="nav-icon nav-op-tweibo"></b>腾讯微博登录</a>
+						<a href="http://video.kdnet.net/osfcm/example/index.php/sns/session/taobao"><b class="nav-icon nav-op-taobao"></b>淘宝登录</a>
+						<a href="http://3g.kdnet.net/163"><b class="nav-icon nav-op-twangyi"></b>网易微博登录</a>
+					</div>
+				</div>
+				<!-- 头部登录后右二列表 END-->
+				
+			</div>
+
+			<form id="form1" action="http://search.kdnet.net/" method="get" target="_blank" class="sear-box-trans rf pore">
+				<a href="javascript:;" class="sear-bg">
+				<input type="submit" name="sa" id="searchsubmit" value="" class="sear-go">
+				<input name="q" type="text" id="s" onfocus="javascript:if(this.value==&#39;男模大赛亚军&#39;){this.value=&#39;&#39;;this.className=&#39;sear-input sear-in&#39;;}" onblur="javascript:if(this.value==&#39;&#39;){this.value=&#39;男模大赛亚军&#39;;this.className=&#39;sear-input&#39;}" value="男模大赛亚军" class="sear-input">
+				</a>
+			</form>
+			
+		</div>
+	</div>
+	<div class="nav-opacity"></div>
+	<div class="nav-line-b"></div>
+
+    
+</div>
+
+<div class="nav-space-t"></div>
+<!-- 顶部导航栏 end -->
+		<!-- **************************************weizi [2013-10-14] 新增加社区内容页左侧广告 *************************************************** -->
+        <div class="ad-banner-left clearfix">
+        	<div class="ad-banner-left-box">
+                <div class="ad-banner-left-cont"> <!-- id="ad-banner-left-cont" 悬停ID -->
+				
+				<div id="list89" style="width:0;height:0; visibility:hidden; overflow:hidden;">
+					<script type="text/javascript">//<![CDATA[
+					ac_as_id = 95147;
+					ac_format = 0;
+					ac_mode = 1;
+					ac_group_id = 1;
+					ac_server_base_url = "afp.csbew.com/";
+					//]]></script>
+					<ins id="ac_js86_95147" style="display: none;"></ins><script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/k.js"></script><div id="ac_wrap_951470" style="width:120px"><script type="text/javascript">
+mx_as_id = 3006149;
+mx_server_base_url ="mega.mlt01.com/";
+mx_async = 0; 
+</script><ins id="mx_bjs_3006149" style="display: none;"></ins><script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/b.js"></script>
+<script src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/e.js" type="text/javascript"></script><script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/e.js"></script><script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/e.js"></script><script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/e.js"></script><script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/e.js"></script></div><img style="display:none" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/m.htm"><div id="ac_wrap_951471" style="width:120px"><div style="position: relative; display: inline; border: none; padding: 0px; margin: 0px; visibility: visible; overflow: hidden;">
+<script type="text/javascript">
+	var allyes_siteid='126', allyes_output=1, allyes_channedid='723',allyes_ad_width='120',allyes_ad_height='240',allyes_adspaceid='181-32', allyes_host_addr='mmae.allyes.com';
+</script>
+<ins style="display: inline-block; border: none; margin: 0px; padding: 0px; position: relative; visibility: visible; width: 120px; height: 240px;"><ins style="display: block; border: none; margin: 0px; padding: 0px; position: relative; visibility: visible; width: 120px; height: 240px;"><iframe id="allyes_show_ads_36936841441167791355" frameborder="0" scrolling="no" width="120px" height="240px" style="margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; background: transparent;"></iframe></ins></ins><script id="allyes_mm_ad_126_723_181-32" type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/MediaMax.js"></script><iframe src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/adxcm_base_mm.html" width="0" height="0" marginheight="0" marginwidth="0" frameborder="0" style="position: absolute; top: 0px; left: 0px;"></iframe>
+</div>
+<script src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/e.js" type="text/javascript"></script><script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/e.js"></script><script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/e.js"></script><script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/e.js"></script><script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/e.js"></script></div><img style="display:none" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/m(1).htm">
+				</div>
+				
+				</div>
+                </div>
+        </div>
+         <style>
+        	.ad-banner-left{ height:0; width:1100px; margin:0 auto; position:relative;}
+			.ad-banner-left-box{width:120px; height:auto; position:absolute; left:-120px; top:100px; z-index:1000;}
+			.ad-banner-left-cont{ width:120px; height:240px; position:absolute;}
+        </style>
+       <!-- **************************************weizi [2013-10-14] 新增加社区内容页左侧广告 ********************************************** End -->
+
+<div id="TopScrollDiv" class="list-topscroll-div topscroll-div"></div>
+<div class="wrapper clearfix w1030px listChen">
+	<div class="lf w840px">	
+		<!--主导航-->
+		<div class="globalnav c-white clearfix">
+			<span><a onclick="AddFavorite(window.location,document.title)" href="javascript:;">收藏</a>
+			
+			
+
+			</span>
+                        <ul class="globalnav-ul">
+			            <li><a href="http://www.kdnet.net/" class="current">首页</a> |</li>
+            			<li><a href="http://club.kdnet.net/">社区</a> |</li>
+            			<li><a href="http://www.kcis.cn/">云情报</a> |</li>
+            			<!--<li><a href="http://video.kdnet.net"><b class="c-alarm">视频</b></a> |</li>
+            			<li><a href="http://t.kdnet.net">微评</a> |</li>-->
+            			<li><a href="http://chat.kdnet.net/">夜话</a> |</li>
+            			<li><a href="http://special.kdnet.net/">专题</a> |</li>
+            			<li><a href="http://blog.kdnet.net/">博客</a> |</li>
+            			<!--<li><a href="http://weekly.kdnet.net">周刊</a> |</li>-->
+						<li><a href="http://school.kdnet.net/">凯迪小学</a> |</li>
+						<li><a href="http://lun.kdnet.net/">猫论天下</a> |</li>
+            			<li class="globalnav-last">
+            				<a href="javascript:;" id="globalnav-more-btn">更多</a>
+            				<ul>
+							    <li><a href="http://shop.kdnet.net/">凯迪商城</a> </li>
+            					<li><a href="http://research.kdnet.net/">传播研究院</a></li>
+								<li><a href="http://3g.kdnet.net/intro.php">手机凯迪网</a></li>
+            				</ul>
+            			</li>
+						</ul>
+		</div>
+		<!--主导航 End-->	
+		<style>
+.logo i{ display: block; width:40px; height:20px; background:url(images/test_bg.png); position:absolute; right:40px; top:2px;}
+</style>
+	    <!--头部-->
+		<div class="header clearfix">
+			<div class="logo" title="凯迪社区：全球华人最具影响力的言论及媒体平台" style="position:relative">
+			
+				<a href="http://club.kdnet.net/">凯迪社区：全球华人最具影响力的言论及媒体平台</a><div class="logo-ms"></div>
+			</div>
+			
+			
+			<div class="forum" title="猫眼看人">
+			<a href="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台.html">
+			猫眼看人
+			</a>
+			</div>
+			
+
+			<div style="width:550px;margin:0 auto; margin-top:10px; height:90px;overflow:hidden;"><!--modify sunny 20131231 ad-->
+			<div id="club73" style="width:0;height:0;visibility:hidden;overflow:hidden;"><!--modify sunny 20131231 ad-->
+				<div style="width:468px;margin:0 auto; margin-top:15px; height:60px;overflow:hidden;">
+				
+				 <!--<iframe id="f" width="552px" height="94px" src= "http://union.yhd.com/resourceCenter/getUserCookies.do?shoppingWindowVo.trackerU=102371192&shoppingWindowVo.type=2&shoppingWindowVo.width=550&shoppingWindowVo.height=92&shoppingWindowVo.adPositionId=19248&shoppingWindowVo.categoryIdStr=5135_20947" frameborder="no" border="0" marginwidth="0" marginheight="0" allowtransparency="yes" scrolling="NO" > </iframe>-->
+				 <!--
+					<script type="text/javascript">
+						var allyes_siteid='126', allyes_output=1, allyes_channedid='723',allyes_ad_width='468',allyes_ad_height='60',allyes_adspaceid='181-1', allyes_host_addr='mmae.allyes.com';
+					</script>
+					<script type="text/javascript" src="http://1.allyes.com.cn/mediamax/MediaMax.js"></script>
+				-->
+					<script type="text/javascript">//<![CDATA[
+					ac_as_id = 96837;
+					ac_format = 0;
+					ac_mode = 1;
+					ac_group_id = 1;
+					ac_server_base_url = "afp.csbew.com/";
+					//]]></script>
+					<ins id="ac_js86_96837" style="display: none;"></ins><script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/k.js"></script><div id="ac_wrap_968370" style="width:468px"><script type="text/javascript">
+mx_as_id = 3006157;
+mx_server_base_url ="mega.mlt01.com/";
+mx_async = 0; 
+</script><ins id="mx_bjs_3006157" style="display: none;"></ins><script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/b.js"></script>
+<script src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/e.js" type="text/javascript"></script><script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/e.js"></script><script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/e.js"></script><script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/e.js"></script><script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/e.js"></script></div><img style="display:none" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/m(2).htm"><div id="ac_wrap_968371" style="width:468px"><div style="position: relative; display: inline; border: none; padding: 0px; margin: 0px; visibility: visible; overflow: hidden;">
+<script type="text/javascript">
+	var allyes_siteid='126', allyes_output=1, allyes_channedid='723',allyes_ad_width='468',allyes_ad_height='60',allyes_adspaceid='181-1', allyes_host_addr='mmae.allyes.com';
+</script>
+<ins style="display: inline-block; border: none; margin: 0px; padding: 0px; position: relative; visibility: visible; width: 468px; height: 60px;"><ins style="display: block; border: none; margin: 0px; padding: 0px; position: relative; visibility: visible; width: 468px; height: 60px;"><iframe id="allyes_show_ads_67741321441167791638" frameborder="0" scrolling="no" width="468px" height="60px" style="margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; background: transparent;"></iframe></ins></ins><script id="allyes_mm_ad_126_723_181-1" type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/MediaMax.js"></script><iframe src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/adxcm_base_mm.html" width="0" height="0" marginheight="0" marginwidth="0" frameborder="0" style="position: absolute; top: 0px; left: 0px;"></iframe>
+</div>
+<script src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/e.js" type="text/javascript"></script><script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/e.js"></script><script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/e.js"></script><script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/e.js"></script><script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/e.js"></script></div><img style="display:none" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/m(3).htm">
+				
+				</div>
+			</div>
+			</div><!--modify sunny 20131231 ad-->
+			
+		</div>
+	    <!--头部 End-->
+
+		<script>
+		var duf_40_40 = 'http://imgcdn.kdnet.net/upload/userface/NoPic_40_40.jpg';
+		</script>		<div class="login-box clearfix">
+			<div class="num-info c-white">
+				<img class="leader-icon" title="注册用户" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif"><span class="leader fB">14005251</span> 位注册用户，目前在线 <span class="fB">188703</span> 人 | &nbsp;&nbsp;
+			</div>
+			<div class="login-info">
+				 <span class="c-alarm lf" id="dispbbs71" style="width:0;height:0;visibility:hidden;overflow:hidden;"></span>
+			</div>
+			<div class="rf c-white"><a href="http://club.kdnet.net/list.asp?boardid=13">站务专区</a> | <a target="_blank" href="http://club.kdnet.net/boardstat3.asp?boardid=1#fourth">论坛动态</a> 
+			
+			</div>
+		</div>
+
+		<div class="clubcont-line "></div>		
+		 <!--版块导航-->
+		 
+
+	 <!-- **************************************5star [2013-01-17] 新增加 ********************************************** -->
+		<!--社区板块-->
+		<div class="plate clearfix pore">
+			<div id="navSimple" style="display:block;">	<!-- sunny add 20130613 -->
+				<h3 class="fB"><span class="forwardwblog-icon red fB">版块导航</span><span class="fB red">：</span></h3>
+				<ul class="clearfix" id="intellect_board">
+					<li><a href="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台.html">猫眼看人</a></li><li><a href="http://club.kdnet.net/list.asp?boardid=33">图画人生</a></li><li><a href="http://club.kdnet.net/list.asp?boardid=3">经济风云</a></li><li><a href="http://club.kdnet.net/list.asp?boardid=96">史海钩沉</a></li><li><a href="http://club.kdnet.net/list.asp?boardid=89">时局深度</a></li><li><a href="http://club.kdnet.net/list.asp?boardid=2">文化散论</a></li><li><a href="http://club.kdnet.net/list.asp?boardid=52">原创评论</a></li><li><a href="http://club.kdnet.net/list.asp?boardid=44">会员阅读</a></li><li><a href="http://club.kdnet.net/list.asp?boardid=9">健康社会</a></li><li class="last-p"><a href="http://club.kdnet.net/list.asp?boardid=73">凯迪华南</a></li>
+				</ul>
+				<span id="MoreForum" class="moreforum-up c-main"><a href="javascript:;" id="MoreBtn">更多</a></span>
+			</div>
+
+			<div id="navDetailed" class="nav-detailed" style="display:none;">
+				<span id="MoreForum" class="moreforum-down c-main"><a href="javascript:;" id="menuSliadUp">收起</a></span>
+				<div class="clubforum-cont clubforum-cont-more clearfix">
+					<div class="clubforum-sub">
+						<h4>时政经济：</h4>
+						<a href="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台.html">猫眼看人</a> | <a href="http://club.kdnet.net/list.asp?boardid=89">时局深度</a> | <a href="http://club.kdnet.net/list.asp?boardid=52">原创评论</a><br>
+						<a href="http://club.kdnet.net/list.asp?boardid=3">经济风云</a> | <a href="http://club.kdnet.net/list.asp?boardid=15">股市泛舟</a> | <a href="http://club.kdnet.net/list.asp?boardid=88">商业创富</a><br>
+						<a href="http://club.kdnet.net/list.asp?boardid=96">史海钩沉</a> | <a href="http://club.kdnet.net/list.asp?boardid=2">文化散论</a> | <a href="http://club.kdnet.net/list.asp?boardid=24">中间地带</a><br>
+						<a href="http://club.kdnet.net/list.asp?boardid=44">会员阅读</a> | <a href="http://club.kdnet.net/list.asp?boardid=25">律师之窗</a> | <a href="http://club.kdnet.net/list.asp?boardid=101">舆情观察</a> 
+					</div>
+					<div class="clubforum-line"></div>
+					<div class="clubforum-sub">
+						<h4>都市生活：</h4>
+						<a href="http://club.kdnet.net/list.asp?boardid=9">健康社会</a> | <a href="http://club.kdnet.net/list.asp?boardid=30">车友评车</a> | <a href="http://club.kdnet.net/list.asp?boardid=61">房产家居</a><br>
+						<a href="http://club.kdnet.net/list.asp?boardid=4">甜蜜旅程</a> | <a href="http://club.kdnet.net/list.asp?boardid=63">消费观察</a> | <a href="http://club.kdnet.net/list.asp?boardid=45">职场生涯</a><br>
+						<a href="http://club.kdnet.net/list.asp?boardid=29">家长里短</a> | <a href="http://club.kdnet.net/list.asp?boardid=60">咱们女人</a> | <a href="http://club.kdnet.net/list.asp?boardid=62">家有宝宝</a><br>
+						<a href="http://club.kdnet.net/list.asp?boardid=58">猫眼鉴宝</a> | <a href="http://club.kdnet.net/list.asp?boardid=40">网络剧场</a> | <a href="http://club.kdnet.net/list.asp?boardid=35">旅游时尚</a>
+					</div>
+					<div class="clubforum-line"></div>
+					<div class="clubforum-sub">
+						<h4>影音娱乐：</h4>
+						<a href="http://club.kdnet.net/list.asp?boardid=33">图画人生</a> | <a href="http://club.kdnet.net/list.asp?boardid=26">影视评论</a><br>
+						<a href="http://club.kdnet.net/list.asp?boardid=86">猫影无忌</a> | <a href="http://club.kdnet.net/list.asp?boardid=27">音乐之声</a><br>
+						<a href="http://club.kdnet.net/list.asp?boardid=7">猫兄鼠妹</a> | <a href="http://club.kdnet.net/list.asp?boardid=16">网友风采</a><br>
+						<a href="http://club.kdnet.net/list.asp?boardid=10">笑话人生</a> | <a href="http://club.kdnet.net/list.asp?boardid=56">游戏天地</a>
+					</div>
+					<div class="clubforum-line"></div>
+					<div class="clubforum-sub">
+						<h4>文化广场：</h4>
+						<a href="http://club.kdnet.net/list.asp?boardid=55">菁菁校园</a> | <a href="http://club.kdnet.net/list.asp?boardid=6">心灵驿站</a><br>
+						<a href="http://club.kdnet.net/list.asp?boardid=5">原创文学</a> | <a href="http://club.kdnet.net/list.asp?boardid=31">汉诗随笔</a><br>
+						<a href="http://club.kdnet.net/list.asp?boardid=32">闲话国粹</a> | <a href="http://club.kdnet.net/list.asp?boardid=8">体育观察</a><br>
+						<a href="http://club.kdnet.net/list.asp?boardid=41">开心科普</a> | <a href="http://club.kdnet.net/list.asp?boardid=18">IT数码</a>
+					</div>
+					<div class="clubforum-line"></div>
+					<div class="clubforum-sub">
+						<h4>地方频道：</h4>
+						
+						<a href="http://club.kdnet.net/list_localhall.asp?boardid=98">北京</a> |
+						<a href="http://club.kdnet.net/list_localhall.asp?boardid=99">上海</a> |
+						<a href="http://club.kdnet.net/list_localhall.asp?boardid=80">广州</a><br>
+						<a target="_blank" href="http://cq.kdnet.net/" style="color:#e63922;">重庆</a> |
+						<a href="http://club.kdnet.net/list.asp?boardid=97">深圳</a> |
+						<a href="http://club.kdnet.net/list.asp?boardid=105">苏州</a><br>
+						<a href="http://club.kdnet.net/list.asp?boardid=123">香港</a> |
+						<a href="http://club.kdnet.net/list.asp?boardid=124">台湾</a> |
+						<a href="http://club.kdnet.net/list.asp?boardid=125">美洲</a><br>
+						<a href="http://club.kdnet.net/list.asp?boardid=75">西南</a> |
+						<a href="http://club.kdnet.net/list.asp?boardid=73">华南</a> |
+						<a href="http://club.kdnet.net/list.asp?boardid=77">海南</a><br>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--社区板块 End-->
+       <!-- **************************************5star [2013-01-17] 新增加 ********************************************** End -->
+		 <!--版块导航 End-->		
+
+		<!--当前位置-->
+		<div class="club-location clearfix">
+			<div class="c-main"><a href="http://www.kdnet.net/">首页</a></div>
+			<div class="arrow"></div><div class="c-main"><a href="http://club.kdnet.net/index.asp">凯迪社区</a></div><div class="arrow"></div><div class="c-main"><a href="http://club.kdnet.net/index.asp#68">猫论天下</a></div><div class="arrow"></div><div class="c-main"><a href="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台.html">猫眼看人</a></div>
+			<div class="arrow"></div>
+			<div>帖子列表</div>
+            
+			<div class="clubhost"><span class="c-main"> <a target="_blank" href="http://user.kdnet.net/index.asp?username=%D6%B5%B0%E0%B1%E0%BC%AD19">值班编辑19</a>&nbsp;</span>[栏目主持：<span class="c-main"><a target="_blank" href="http://user.kdnet.net/index.asp?username=%B6%FE%C3%A8">二猫</a>&nbsp; </span>]</div>
+			
+		</div>
+		
+		<!--当前位置 End-->
+
+		<div class="clubcont-line "></div>
+		<div class="banner b-border">
+		<div id="list16" style="width:0;height:0;visibility:hidden;overflow:hidden;">
+			<div style="width:728px;margin:0 auto; height:90px; overflow:hidden;">
+			
+				<script type="text/javascript">//<![CDATA[
+				ac_as_id = 101151;
+				ac_format = 0;
+				ac_mode = 1;
+				ac_group_id = 1;
+				ac_server_base_url = "afp.csbew.com/";
+				//]]></script>
+				<ins id="ac_js86_101151" style="display: none;"></ins><script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/k.js"></script><div id="ac_wrap_1011510" style="width:728px"><script type="text/javascript">
+mx_as_id = 3005957;
+mx_server_base_url ="mega.mlt01.com/";
+mx_async = 0; 
+</script><ins id="mx_bjs_3005957" style="display: none;"></ins><script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/b.js"></script>
+<script src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/e.js" type="text/javascript"></script><script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/e.js"></script><script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/e.js"></script><script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/e.js"></script><script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/e.js"></script></div><img style="display:none" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/m(4).htm"><div id="ac_wrap_1011511" style="width:728px"><script type="text/javascript" charset="utf-8">
+    /* 列表页横幅1 */
+	vm_ad_client = "13045134";
+	vm_ad_slot = "1434247311";
+	vm_ad_width = 728;
+	vm_ad_height = 90; 
+</script>
+<ins id="vamaker_13045134_1434247311_677917445451" class="ads_by_vamaker" style="display: inline-block; border: none; margin: 0px; padding: 0px; position: relative; visibility: visible; overflow: hidden; height: 90px; background-color: transparent;"><ins style="display: inline-table; border: none; margin: 0px; padding: 0px; position: relative; visibility: visible; width: 728px; height: 90px; background-color: transparent;"><ins style="display: block; border: none; margin: 0px; padding: 0px; position: relative; visibility: visible; z-index: 1; width: 728px; height: 90px; background: transparent;"><iframe id="vamaker_force_6779174425840780" frameborder="0" scrolling="no" marginwidth="0" marginheight="0" width="728" height="90" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/b(1).html" style="border: none; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; z-index: 1; background: transparent;"></iframe></ins></ins></ins><script type="text/javascript" charset="utf-8" id="vm_ad_13045134_1434247311_677917446915" class="vamaker" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/vamaker.js"></script>
+<script src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/e.js" type="text/javascript"></script><script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/e.js"></script><script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/e.js"></script><script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/e.js"></script><script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/e.js"></script></div><img style="display:none" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/m(5).htm">
+			
+			</div>
+		</div>
+		</div>
+		<div class="clubcont-line "></div>	
+
+		<!--发帖等操作-->
+		<div class="operating clearfix">
+			<div class="btn-publish lf" title="发布新帖"><a href="http://upfile2.kdnet.net/post.asp?action=new&boardid=1" target="_blank">发布新帖</a></div>
+			    
+					<div class="btn-jiashi top-btn-new" title="百姓家史公益抄写">
+					<a href="http://jiashi.kdnet.net/chao.php" target="_blank">百姓家史公益抄写<b class="icon-try-con nav-t-new"></b></a>
+					</div>
+				
+			<div class="oline-editor">在线：<span class="c-main"><a target="_blank" href="http://user.kdnet.net/index.asp?username=%D6%B5%B0%E0%B1%E0%BC%AD05">值班编辑05</a>&nbsp;<a target="_blank" href="http://user.kdnet.net/index.asp?username=%D6%B5%B0%E0%B1%E0%BC%AD46">值班编辑46</a>&nbsp;<a target="_blank" href="http://club.kdnet.net/boardstat3.asp?reaction=masteronline">…</a></span>&nbsp;&nbsp;&nbsp;&nbsp;</div>	<!--sunny local 20131112-->
+			<div class="rf">
+				<span class="c-main">
+                <img class="sofa-icon" title="抢沙发" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif">
+				<a id="sf_btn" href="http://club.kdnet.net/list.asp?boardid=1&s=1" onmouseover="Tip(&#39;&lt;div class=&quot;gb-lb-tips&quot;&gt;&lt;div class=&quot;gb-lb-tips-t&quot;&gt;&lt;/div&gt;&lt;div class=&quot;gb-lb-tips-c&quot;&gt;&lt;div class=&quot;gb-lb-tips-c-cont clearfix&quot;&gt;&lt;div class=&quot;cont-l&quot;&gt;&lt;/div&gt;&lt;div class=&quot;cont-r&quot;&gt;点击查看未曾被回复的帖子，抢个沙发坐坐！&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;gb-lb-tips-b&quot;&gt;&lt;/div&gt;&lt;/div&gt;&#39;)" onmouseout="UnTip()">抢沙发</a>
+				</span> 
+			
+				<span class="c-sub">|</span> 
+				<span class="c-main"><a href="http://club.kdnet.net/list.asp?boardid=1&s=2">精华</a></span> 
+			
+			 <span class="c-sub">|</span> <span class="c-main"><a href="http://club.kdnet.net/list.asp?boardid=13&topicmode=3">辟谣</a></span>
+				<span class="c-sub">|</span> <span class="c-main"><a href="http://club.kdnet.net/Boardhelp.asp?boardid=1">帮助</a></span>
+				
+			</div>
+		</div>
+		<!--发帖等操作 End-->
+
+		<!-- Sunny Modify Begin -->
+		<!-- 分类排序 -->
+		<div class="clubcont-line "></div>
+		<div class="line-lr">
+			<div class="c-sub taxis-f  taxis-f2">
+				<a href="http://club.kdnet.net/list.asp?t=0&boardid=1&selTimeLimit=0&action=&topicmode=0&s=&page=1" class="cur-ta" style="font-weight:700;">按最后更新排序<b class="ta-arrow"></b></a>
+				<a href="http://club.kdnet.net/list.asp?t=1&boardid=1&selTimeLimit=0&action=&topicmode=0&s=&page=1">按最新主帖排序<b class="ta-arrow"></b></a>
+				
+				<!-- sunny add 20130708 begin -->
+				<!-- 话题与刷新 -->
+				<a href="javascript:history.go(0);" class="tax-r tax-re" title="刷新">刷新<b class="ta-arrow"></b></a>
+				<div class="taxis-ex rf clearfix">
+				<b>话题: </b>
+					<div class="tax-r1"><a href="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台.html" class="tax-r1all">全部</a><a href="http://club.kdnet.net/list.asp?boardid=1&topicmode=1">台海</a><a href="http://club.kdnet.net/list.asp?boardid=1&topicmode=2">推荐</a><a href="http://club.kdnet.net/list.asp?boardid=1&topicmode=3">国际</a><a href="http://club.kdnet.net/list.asp?boardid=1&topicmode=4">反腐</a><a href="http://club.kdnet.net/list.asp?boardid=1&topicmode=5">社会</a><a href="http://club.kdnet.net/list.asp?boardid=1&topicmode=6">热帖</a><a href="http://club.kdnet.net/list.asp?boardid=1&topicmode=7">凯迪记事</a><a href="http://club.kdnet.net/list.asp?boardid=1&topicmode=8">公告</a><a href="http://club.kdnet.net/list.asp?boardid=1&topicmode=9">精读</a><a href="http://club.kdnet.net/list.asp?boardid=1&topicmode=10">舆情</a><a href="http://club.kdnet.net/list.asp?boardid=1&topicmode=11">百姓家史</a><a href="http://club.kdnet.net/list.asp?boardid=1&topicmode=12">猫论天下</a><a href="http://club.kdnet.net/list.asp?boardid=1&topicmode=13">小白骑遇记</a><a href="http://club.kdnet.net/list.asp?boardid=1&topicmode=14">明周刊</a></div>
+					<div class="tax-rr"><span href="javascript:;" class="tax-down-more">更多&gt;&gt;</span><span href="javascript:;" class="tax-up-more">收起&gt;&gt;</span></div>
+				
+					<!--<div class="tax-r"><a href="javascript:;" onClick="showListTopic(this);openTaxbox('.tax-ex-box');">话题<b class="ta-arrow"></b></a></div>
+					<div class="tax-ex-box">
+						<a href=list.asp?boardid=1 class="tax-r1all">全部</a><a href=list.asp?boardid=1&topicmode=1>台海</a><a href=list.asp?boardid=1&topicmode=2>推荐</a><a href=list.asp?boardid=1&topicmode=3>国际</a><a href=list.asp?boardid=1&topicmode=4>反腐</a><a href=list.asp?boardid=1&topicmode=5>社会</a><a href=list.asp?boardid=1&topicmode=6>热帖</a><a href=list.asp?boardid=1&topicmode=7>凯迪记事</a><a href=list.asp?boardid=1&topicmode=8>公告</a><a href=list.asp?boardid=1&topicmode=9>精读</a><a href=list.asp?boardid=1&topicmode=10>舆情</a><a href=list.asp?boardid=1&topicmode=11>百姓家史</a><a href=list.asp?boardid=1&topicmode=12>猫论天下</a><a href=list.asp?boardid=1&topicmode=13>小白骑遇记</a><a href=list.asp?boardid=1&topicmode=14>明周刊</a>
+						<span class="tax-olink">
+							<a href="list.asp?boardid=1"><< 返回全部话题</a>
+						</span>
+					</div>-->
+				</div>
+				<!-- 话题与刷新 end -->
+			</div>
+		</div>
+		<!-- 分类排序 end -->
+		<!-- Sunny Modify End -->
+
+		<!--列表-->
+		<div class="list-table">
+			<table cellspacing="0" cellpadding="0">
+			<tbody>
+			  
+			    <tr><th>状态</th>
+			    <th>主题 <span>(点<img class="openputaway-icon" title="展开、收起回帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif">即可展开回复列表)</span></th>
+			    <th>作者</th>
+			    <th>回复/点击</th>
+				<th>最后更新</th>
+			  </tr>
+			     
+					 <!--置顶列表-->
+					 <tr name="showreply_11142303_1">
+				 
+							<td class="state"><img title="总置顶帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/ztop.gif"></td>
+							<td class="subject">
+									<a name="showreply_11142303_1" href="javascript:void(0);"><img class="open-icon" title="展开回帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif"></a><span class="f14px"><a href="http://club.kdnet.net/dispbbs.asp?id=11142303&boardid=1" title="《[原创]【大家谈】彻查教师跳楼案，抚慰逝去的师魂》
+作者：纸上建筑
+发表于：2015/9/2 8:10:43
+最后发帖：道友的大作…..." target="_blank"><font color="blue">【大家谈】彻查教师跳楼案，抚慰逝去的师魂</font></a></span> <span class="c-alarm"><img class="pages-icon" title="回帖页数" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif"><a target="_blank" href="http://club.kdnet.net/dispbbs.asp?ID=11142303&boardID=1&page=5">5</a></span>
+							
+							</td><td class="author">
+								<a target="_blank" href="http://user.kdnet.net/index.asp?userid=12417931" title="纸上建筑">纸上建筑</a>
+							</td>
+							<td class="statistics clearfix">60/7015</td>
+							<td class="lastupdate">
+								2015/9/2 12:22 | <a target="_blank" href="http://user.kdnet.net/index.asp?userid=15527364">穿越激流的人</a>
+							</td>
+						 </tr>
+					 <tr name="showreply_11142000_1">
+				 
+							<td class="state"><img title="总置顶帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/ztop.gif"></td>
+							<td class="subject">
+									<a name="showreply_11142000_1" href="javascript:void(0);"><img class="open-icon" title="展开回帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif"></a><span class="f14px"><a href="http://club.kdnet.net/dispbbs.asp?id=11142000&boardid=1" title="《[原创]【大家谈】孕妇偷窃有错，但私刑何以横行霸道？》
+作者：闲言毛
+发表于：2015/9/1 23:00:52
+最后发帖：滥情伪德以…..." target="_blank"><font color="blue">【大家谈】孕妇偷窃有错，但私刑何以横行霸道？</font></a></span> <span class="c-alarm"><img class="pages-icon" title="回帖页数" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif"><a target="_blank" href="http://club.kdnet.net/dispbbs.asp?ID=11142000&boardID=1&page=3">3</a></span>
+							
+							</td><td class="author">
+								<a target="_blank" href="http://user.kdnet.net/index.asp?userid=15448779" title="闲言毛">闲言毛</a>
+							</td>
+							<td class="statistics clearfix">44/13951</td>
+							<td class="lastupdate">
+								2015/9/2 11:59 | <a target="_blank" href="http://user.kdnet.net/index.asp?userid=1149566">静虚散人</a>
+							</td>
+						 </tr>
+					 <tr name="showreply_11125325_1">
+				 
+							<td class="state"><img title="总置顶帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/ztop.gif"></td>
+							<td class="subject">
+									<a name="showreply_11125325_1" href="javascript:void(0);"><img class="open-icon" title="展开回帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif"></a><span class="f14px"><a href="http://club.kdnet.net/dispbbs.asp?id=11125325&boardid=1" title="《[原创]【穿个马甲】199元就可以“壕”一把》
+作者：凯迪商城
+发表于：2015/8/25 17:02:27
+最后发帖：&lt;span class=" quote-c....."="" target="_blank">【穿个马甲】199元就可以“壕”一把</a></span> <span class="c-alarm"><img class="pages-icon" title="回帖页数" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif"><a target="_blank" href="http://club.kdnet.net/dispbbs.asp?ID=11125325&boardID=1&page=6">6</a></span>
+							
+							</td><td class="author">
+								<a target="_blank" href="http://user.kdnet.net/index.asp?userid=14702747" title="凯迪商城">凯迪商城</a>
+							</td>
+							<td class="statistics clearfix">80/174047</td>
+							<td class="lastupdate">
+								2015/9/2 12:00 | <a target="_blank" href="http://user.kdnet.net/index.asp?userid=7680902">hanrui2</a>
+							</td>
+						 </tr>
+					 
+					 <!--置顶列表 End-->
+				 
+		    	 
+
+				<!--收费会员列表 只有首页才展示-->
+		    	<tr name="showreply_11142973_1">
+							<td class="state"><img title="会员专区" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/member_top.gif"></td>
+							<td class="subject">
+								<a name="showreply_11142973_1" href="javascript:void(0);"><img class="open-icon" title="展开回帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif"></a><span class="f14px"><a href="http://club.kdnet.net/dispbbs.asp?id=11142973&boardid=1" title="《[转帖]曝光王林的受审照没啥大不了》
+作者：高手知道
+发表于：2015/9/2 11:44:13
+最后发帖：证明太太上…..." target="_blank">曝光王林的受审照没啥大不了</a></span>
+							</td>
+							<td class="author">
+								<a target="_blank" href="http://user.kdnet.net/index.asp?userid=5694331" title="高手知道">高手知道</a>
+							</td>
+							<td class="statistics clearfix">2/1083</td>
+							<td class="lastupdate">
+								2015/9/2 12:05 | <a target="_blank" href="http://user.kdnet.net/index.asp?userid=7630815">吴郡布衣</a>
+							</td>
+						</tr>
+				
+				<!--收费会员列表 End-->
+
+				<!--列表-->
+		    	<tr name="showreply_11129844_1">
+				
+								<td class="state"><img title="普通帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/folder.gif"></td>
+								<td class="subject">
+										<a name="showreply_11129844_1" href="javascript:void(0);"><img class="open-icon" title="展开回帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif"></a><span class="f14px"><a href="http://club.kdnet.net/dispbbs.asp?id=11129844&boardid=1" title="《[原创]我来谈一谈加拿大》
+作者：左手加右手
+发表于：2015/8/27 14:42:39
+最后发帖：哈哈，楼主…..." target="_blank">我来谈一谈加拿大</a></span> <span class="c-alarm"><img class="pages-icon" title="回帖页数" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif"><a target="_blank" href="http://club.kdnet.net/dispbbs.asp?ID=11129844&boardID=1&page=7">7</a></span>
+								</td>
+								<td class="author">
+									<a target="_blank" href="http://user.kdnet.net/index.asp?userid=15509608" title="左手加右手">左手加右手</a>
+								</td>
+								<td class="statistics clearfix">102/12069</td>
+								<td class="lastupdate">
+									2015/9/2 12:22 | <a target="_blank" href="http://user.kdnet.net/index.asp?userid=1110595">656579</a>
+								</td>
+							</tr>
+							<tr name="showreply_2617735_1">
+				
+								<td class="state"><img title="普通帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/folder.gif"></td>
+								<td class="subject">
+										<a name="showreply_2617735_1" href="javascript:void(0);"><img class="open-icon" title="展开回帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif"></a><span class="f14px"><a href="http://club.kdnet.net/dispbbs.asp?s=share&id=2617735&boardid=1" title="《[原创]每日大盘走势预判和盘中分时高低点的实时分析》
+作者：南宁王生
+发表于：2008/12/29 10:05:27
+最后发帖：他发行价高…..." target="_blank">每日大盘走势预判和盘中分时高低点的实时分析</a></span> <span class="c-alarm"><img class="pages-icon" title="回帖页数" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif"><a target="_blank" href="http://club.kdnet.net/dispbbs.asp?ID=2617735&boardID=1&page=13754">13754</a></span>
+								</td>
+								<td class="author">
+									<a target="_blank" href="http://user.kdnet.net/index.asp?userid=5304113" title="南宁王生">南宁王生</a>
+								</td>
+								<td class="statistics clearfix">206306/33842403</td>
+								<td class="lastupdate">
+									2015/9/2 12:22 | <a target="_blank" href="http://user.kdnet.net/index.asp?userid=15580581">装睡着</a>
+								</td>
+							</tr>
+							<tr name="showreply_11142270_1">
+				
+								<td class="state"><img title="普通帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/folder.gif"></td>
+								<td class="subject">
+										<a name="showreply_11142270_1" href="javascript:void(0);"><img class="open-icon" title="展开回帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif"></a><span class="f14px"><a href="http://club.kdnet.net/dispbbs.asp?id=11142270&boardid=1" title="《[转帖]【普京】：中俄将联合投资逾万亿卢布建设莫喀高铁》
+作者：上海发展扎根
+发表于：2015/9/2 7:53:37
+最后发帖：2020年？？哈哈......" target="_blank">【普京】：中俄将联合投资逾万亿卢布建设莫喀高铁</a></span>
+								</td>
+								<td class="author">
+									<a target="_blank" href="http://user.kdnet.net/index.asp?userid=5464936" title="上海发展扎根">上海发展扎根</a>
+								</td>
+								<td class="statistics clearfix">7/866</td>
+								<td class="lastupdate">
+									2015/9/2 12:22 | <a target="_blank" href="http://user.kdnet.net/index.asp?userid=5573992">靳如超</a>
+								</td>
+							</tr>
+							<tr name="showreply_11139648_1">
+				
+								<td class="state"><img title="普通帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/folder.gif"></td>
+								<td class="subject">
+										<a name="showreply_11139648_1" href="javascript:void(0);"><img class="open-icon" title="展开回帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif"></a><span class="f14px"><a href="http://club.kdnet.net/dispbbs.asp?id=11139648&boardid=1" title="《[转帖]突发:山东东营一化工区爆炸 火光冲天(图)》
+作者：郑智银
+发表于：2015/9/1 2:10:28
+最后发帖：&#160;&amp;nbs…..." target="_blank">突发:山东东营一化工区爆炸 火光冲天(图)</a></span> <span class="c-alarm"><img class="pages-icon" title="回帖页数" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif"><a target="_blank" href="http://club.kdnet.net/dispbbs.asp?ID=11139648&boardID=1&page=27">27</a></span>
+								</td>
+								<td class="author">
+									<a target="_blank" href="http://user.kdnet.net/index.asp?userid=8466570" title="郑智银">郑智银</a>
+								</td>
+								<td class="statistics clearfix">394/77337</td>
+								<td class="lastupdate">
+									2015/9/2 12:22 | <a target="_blank" href="http://user.kdnet.net/index.asp?userid=15615931">罗永忠之印</a>
+								</td>
+							</tr>
+							<tr name="showreply_11142363_1">
+				
+								<td class="state"><img title="普通帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/folder.gif"></td>
+								<td class="subject">
+										<a name="showreply_11142363_1" href="javascript:void(0);"><img class="open-icon" title="展开回帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif"></a><span class="f14px"><a href="http://club.kdnet.net/dispbbs.asp?id=11142363&boardid=1" title="《[灌水]人权高于主权，西方欧洲应该接受难民！》
+作者：宠辱不惊11
+发表于：2015/9/2 8:46:33
+最后发帖：有错啊,是本…..." target="_blank">人权高于主权，西方欧洲应该接受难民！</a></span> <span class="c-alarm"><img class="pages-icon" title="回帖页数" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif"><a target="_blank" href="http://club.kdnet.net/dispbbs.asp?ID=11142363&boardID=1&page=13">13</a></span>
+								</td>
+								<td class="author">
+									<a target="_blank" href="http://user.kdnet.net/index.asp?userid=11798147" title="宠辱不惊11">宠辱不惊11</a>
+								</td>
+								<td class="statistics clearfix">185/5127</td>
+								<td class="lastupdate">
+									2015/9/2 12:22 | <a target="_blank" href="http://user.kdnet.net/index.asp?userid=1582013">悠悠看客</a>
+								</td>
+							</tr>
+							<tr name="showreply_11143013_1">
+				
+								<td class="state"><img title="普通帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/folder.gif"></td>
+								<td class="subject">
+										<a name="showreply_11143013_1" href="javascript:void(0);"><img class="open-icon" title="展开回帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif"></a><span class="f14px"><a href="http://club.kdnet.net/dispbbs.asp?id=11143013&boardid=1" title="《[转帖]血脉偾张：男女车上发生性关系时的意外[组图]》
+作者：常青3
+发表于：2015/9/2 11:57:29
+最后发帖：偷情刺激性…..." target="_blank">血脉偾张：男女车上发生性关系时的意外[组图]</a></span>
+								</td>
+								<td class="author">
+									<a target="_blank" href="http://user.kdnet.net/index.asp?userid=14746643" title="常青3">常青3</a>
+								</td>
+								<td class="statistics clearfix">8/2109</td>
+								<td class="lastupdate">
+									2015/9/2 12:22 | <a target="_blank" href="http://user.kdnet.net/index.asp?userid=15429663">高兴_rp</a>
+								</td>
+							</tr>
+							<tr name="showreply_11117784_1">
+				
+								<td class="state"><img title="普通帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/folder.gif"></td>
+								<td class="subject">
+										<a name="showreply_11117784_1" href="javascript:void(0);"><img class="open-icon" title="展开回帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif"></a><span class="f14px"><a href="http://club.kdnet.net/dispbbs.asp?id=11117784&boardid=1" title="《[原创]上海一企业数亿元利益被违法侵占 小股东告状无门》
+作者：qqqhhhfff
+发表于：2015/8/21 21:27:50
+最后发帖：&#160;&amp;nbs…..." target="_blank">上海一企业数亿元利益被违法侵占 小股东告状无门</a></span> <span class="c-alarm"><img class="pages-icon" title="回帖页数" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif"><a target="_blank" href="http://club.kdnet.net/dispbbs.asp?ID=11117784&boardID=1&page=62">62</a></span>
+								</td>
+								<td class="author">
+									<a target="_blank" href="http://user.kdnet.net/index.asp?userid=15466930" title="qqqhhhfff">qqqhhhfff</a>
+								</td>
+								<td class="statistics clearfix">920/96697</td>
+								<td class="lastupdate">
+									2015/9/2 12:22 | <a target="_blank" href="http://user.kdnet.net/index.asp?userid=14510525">任务速度</a>
+								</td>
+							</tr>
+							<tr name="showreply_11140575_1">
+				
+								<td class="state"><img title="普通帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/folder.gif"></td>
+								<td class="subject">
+										<a name="showreply_11140575_1" href="javascript:void(0);"><img class="open-icon" title="展开回帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif"></a><span class="f14px"><a href="http://club.kdnet.net/dispbbs.asp?id=11140575&boardid=1" title="《[原创]滚蛋吧，肿瘤君！三位肿瘤院士的10条防癌建议！》
+作者：xjrjyglbgs
+发表于：2015/9/1 13:25:05
+最后发帖：&#160;&amp;nbs…..." target="_blank">滚蛋吧，肿瘤君！三位肿瘤院士的10条防癌建议！</a></span> <span class="c-alarm"><img class="pages-icon" title="回帖页数" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif"><a target="_blank" href="http://club.kdnet.net/dispbbs.asp?ID=11140575&boardID=1&page=8">8</a></span>
+								</td>
+								<td class="author">
+									<a target="_blank" href="http://user.kdnet.net/index.asp?userid=14964223" title="xjrjyglbgs">xjrjyglbgs</a>
+								</td>
+								<td class="statistics clearfix">110/9230</td>
+								<td class="lastupdate">
+									2015/9/2 12:22 | <a target="_blank" href="http://user.kdnet.net/index.asp?userid=14964223">xjrjyglbgs</a>
+								</td>
+							</tr>
+							<tr name="showreply_8531392_33">
+				
+								<td class="state"><img title="普通帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/folder.gif"></td>
+								<td class="subject">
+										<a name="showreply_8531392_33" href="javascript:void(0);"><img class="open-icon" title="展开回帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif"></a><span class="f14px"><a href="http://club.kdnet.net/dispbbs.asp?s=share&id=8531392&boardid=33" title="《[转贴]超有爱摄影：童年深处 对你不离不弃的阿猫阿狗》
+作者：大卫2004394
+发表于：2012/8/8 15:10:47
+最后发帖：&#160;&amp;nbs…..." target="_blank">超有爱摄影：童年深处 对你不离不弃的阿猫阿狗</a></span> <span class="c-alarm"><img class="pages-icon" title="回帖页数" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif"><a target="_blank" href="http://club.kdnet.net/dispbbs.asp?ID=8531392&boardID=33&page=102">102</a></span>
+								</td>
+								<td class="author">
+									<a target="_blank" href="http://user.kdnet.net/index.asp?userid=81536" title="大卫2004394">大卫2004394</a>
+								</td>
+								<td class="statistics clearfix">1522/720044</td>
+								<td class="lastupdate">
+									2015/9/2 12:22 | <a target="_blank" href="http://user.kdnet.net/index.asp?userid=69450">风中叶子</a>
+								</td>
+							</tr>
+							<tr name="showreply_11139332_1">
+				
+								<td class="state"><img title="普通帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/folder.gif"></td>
+								<td class="subject">
+										<a name="showreply_11139332_1" href="javascript:void(0);"><img class="open-icon" title="展开回帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif"></a><span class="f14px"><a href="http://club.kdnet.net/dispbbs.asp?id=11139332&boardid=1" title="《[灌水]馬英九頒褒揚令給張純如》
+作者：爱的罗森桥30
+发表于：2015/8/31 21:03:10
+最后发帖：你承认你是…..." target="_blank">馬英九頒褒揚令給張純如</a></span> <span class="c-alarm"><img class="pages-icon" title="回帖页数" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif"><a target="_blank" href="http://club.kdnet.net/dispbbs.asp?ID=11139332&boardID=1&page=11">11</a></span>
+								</td>
+								<td class="author">
+									<a target="_blank" href="http://user.kdnet.net/index.asp?userid=14694905" title="爱的罗森桥30">爱的罗森桥30</a>
+								</td>
+								<td class="statistics clearfix">162/15712</td>
+								<td class="lastupdate">
+									2015/9/2 12:22 | <a target="_blank" href="http://user.kdnet.net/index.asp?userid=14650757">拔剑长空</a>
+								</td>
+							</tr>
+							<tr name="showreply_11143075_1">
+				
+								<td class="state"><img title="普通帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/folder.gif"></td>
+								<td class="subject">
+										<img class="putaway-icon" title="无回帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif"><span class="f14px"><a href="http://club.kdnet.net/dispbbs.asp?id=11143075&boardid=1" title="《[灌水]情侣“车震”震垮汽车 连人带车坠湖(图)》
+作者：孟婆给碗汤
+发表于：2015/9/2 12:21:08
+最后发帖：[灌水]情侣“车震”震垮汽车 连人带车坠....." target="_blank">情侣“车震”震垮汽车 连人带车坠湖(图)</a><img class="img-icon" title="此帖有图片" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif"></span>
+								</td>
+								<td class="author">
+									<a target="_blank" href="http://user.kdnet.net/index.asp?userid=5921040" title="孟婆给碗汤">孟婆给碗汤</a>
+								</td>
+								<td class="statistics clearfix">0/26</td>
+								<td class="lastupdate">
+									2015/9/2 12:21 | <a target="_blank" href="http://user.kdnet.net/index.asp?userid=5921040">孟婆给碗汤</a>
+								</td>
+							</tr>
+							<tr name="showreply_11142324_1">
+				
+								<td class="state"><img title="普通帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/folder.gif"></td>
+								<td class="subject">
+										<a name="showreply_11142324_1" href="javascript:void(0);"><img class="open-icon" title="展开回帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif"></a><span class="f14px"><a href="http://club.kdnet.net/dispbbs.asp?id=11142324&boardid=1" title="《[转帖]谎称自己爸爸去世而获得网友捐款的女孩正式被拘捕》
+作者：猫粪的克星
+发表于：2015/9/2 8:28:51
+最后发帖：..." target="_blank">谎称自己爸爸去世而获得网友捐款的女孩正式被拘捕</a></span> <span class="c-alarm"><img class="pages-icon" title="回帖页数" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif"><a target="_blank" href="http://club.kdnet.net/dispbbs.asp?ID=11142324&boardID=1&page=2">2</a></span>
+								</td>
+								<td class="author">
+									<a target="_blank" href="http://user.kdnet.net/index.asp?userid=7524617" title="猫粪的克星">猫粪的克星</a>
+								</td>
+								<td class="statistics clearfix">19/1807</td>
+								<td class="lastupdate">
+									2015/9/2 12:22 | <a target="_blank" href="http://user.kdnet.net/index.asp?userid=5817273">至尊宝6861</a>
+								</td>
+							</tr>
+							<tr name="showreply_11091642_1">
+				
+								<td class="state"><img title="普通帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/folder.gif"></td>
+								<td class="subject">
+										<a name="showreply_11091642_1" href="javascript:void(0);"><img class="open-icon" title="展开回帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif"></a><span class="f14px"><a href="http://club.kdnet.net/dispbbs.asp?id=11091642&boardid=1" title="《[转帖]结婚给你发电子请柬附银行账户，你啥感觉》
+作者：不是高手
+发表于：2015/8/10 15:44:28
+最后发帖： ..." target="_blank">结婚给你发电子请柬附银行账户，你啥感觉</a></span> <span class="c-alarm"><img class="pages-icon" title="回帖页数" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif"><a target="_blank" href="http://club.kdnet.net/dispbbs.asp?ID=11091642&boardID=1&page=11">11</a></span>
+								</td>
+								<td class="author">
+									<a target="_blank" href="http://user.kdnet.net/index.asp?userid=15510375" title="不是高手">不是高手</a>
+								</td>
+								<td class="statistics clearfix">160/43969</td>
+								<td class="lastupdate">
+									2015/9/2 12:22 | <a target="_blank" href="http://user.kdnet.net/index.asp?userid=15617771">iiiip</a>
+								</td>
+							</tr>
+							<tr name="showreply_11140254_1">
+				
+								<td class="state"><img title="普通帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/folder.gif"></td>
+								<td class="subject">
+										<a name="showreply_11140254_1" href="javascript:void(0);"><img class="open-icon" title="展开回帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif"></a><span class="f14px"><a href="http://club.kdnet.net/dispbbs.asp?id=11140254&boardid=1" title="《[原创]只许州官tree new bee  不许百姓撸广告》
+作者：师范0910
+发表于：2015/9/1 11:16:14
+最后发帖：精辟啊..." target="_blank">只许州官tree new bee  不许百姓撸广告</a></span>
+								</td>
+								<td class="author">
+									<a target="_blank" href="http://user.kdnet.net/index.asp?userid=15595825" title="师范0910">师范0910</a>
+								</td>
+								<td class="statistics clearfix">5/710</td>
+								<td class="lastupdate">
+									2015/9/2 12:22 | <a target="_blank" href="http://user.kdnet.net/index.asp?userid=15595825">师范0910</a>
+								</td>
+							</tr>
+							<tr name="showreply_11137159_1">
+				
+								<td class="state"><img title="普通帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/folder.gif"></td>
+								<td class="subject">
+										<a name="showreply_11137159_1" href="javascript:void(0);"><img class="open-icon" title="展开回帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif"></a><span class="f14px"><a href="http://club.kdnet.net/dispbbs.asp?id=11137159&boardid=1" title="《我做过的怪梦之十二：会说话的母猫》
+作者：胖虫
+发表于：2015/8/30 23:32:44
+最后发帖：..." target="_blank">我做过的怪梦之十二：会说话的母猫</a></span>
+								</td>
+								<td class="author">
+									<a target="_blank" href="http://user.kdnet.net/index.asp?userid=2318" title="胖虫">胖虫</a>
+								</td>
+								<td class="statistics clearfix">2/662</td>
+								<td class="lastupdate">
+									2015/9/2 12:22 | <a target="_blank" href="http://user.kdnet.net/index.asp?userid=2318">胖虫</a>
+								</td>
+							</tr>
+							<tr name="showreply_11141649_1">
+				
+								<td class="state"><img title="普通帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/folder.gif"></td>
+								<td class="subject">
+										<a name="showreply_11141649_1" href="javascript:void(0);"><img class="open-icon" title="展开回帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif"></a><span class="f14px"><a href="http://club.kdnet.net/dispbbs.asp?id=11141649&boardid=1" title="《[转帖]叶檀 中国救市时的最大做空者让人惊出冷汗》
+作者：邑人行01
+发表于：2015/9/1 19:34:43
+最后发帖：我问你，他…..." target="_blank">叶檀 中国救市时的最大做空者让人惊出冷汗</a></span> <span class="c-alarm"><img class="pages-icon" title="回帖页数" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif"><a target="_blank" href="http://club.kdnet.net/dispbbs.asp?ID=11141649&boardID=1&page=5">5</a></span>
+								</td>
+								<td class="author">
+									<a target="_blank" href="http://user.kdnet.net/index.asp?userid=14713636" title="邑人行01">邑人行01</a>
+								</td>
+								<td class="statistics clearfix">63/17501</td>
+								<td class="lastupdate">
+									2015/9/2 12:22 | <a target="_blank" href="http://user.kdnet.net/index.asp?userid=15598479">西牛贺</a>
+								</td>
+							</tr>
+							<tr name="showreply_11143064_1">
+				
+								<td class="state"><img title="普通帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/folder.gif"></td>
+								<td class="subject">
+										<a name="showreply_11143064_1" href="javascript:void(0);"><img class="open-icon" title="展开回帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif"></a><span class="f14px"><a href="http://club.kdnet.net/dispbbs.asp?id=11143064&boardid=1" title="《[灌水]上海一的哥被质疑绕路 飙30多次脏话吓哭女乘客》
+作者：孟婆给碗汤
+发表于：2015/9/2 12:17:52
+最后发帖：上海扎根发…..." target="_blank">上海一的哥被质疑绕路 飙30多次脏话吓哭女乘客</a></span>
+								</td>
+								<td class="author">
+									<a target="_blank" href="http://user.kdnet.net/index.asp?userid=5921040" title="孟婆给碗汤">孟婆给碗汤</a>
+								</td>
+								<td class="statistics clearfix">1/140</td>
+								<td class="lastupdate">
+									2015/9/2 12:22 | <a target="_blank" href="http://user.kdnet.net/index.asp?userid=5464936">上海发展扎根</a>
+								</td>
+							</tr>
+							<tr name="showreply_11140616_1">
+				
+								<td class="state"><img title="普通帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/folder.gif"></td>
+								<td class="subject">
+										<a name="showreply_11140616_1" href="javascript:void(0);"><img class="open-icon" title="展开回帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif"></a><span class="f14px"><a href="http://club.kdnet.net/dispbbs.asp?id=11140616&boardid=1" title="《[转帖]未了：马英九又一次令人失望 只是可怜洪秀柱》
+作者：hskj2010
+发表于：2015/9/1 13:40:38
+最后发帖：抗战是国民…..." target="_blank">未了：马英九又一次令人失望 只是可怜洪秀柱</a></span> <span class="c-alarm"><img class="pages-icon" title="回帖页数" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif"><a target="_blank" href="http://club.kdnet.net/dispbbs.asp?ID=11140616&boardID=1&page=8">8</a></span>
+								</td>
+								<td class="author">
+									<a target="_blank" href="http://user.kdnet.net/index.asp?userid=5918576" title="hskj2010">hskj2010</a>
+								</td>
+								<td class="statistics clearfix">112/12260</td>
+								<td class="lastupdate">
+									2015/9/2 12:22 | <a target="_blank" href="http://user.kdnet.net/index.asp?userid=12161771">卡车司机121</a>
+								</td>
+							</tr>
+							<tr name="showreply_11138162_1">
+				
+								<td class="state"><img title="普通帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/folder.gif"></td>
+								<td class="subject">
+										<a name="showreply_11138162_1" href="javascript:void(0);"><img class="open-icon" title="展开回帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif"></a><span class="f14px"><a href="http://club.kdnet.net/dispbbs.asp?id=11138162&boardid=1" title="《[原创]范海辛：与爱国贼谈心（之一）》
+作者：范海辛
+发表于：2015/8/31 12:42:23
+最后发帖：是的，这种…..." target="_blank">范海辛：与爱国贼谈心（之一）</a></span> <span class="c-alarm"><img class="pages-icon" title="回帖页数" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif"><a target="_blank" href="http://club.kdnet.net/dispbbs.asp?ID=11138162&boardID=1&page=28">28</a></span>
+								</td>
+								<td class="author">
+									<a target="_blank" href="http://user.kdnet.net/index.asp?userid=212498" title="范海辛">范海辛</a>
+								</td>
+								<td class="statistics clearfix">406/23372</td>
+								<td class="lastupdate">
+									2015/9/2 12:22 | <a target="_blank" href="http://user.kdnet.net/index.asp?userid=8821720">hujjf</a>
+								</td>
+							</tr>
+							<tr name="showreply_8769066_1">
+				
+								<td class="state"><img title="普通帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/folder.gif"></td>
+								<td class="subject">
+										<a name="showreply_8769066_1" href="javascript:void(0);"><img class="open-icon" title="展开回帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif"></a><span class="f14px"><a href="http://club.kdnet.net/dispbbs.asp?id=8769066&boardid=1" title="《[转帖] 广西文革野蛮到什么程度？》
+作者：p步截尾
+发表于：2012/11/13 11:19:41
+最后发帖：..." target="_blank"> 广西文革野蛮到什么程度？</a></span> <span class="c-alarm"><img class="pages-icon" title="回帖页数" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif"><a target="_blank" href="http://club.kdnet.net/dispbbs.asp?ID=8769066&boardID=1&page=3">3</a></span>
+								</td>
+								<td class="author">
+									<a target="_blank" href="http://user.kdnet.net/index.asp?userid=9384036" title="p步截尾">p步截尾</a>
+								</td>
+								<td class="statistics clearfix">36/9594</td>
+								<td class="lastupdate">
+									2015/9/2 12:22 | <a target="_blank" href="http://user.kdnet.net/index.asp?userid=5491346">yqkg</a>
+								</td>
+							</tr>
+							<tr name="showreply_11136028_1">
+				
+								<td class="state"><img title="普通帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/folder.gif"></td>
+								<td class="subject">
+										<a name="showreply_11136028_1" href="javascript:void(0);"><img class="open-icon" title="展开回帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif"></a><span class="f14px"><a href="http://club.kdnet.net/dispbbs.asp?id=11136028&boardid=1" title="《[原创]正确示范如何下饺子，日本第四艘准航母DDH184下水》
+作者：weychiao
+发表于：2015/8/30 11:11:29
+最后发帖：也就是说，…..." target="_blank">正确示范如何下饺子，日本第四艘准航母DDH184下水</a></span> <span class="c-alarm"><img class="pages-icon" title="回帖页数" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif"><a target="_blank" href="http://club.kdnet.net/dispbbs.asp?ID=11136028&boardID=1&page=33">33</a></span>
+								</td>
+								<td class="author">
+									<a target="_blank" href="http://user.kdnet.net/index.asp?userid=11853511" title="weychiao">weychiao</a>
+								</td>
+								<td class="statistics clearfix">493/54473</td>
+								<td class="lastupdate">
+									2015/9/2 12:22 | <a target="_blank" href="http://user.kdnet.net/index.asp?userid=11832504">点艾烤虎</a>
+								</td>
+							</tr>
+							<tr name="showreply_11142766_1">
+				
+								<td class="state"><img title="普通帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/folder.gif"></td>
+								<td class="subject">
+										<a name="showreply_11142766_1" href="javascript:void(0);"><img class="open-icon" title="展开回帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif"></a><span class="f14px"><a href="http://club.kdnet.net/dispbbs.asp?id=11142766&boardid=1" title="《[原创]我是个神人。两年前的帖子，现在居然应验了...》
+作者：1dlts1
+发表于：2015/9/2 10:47:24
+最后发帖：大力搞三公…..." target="_blank">我是个神人。两年前的帖子，现在居然应验了...</a></span> <span class="c-alarm"><img class="pages-icon" title="回帖页数" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif"><a target="_blank" href="http://club.kdnet.net/dispbbs.asp?ID=11142766&boardID=1&page=3">3</a></span>
+								</td>
+								<td class="author">
+									<a target="_blank" href="http://user.kdnet.net/index.asp?userid=12992987" title="1dlts1">1dlts1</a>
+								</td>
+								<td class="statistics clearfix">44/2962</td>
+								<td class="lastupdate">
+									2015/9/2 12:22 | <a target="_blank" href="http://user.kdnet.net/index.asp?userid=7569236">ack</a>
+								</td>
+							</tr>
+							<tr name="showreply_11140149_1">
+				
+								<td class="state"><img title="普通帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/folder.gif"></td>
+								<td class="subject">
+										<a name="showreply_11140149_1" href="javascript:void(0);"><img class="open-icon" title="展开回帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif"></a><span class="f14px"><a href="http://club.kdnet.net/dispbbs.asp?id=11140149&boardid=1" title="《[转帖]记者暗访洗头房内赤裸性交易 [组图]》
+作者：常青3
+发表于：2015/9/1 10:36:42
+最后发帖：强者向更强…..." target="_blank">记者暗访洗头房内赤裸性交易 [组图]</a></span> <span class="c-alarm"><img class="pages-icon" title="回帖页数" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif"><a target="_blank" href="http://club.kdnet.net/dispbbs.asp?ID=11140149&boardID=1&page=6">6</a></span>
+								</td>
+								<td class="author">
+									<a target="_blank" href="http://user.kdnet.net/index.asp?userid=14746643" title="常青3">常青3</a>
+								</td>
+								<td class="statistics clearfix">88/36006</td>
+								<td class="lastupdate">
+									2015/9/2 12:21 | <a target="_blank" href="http://user.kdnet.net/index.asp?userid=14307848">lbdshr8888</a>
+								</td>
+							</tr>
+							<tr name="showreply_11139902_1">
+				
+								<td class="state"><img title="普通帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/folder.gif"></td>
+								<td class="subject">
+										<a name="showreply_11139902_1" href="javascript:void(0);"><img class="open-icon" title="展开回帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif"></a><span class="f14px"><a href="http://club.kdnet.net/dispbbs.asp?id=11139902&boardid=1" title="《[原创]安倍乘坐731灰机大喊赞》
+作者：zh凡夫
+发表于：2015/9/1 9:07:34
+最后发帖：&#160;&amp;nbs…..." target="_blank">安倍乘坐731灰机大喊赞</a></span> <span class="c-alarm"><img class="pages-icon" title="回帖页数" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif"><a target="_blank" href="http://club.kdnet.net/dispbbs.asp?ID=11139902&boardID=1&page=13">13</a></span>
+								</td>
+								<td class="author">
+									<a target="_blank" href="http://user.kdnet.net/index.asp?userid=9935981" title="zh凡夫">zh凡夫</a>
+								</td>
+								<td class="statistics clearfix">192/18658</td>
+								<td class="lastupdate">
+									2015/9/2 12:21 | <a target="_blank" href="http://user.kdnet.net/index.asp?userid=11807780">报信人</a>
+								</td>
+							</tr>
+							<tr name="showreply_11137499_1">
+				
+								<td class="state"><img title="普通帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/folder.gif"></td>
+								<td class="subject">
+										<a name="showreply_11137499_1" href="javascript:void(0);"><img class="open-icon" title="展开回帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif"></a><span class="f14px"><a href="http://club.kdnet.net/dispbbs.asp?id=11137499&boardid=1" title="《[转帖]亦明：【王彬彬学案】日本語学士と中国文学》
+作者：体卫艺子
+发表于：2015/8/31 8:41:53
+最后发帖：..." target="_blank">亦明：【王彬彬学案】日本語学士と中国文学</a></span> <span class="c-alarm"><img class="pages-icon" title="回帖页数" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif"><a target="_blank" href="http://club.kdnet.net/dispbbs.asp?ID=11137499&boardID=1&page=7">7</a></span>
+								</td>
+								<td class="author">
+									<a target="_blank" href="http://user.kdnet.net/index.asp?userid=7692150" title="体卫艺子">体卫艺子</a>
+								</td>
+								<td class="statistics clearfix">95/7622</td>
+								<td class="lastupdate">
+									2015/9/2 12:21 | <a target="_blank" href="http://user.kdnet.net/index.asp?userid=5452037">西瓜蛋</a>
+								</td>
+							</tr>
+							<tr name="showreply_11037398_1">
+				
+								<td class="state"><img title="普通帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/folder.gif"></td>
+								<td class="subject">
+										<a name="showreply_11037398_1" href="javascript:void(0);"><img class="open-icon" title="展开回帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif"></a><span class="f14px"><a href="http://club.kdnet.net/dispbbs.asp?id=11037398&boardid=1" title="《[原创]知青运动的“美丽人生”》
+作者：神人无功
+发表于：2015/7/17 11:32:09
+最后发帖：知青运动是…..." target="_blank">知青运动的“美丽人生”</a></span> <span class="c-alarm"><img class="pages-icon" title="回帖页数" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif"><a target="_blank" href="http://club.kdnet.net/dispbbs.asp?ID=11037398&boardID=1&page=7">7</a></span>
+								</td>
+								<td class="author">
+									<a target="_blank" href="http://user.kdnet.net/index.asp?userid=5483309" title="神人无功">神人无功</a>
+								</td>
+								<td class="statistics clearfix">90/12043</td>
+								<td class="lastupdate">
+									2015/9/2 12:21 | <a target="_blank" href="http://user.kdnet.net/index.asp?userid=15617293">lh19531213</a>
+								</td>
+							</tr>
+							<tr name="showreply_11142159_1">
+				
+								<td class="state"><img title="普通帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/folder.gif"></td>
+								<td class="subject">
+										<a name="showreply_11142159_1" href="javascript:void(0);"><img class="open-icon" title="展开回帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif"></a><span class="f14px"><a href="http://club.kdnet.net/dispbbs.asp?id=11142159&boardid=1" title="《[转帖]凤凰网发布内部邮件，宣布裁员及转型》
+作者：联盟1号
+发表于：2015/9/2 5:19:30
+最后发帖：凤凰网是5毛…..." target="_blank">凤凰网发布内部邮件，宣布裁员及转型</a></span> <span class="c-alarm"><img class="pages-icon" title="回帖页数" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif"><a target="_blank" href="http://club.kdnet.net/dispbbs.asp?ID=11142159&boardID=1&page=2">2</a></span>
+								</td>
+								<td class="author">
+									<a target="_blank" href="http://user.kdnet.net/index.asp?userid=15612745" title="联盟1号">联盟1号</a>
+								</td>
+								<td class="statistics clearfix">26/3913</td>
+								<td class="lastupdate">
+									2015/9/2 12:21 | <a target="_blank" href="http://user.kdnet.net/index.asp?userid=15508949">我在不停地走</a>
+								</td>
+							</tr>
+							<tr name="showreply_11142466_1">
+				
+								<td class="state"><img title="普通帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/folder.gif"></td>
+								<td class="subject">
+										<a name="showreply_11142466_1" href="javascript:void(0);"><img class="open-icon" title="展开回帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif"></a><span class="f14px"><a href="http://club.kdnet.net/dispbbs.asp?id=11142466&boardid=1" title="《[转帖]中国不会代替美国主宰世界》
+作者：ovo
+发表于：2015/9/2 9:21:34
+最后发帖：剪羊毛好不…..." target="_blank">中国不会代替美国主宰世界</a></span> <span class="c-alarm"><img class="pages-icon" title="回帖页数" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif"><a target="_blank" href="http://club.kdnet.net/dispbbs.asp?ID=11142466&boardID=1&page=2">2</a></span>
+								</td>
+								<td class="author">
+									<a target="_blank" href="http://user.kdnet.net/index.asp?userid=32" title="ovo">ovo</a>
+								</td>
+								<td class="statistics clearfix">27/1403</td>
+								<td class="lastupdate">
+									2015/9/2 12:21 | <a target="_blank" href="http://user.kdnet.net/index.asp?userid=5658675">scc4239</a>
+								</td>
+							</tr>
+							<tr name="showreply_11140223_1">
+				
+								<td class="state"><img title="普通帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/folder.gif"></td>
+								<td class="subject">
+										<a name="showreply_11140223_1" href="javascript:void(0);"><img class="open-icon" title="展开回帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif"></a><span class="f14px"><a href="http://club.kdnet.net/dispbbs.asp?id=11140223&boardid=1" title="《[转帖]女子提醒插队男子排队取餐 遭其泼滚烫面条(图)》
+作者：呆怼怼
+发表于：2015/9/1 11:06:21
+最后发帖：那插队的人…..." target="_blank">女子提醒插队男子排队取餐 遭其泼滚烫面条(图)</a></span> <span class="c-alarm"><img class="pages-icon" title="回帖页数" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif"><a target="_blank" href="http://club.kdnet.net/dispbbs.asp?ID=11140223&boardID=1&page=15">15</a></span>
+								</td>
+								<td class="author">
+									<a target="_blank" href="http://user.kdnet.net/index.asp?userid=15568230" title="呆怼怼">呆怼怼</a>
+								</td>
+								<td class="statistics clearfix">217/27224</td>
+								<td class="lastupdate">
+									2015/9/2 12:21 | <a target="_blank" href="http://user.kdnet.net/index.asp?userid=10884436">publice</a>
+								</td>
+							</tr>
+							<tr name="showreply_11132102_1">
+				
+								<td class="state"><img title="普通帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/folder.gif"></td>
+								<td class="subject">
+										<a name="showreply_11132102_1" href="javascript:void(0);"><img class="open-icon" title="展开回帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif"></a><span class="f14px"><a href="http://club.kdnet.net/dispbbs.asp?id=11132102&boardid=1" title="《[原创]我们为什么要“取悦”弱者？》
+作者：师范0910
+发表于：2015/8/28 11:43:43
+最后发帖：回复真不错…..." target="_blank">我们为什么要“取悦”弱者？</a></span>
+								</td>
+								<td class="author">
+									<a target="_blank" href="http://user.kdnet.net/index.asp?userid=15595825" title="师范0910">师范0910</a>
+								</td>
+								<td class="statistics clearfix">11/940</td>
+								<td class="lastupdate">
+									2015/9/2 12:21 | <a target="_blank" href="http://user.kdnet.net/index.asp?userid=15595825">师范0910</a>
+								</td>
+							</tr>
+							<tr name="showreply_11142953_1">
+				
+								<td class="state"><img title="普通帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/folder.gif"></td>
+								<td class="subject">
+										<a name="showreply_11142953_1" href="javascript:void(0);"><img class="open-icon" title="展开回帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif"></a><span class="f14px"><a href="http://club.kdnet.net/dispbbs.asp?id=11142953&boardid=1" title="《[灌水]凡有利穷人的都不接轨？凡让穷人倒霉的猛接轨？！》
+作者：孟婆给碗汤
+发表于：2015/9/2 11:36:46
+最后发帖：基本总结正…..." target="_blank">凡有利穷人的都不接轨？凡让穷人倒霉的猛接轨？！</a></span> <span class="c-alarm"><img class="pages-icon" title="回帖页数" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif"><a target="_blank" href="http://club.kdnet.net/dispbbs.asp?ID=11142953&boardID=1&page=2">2</a></span>
+								</td>
+								<td class="author">
+									<a target="_blank" href="http://user.kdnet.net/index.asp?userid=5921040" title="孟婆给碗汤">孟婆给碗汤</a>
+								</td>
+								<td class="statistics clearfix">29/1524</td>
+								<td class="lastupdate">
+									2015/9/2 12:21 | <a target="_blank" href="http://user.kdnet.net/index.asp?userid=14482624">cimmy</a>
+								</td>
+							</tr>
+							<tr name="showreply_11142291_1">
+				
+								<td class="state"><img title="普通帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/folder.gif"></td>
+								<td class="subject">
+										<a name="showreply_11142291_1" href="javascript:void(0);"><img class="open-icon" title="展开回帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif"></a><span class="f14px"><a href="http://club.kdnet.net/dispbbs.asp?id=11142291&boardid=1" title="《[转帖]一名空姐的自述：为什么中国熊孩子那么多？》
+作者：knmxiaobian
+发表于：2015/9/2 8:03:51
+最后发帖：..." target="_blank">一名空姐的自述：为什么中国熊孩子那么多？</a></span> <span class="c-alarm"><img class="pages-icon" title="回帖页数" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif"><a target="_blank" href="http://club.kdnet.net/dispbbs.asp?ID=11142291&boardID=1&page=2">2</a></span>
+								</td>
+								<td class="author">
+									<a target="_blank" href="http://user.kdnet.net/index.asp?userid=15570984" title="knmxiaobian">knmxiaobian</a>
+								</td>
+								<td class="statistics clearfix">19/2109</td>
+								<td class="lastupdate">
+									2015/9/2 12:21 | <a target="_blank" href="http://user.kdnet.net/index.asp?userid=1149566">静虚散人</a>
+								</td>
+							</tr>
+							<tr name="showreply_11142007_1">
+				
+								<td class="state"><img title="普通帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/folder.gif"></td>
+								<td class="subject">
+										<a name="showreply_11142007_1" href="javascript:void(0);"><img class="open-icon" title="展开回帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif"></a><span class="f14px"><a href="http://club.kdnet.net/dispbbs.asp?id=11142007&boardid=1" title="《[原创]金九银十再战楼市，经济保卫战升级?》
+作者：贾也
+发表于：2015/9/1 23:10:03
+最后发帖：&#160;&amp;nbs…..." target="_blank">金九银十再战楼市，经济保卫战升级?</a></span> <span class="c-alarm"><img class="pages-icon" title="回帖页数" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif"><a target="_blank" href="http://club.kdnet.net/dispbbs.asp?ID=11142007&boardID=1&page=2">2</a></span>
+								</td>
+								<td class="author">
+									<a target="_blank" href="http://user.kdnet.net/index.asp?userid=9907827" title="贾也">贾也</a>
+								</td>
+								<td class="statistics clearfix">16/5485</td>
+								<td class="lastupdate">
+									2015/9/2 12:21 | <a target="_blank" href="http://user.kdnet.net/index.asp?userid=6014369">司法极度腐败</a>
+								</td>
+							</tr>
+							<tr name="showreply_11143012_1">
+				
+								<td class="state"><img title="普通帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/folder.gif"></td>
+								<td class="subject">
+										<a name="showreply_11143012_1" href="javascript:void(0);"><img class="open-icon" title="展开回帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif"></a><span class="f14px"><a href="http://club.kdnet.net/dispbbs.asp?id=11143012&boardid=1" title="《[原创]信仰上帝，与思想品德教育》
+作者：打渔杀鸡
+发表于：2015/9/2 11:57:28
+最后发帖：东西方的思…..." target="_blank">信仰上帝，与思想品德教育</a></span>
+								</td>
+								<td class="author">
+									<a target="_blank" href="http://user.kdnet.net/index.asp?userid=7571221" title="打渔杀鸡">打渔杀鸡</a>
+								</td>
+								<td class="statistics clearfix">3/283</td>
+								<td class="lastupdate">
+									2015/9/2 12:21 | <a target="_blank" href="http://user.kdnet.net/index.asp?userid=7571221">打渔杀鸡</a>
+								</td>
+							</tr>
+							<tr name="showreply_11142995_1">
+				
+								<td class="state"><img title="普通帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/folder.gif"></td>
+								<td class="subject">
+										<a name="showreply_11142995_1" href="javascript:void(0);"><img class="open-icon" title="展开回帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif"></a><span class="f14px"><a href="http://club.kdnet.net/dispbbs.asp?id=11142995&boardid=1" title="《[转帖]外媒大肆报道东京奥运会徽停用 称其为重大丑闻》
+作者：汪元
+发表于：2015/9/2 11:52:20
+最后发帖：东京奥运会…..." target="_blank">外媒大肆报道东京奥运会徽停用 称其为重大丑闻</a></span>
+								</td>
+								<td class="author">
+									<a target="_blank" href="http://user.kdnet.net/index.asp?userid=2089557" title="汪元">汪元</a>
+								</td>
+								<td class="statistics clearfix">8/576</td>
+								<td class="lastupdate">
+									2015/9/2 12:21 | <a target="_blank" href="http://user.kdnet.net/index.asp?userid=2089557">汪元</a>
+								</td>
+							</tr>
+							<tr name="showreply_8291526_1">
+				
+								<td class="state"><img title="普通帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/folder.gif"></td>
+								<td class="subject">
+										<a name="showreply_8291526_1" href="javascript:void(0);"><img class="open-icon" title="展开回帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif"></a><span class="f14px"><a href="http://club.kdnet.net/dispbbs.asp?id=8291526&boardid=1" title="《[灌水]喝我这七星茶 听他摆龙门阵 再饮三盅》
+作者：smsxj
+发表于：2012/5/3 12:55:26
+最后发帖：&#160;&amp;nbs…..." target="_blank">喝我这七星茶 听他摆龙门阵 再饮三盅</a></span> <span class="c-alarm"><img class="pages-icon" title="回帖页数" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif"><a target="_blank" href="http://club.kdnet.net/dispbbs.asp?ID=8291526&boardID=1&page=57790">57790</a></span>
+								</td>
+								<td class="author">
+									<a target="_blank" href="http://user.kdnet.net/index.asp?userid=5771417" title="smsxj">smsxj</a>
+								</td>
+								<td class="statistics clearfix">866840/3亿+</td>
+								<td class="lastupdate">
+									2015/9/2 12:21 | <a target="_blank" href="http://user.kdnet.net/index.asp?userid=7527679">zmpoo001</a>
+								</td>
+							</tr>
+							<tr name="showreply_11134184_1">
+				
+								<td class="state"><img title="普通帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/folder.gif"></td>
+								<td class="subject">
+										<a name="showreply_11134184_1" href="javascript:void(0);"><img class="open-icon" title="展开回帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif"></a><span class="f14px"><a href="http://club.kdnet.net/dispbbs.asp?id=11134184&boardid=1" title="《[转帖]中方回应日本公布钓鱼岛资料：别弄巧成拙》
+作者：凉夏微醺
+发表于：2015/8/29 9:28:56
+最后发帖：拳头！！如…..." target="_blank">中方回应日本公布钓鱼岛资料：别弄巧成拙</a></span> <span class="c-alarm"><img class="pages-icon" title="回帖页数" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif"><a target="_blank" href="http://club.kdnet.net/dispbbs.asp?ID=11134184&boardID=1&page=33">33</a></span>
+								</td>
+								<td class="author">
+									<a target="_blank" href="http://user.kdnet.net/index.asp?userid=14499660" title="凉夏微醺">凉夏微醺</a>
+								</td>
+								<td class="statistics clearfix">487/58343</td>
+								<td class="lastupdate">
+									2015/9/2 12:21 | <a target="_blank" href="http://user.kdnet.net/index.asp?userid=5867965">喜欢测谎</a>
+								</td>
+							</tr>
+							<tr name="showreply_11140421_1">
+				
+								<td class="state"><img title="普通帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/folder.gif"></td>
+								<td class="subject">
+										<a name="showreply_11140421_1" href="javascript:void(0);"><img class="open-icon" title="展开回帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif"></a><span class="f14px"><a href="http://club.kdnet.net/dispbbs.asp?id=11140421&boardid=1" title="《[转帖]中国毁灭日本需要多长时间？答案太骇人》
+作者：桃之11mn
+发表于：2015/9/1 12:17:36
+最后发帖：..." target="_blank">中国毁灭日本需要多长时间？答案太骇人</a></span> <span class="c-alarm"><img class="pages-icon" title="回帖页数" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif"><a target="_blank" href="http://club.kdnet.net/dispbbs.asp?ID=11140421&boardID=1&page=14">14</a></span>
+								</td>
+								<td class="author">
+									<a target="_blank" href="http://user.kdnet.net/index.asp?userid=14743393" title="桃之11mn">桃之11mn</a>
+								</td>
+								<td class="statistics clearfix">204/22225</td>
+								<td class="lastupdate">
+									2015/9/2 12:21 | <a target="_blank" href="http://user.kdnet.net/index.asp?userid=15105811">一摸硬</a>
+								</td>
+							</tr>
+							<tr name="showreply_11106980_1">
+				
+								<td class="state"><img title="普通帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/folder.gif"></td>
+								<td class="subject">
+										<a name="showreply_11106980_1" href="javascript:void(0);"><img class="open-icon" title="展开回帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif"></a><span class="f14px"><a href="http://club.kdnet.net/dispbbs.asp?id=11106980&boardid=1" title="《[原创]饿死三千万是不许怀疑的》
+作者：gaogao高醒
+发表于：2015/8/17 13:11:19
+最后发帖：59年信阳已…..." target="_blank">饿死三千万是不许怀疑的</a></span> <span class="c-alarm"><img class="pages-icon" title="回帖页数" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif"><a target="_blank" href="http://club.kdnet.net/dispbbs.asp?ID=11106980&boardID=1&page=3">3</a></span>
+								</td>
+								<td class="author">
+									<a target="_blank" href="http://user.kdnet.net/index.asp?userid=15598214" title="gaogao高醒">gaogao高醒</a>
+								</td>
+								<td class="statistics clearfix">36/4418</td>
+								<td class="lastupdate">
+									2015/9/2 12:21 | <a target="_blank" href="http://user.kdnet.net/index.asp?userid=5987348">Weirchase</a>
+								</td>
+							</tr>
+							<tr name="showreply_11139132_1">
+				
+								<td class="state"><img title="普通帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/folder.gif"></td>
+								<td class="subject">
+										<a name="showreply_11139132_1" href="javascript:void(0);"><img class="open-icon" title="展开回帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif"></a><span class="f14px"><a href="http://club.kdnet.net/dispbbs.asp?id=11139132&boardid=1" title="《[原创]谒南岳衡山忠烈祠——纪念抗战胜利70周年》
+作者：公冶平
+发表于：2015/8/31 19:17:23
+最后发帖：d..." target="_blank">谒南岳衡山忠烈祠——纪念抗战胜利70周年</a></span> <span class="c-alarm"><img class="pages-icon" title="回帖页数" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif"><a target="_blank" href="http://club.kdnet.net/dispbbs.asp?ID=11139132&boardID=1&page=5">5</a></span>
+								</td>
+								<td class="author">
+									<a target="_blank" href="http://user.kdnet.net/index.asp?userid=176482" title="公冶平">公冶平</a>
+								</td>
+								<td class="statistics clearfix">65/11907</td>
+								<td class="lastupdate">
+									2015/9/2 12:21 | <a target="_blank" href="http://user.kdnet.net/index.asp?userid=5491346">yqkg</a>
+								</td>
+							</tr>
+							<tr name="showreply_11134000_1">
+				
+								<td class="state"><img title="普通帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/folder.gif"></td>
+								<td class="subject">
+										<a name="showreply_11134000_1" href="javascript:void(0);"><img class="open-icon" title="展开回帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif"></a><span class="f14px"><a href="http://club.kdnet.net/dispbbs.asp?id=11134000&boardid=1" title="《[转帖]华东最大的纺织企业破产 董事长哀鸣》
+作者：wh989898
+发表于：2015/8/29 6:48:29
+最后发帖：中国国内资金加......" target="_blank">华东最大的纺织企业破产 董事长哀鸣</a></span> <span class="c-alarm"><img class="pages-icon" title="回帖页数" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif"><a target="_blank" href="http://club.kdnet.net/dispbbs.asp?ID=11134000&boardID=1&page=13">13</a></span>
+								</td>
+								<td class="author">
+									<a target="_blank" href="http://user.kdnet.net/index.asp?userid=3416617" title="wh989898">wh989898</a>
+								</td>
+								<td class="statistics clearfix">188/36994</td>
+								<td class="lastupdate">
+									2015/9/2 12:21 | <a target="_blank" href="http://user.kdnet.net/index.asp?userid=5464936">上海发展扎根</a>
+								</td>
+							</tr>
+							<tr name="showreply_11142010_1">
+				
+								<td class="state"><img title="普通帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/folder.gif"></td>
+								<td class="subject">
+										<a name="showreply_11142010_1" href="javascript:void(0);"><img class="open-icon" title="展开回帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif"></a><span class="f14px"><a href="http://club.kdnet.net/dispbbs.asp?id=11142010&boardid=1" title="《[原创]贾平凹拜西王母穿错衣服，足见不缺口号缺常识》
+作者：屏山石
+发表于：2015/9/1 23:17:03
+最后发帖：秦属西戎，…..." target="_blank">贾平凹拜西王母穿错衣服，足见不缺口号缺常识</a></span> <span class="c-alarm"><img class="pages-icon" title="回帖页数" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif"><a target="_blank" href="http://club.kdnet.net/dispbbs.asp?ID=11142010&boardID=1&page=3">3</a></span>
+								</td>
+								<td class="author">
+									<a target="_blank" href="http://user.kdnet.net/index.asp?userid=5941680" title="屏山石">屏山石</a>
+								</td>
+								<td class="statistics clearfix">40/9200</td>
+								<td class="lastupdate">
+									2015/9/2 12:21 | <a target="_blank" href="http://user.kdnet.net/index.asp?userid=7556125">六月七月</a>
+								</td>
+							</tr>
+							<tr name="showreply_9976996_1">
+				
+								<td class="state"><img title="普通帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/folder.gif"></td>
+								<td class="subject">
+										<a name="showreply_9976996_1" href="javascript:void(0);"><img class="open-icon" title="展开回帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif"></a><span class="f14px"><a href="http://club.kdnet.net/dispbbs.asp?id=9976996&boardid=1" title="《[原创]希特勒：曾欲与中国平分天下》
+作者：南城陂
+发表于：2014/4/9 12:29:18
+最后发帖：原来火星上…..." target="_blank">希特勒：曾欲与中国平分天下</a></span>
+								</td>
+								<td class="author">
+									<a target="_blank" href="http://user.kdnet.net/index.asp?userid=5671414" title="南城陂">南城陂</a>
+								</td>
+								<td class="statistics clearfix">12/1788</td>
+								<td class="lastupdate">
+									2015/9/2 12:21 | <a target="_blank" href="http://user.kdnet.net/index.asp?userid=11799422">stylmaki</a>
+								</td>
+							</tr>
+							<tr name="showreply_11142907_1">
+				
+								<td class="state"><img title="普通帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/folder.gif"></td>
+								<td class="subject">
+										<a name="showreply_11142907_1" href="javascript:void(0);"><img class="open-icon" title="展开回帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif"></a><span class="f14px"><a href="http://club.kdnet.net/dispbbs.asp?id=11142907&boardid=1" title="《[转帖]一位大学生写给商丘官员的一封信》
+作者：郭子乾
+发表于：2015/9/2 11:21:33
+最后发帖：自订。。。…..." target="_blank">一位大学生写给商丘官员的一封信</a></span>
+								</td>
+								<td class="author">
+									<a target="_blank" href="http://user.kdnet.net/index.asp?userid=15393092" title="郭子乾">郭子乾</a>
+								</td>
+								<td class="statistics clearfix">4/450</td>
+								<td class="lastupdate">
+									2015/9/2 12:21 | <a target="_blank" href="http://user.kdnet.net/index.asp?userid=15393092">郭子乾</a>
+								</td>
+							</tr>
+							<tr name="showreply_11106479_1">
+				
+								<td class="state"><img title="普通帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/folder.gif"></td>
+								<td class="subject">
+										<a name="showreply_11106479_1" href="javascript:void(0);"><img class="open-icon" title="展开回帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif"></a><span class="f14px"><a href="http://club.kdnet.net/dispbbs.asp?id=11106479&boardid=1" title="《[原创]为什么批鲁迅？》
+作者：ak47九井
+发表于：2015/8/17 10:13:56
+最后发帖：商纣王（19…..." target="_blank">为什么批鲁迅？</a></span> <span class="c-alarm"><img class="pages-icon" title="回帖页数" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif"><a target="_blank" href="http://club.kdnet.net/dispbbs.asp?ID=11106479&boardID=1&page=19">19</a></span>
+								</td>
+								<td class="author">
+									<a target="_blank" href="http://user.kdnet.net/index.asp?userid=14946541" title="ak47九井">ak47九井</a>
+								</td>
+								<td class="statistics clearfix">281/27663</td>
+								<td class="lastupdate">
+									2015/9/2 12:21 | <a target="_blank" href="http://user.kdnet.net/index.asp?userid=14946541">ak47九井</a>
+								</td>
+							</tr>
+							<tr name="showreply_11142284_1">
+				
+								<td class="state"><img title="普通帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/folder.gif"></td>
+								<td class="subject">
+										<a name="showreply_11142284_1" href="javascript:void(0);"><img class="open-icon" title="展开回帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif"></a><span class="f14px"><a href="http://club.kdnet.net/dispbbs.asp?id=11142284&boardid=1" title="《[转帖]一件在中国绝不可能发生的事，在美国发生了。。。》
+作者：knmxiaobian
+发表于：2015/9/2 7:59:28
+最后发帖：在本朝，情…..." target="_blank">一件在中国绝不可能发生的事，在美国发生了。。。</a></span> <span class="c-alarm"><img class="pages-icon" title="回帖页数" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif"><a target="_blank" href="http://club.kdnet.net/dispbbs.asp?ID=11142284&boardID=1&page=5">5</a></span>
+								</td>
+								<td class="author">
+									<a target="_blank" href="http://user.kdnet.net/index.asp?userid=15570984" title="knmxiaobian">knmxiaobian</a>
+								</td>
+								<td class="statistics clearfix">70/6266</td>
+								<td class="lastupdate">
+									2015/9/2 12:21 | <a target="_blank" href="http://user.kdnet.net/index.asp?userid=10758491">潜行江湖</a>
+								</td>
+							</tr>
+							<tr name="showreply_9911985_1">
+				
+								<td class="state"><img title="普通帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/folder.gif"></td>
+								<td class="subject">
+										<a name="showreply_9911985_1" href="javascript:void(0);"><img class="open-icon" title="展开回帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif"></a><span class="f14px"><a href="http://club.kdnet.net/dispbbs.asp?id=9911985&boardid=1" title="《[转帖]江西惊现1000岁巨型王八（老甲鱼）》
+作者：黑道萤虫
+发表于：2014/3/13 15:10:55
+最后发帖：盛世祥兆啊…..." target="_blank">江西惊现1000岁巨型王八（老甲鱼）</a></span> <span class="c-alarm"><img class="pages-icon" title="回帖页数" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif"><a target="_blank" href="http://club.kdnet.net/dispbbs.asp?ID=9911985&boardID=1&page=2">2</a></span>
+								</td>
+								<td class="author">
+									<a target="_blank" href="http://user.kdnet.net/index.asp?userid=13889417" title="黑道萤虫">黑道萤虫</a>
+								</td>
+								<td class="statistics clearfix">18/6682</td>
+								<td class="lastupdate">
+									2015/9/2 12:20 | <a target="_blank" href="http://user.kdnet.net/index.asp?userid=59938">pf2004</a>
+								</td>
+							</tr>
+							<tr name="showreply_11134018_1">
+				
+								<td class="state"><img title="普通帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/folder.gif"></td>
+								<td class="subject">
+										<a name="showreply_11134018_1" href="javascript:void(0);"><img class="open-icon" title="展开回帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif"></a><span class="f14px"><a href="http://club.kdnet.net/dispbbs.asp?id=11134018&boardid=1" title="《[原创] 费解的高中物理题，请高手帮忙》
+作者：土改工作4队
+发表于：2015/8/29 7:17:51
+最后发帖：这个也算漂…..." target="_blank"> 费解的高中物理题，请高手帮忙</a></span> <span class="c-alarm"><img class="pages-icon" title="回帖页数" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif"><a target="_blank" href="http://club.kdnet.net/dispbbs.asp?ID=11134018&boardID=1&page=143">143</a></span>
+								</td>
+								<td class="author">
+									<a target="_blank" href="http://user.kdnet.net/index.asp?userid=5781684" title="土改工作4队">土改工作4队</a>
+								</td>
+								<td class="statistics clearfix">2144/118325</td>
+								<td class="lastupdate">
+									2015/9/2 12:20 | <a target="_blank" href="http://user.kdnet.net/index.asp?userid=14927083">heaven9999</a>
+								</td>
+							</tr>
+							<tr name="showreply_11141798_1">
+				
+								<td class="state"><img title="普通帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/folder.gif"></td>
+								<td class="subject">
+										<a name="showreply_11141798_1" href="javascript:void(0);"><img class="open-icon" title="展开回帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif"></a><span class="f14px"><a href="http://club.kdnet.net/dispbbs.asp?id=11141798&boardid=1" title="《[原创]评纸上建筑的火锅“泼水节”：请不要助长邪恶》
+作者：刘松萝
+发表于：2015/9/1 21:08:40
+最后发帖：-我想问问楼…..." target="_blank">评纸上建筑的火锅“泼水节”：请不要助长邪恶</a></span> <span class="c-alarm"><img class="pages-icon" title="回帖页数" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif"><a target="_blank" href="http://club.kdnet.net/dispbbs.asp?ID=11141798&boardID=1&page=6">6</a></span>
+								</td>
+								<td class="author">
+									<a target="_blank" href="http://user.kdnet.net/index.asp?userid=327840" title="刘松萝">刘松萝</a>
+								</td>
+								<td class="statistics clearfix">78/9225</td>
+								<td class="lastupdate">
+									2015/9/2 12:20 | <a target="_blank" href="http://user.kdnet.net/index.asp?userid=327840">刘松萝</a>
+								</td>
+							</tr>
+							<tr name="showreply_10651077_1">
+				
+								<td class="state"><img title="普通帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/folder.gif"></td>
+								<td class="subject">
+										<a name="showreply_10651077_1" href="javascript:void(0);"><img class="open-icon" title="展开回帖" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif"></a><span class="f14px"><a href="http://club.kdnet.net/dispbbs.asp?id=10651077&boardid=1" title="《[原创]好心相劝，得了痔疮千万别去动手术》
+作者：tangmingao
+发表于：2015/1/17 18:58:39
+最后发帖：好心相劝，…..." target="_blank">好心相劝，得了痔疮千万别去动手术</a></span> <span class="c-alarm"><img class="pages-icon" title="回帖页数" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/transparent.gif"><a target="_blank" href="http://club.kdnet.net/dispbbs.asp?ID=10651077&boardID=1&page=5">5</a></span>
+								</td>
+								<td class="author">
+									<a target="_blank" href="http://user.kdnet.net/index.asp?userid=866953" title="tangmingao">tangmingao</a>
+								</td>
+								<td class="statistics clearfix">68/18786</td>
+								<td class="lastupdate">
+									2015/9/2 12:20 | <a target="_blank" href="http://user.kdnet.net/index.asp?userid=214916">whiterat</a>
+								</td>
+							</tr>
+							
+		    	<!--列表 End-->
+
+			</tbody>
+			</table>
+		</div>
+		<!--列表 End-->
+		
+		<!--发帖/分页-->
+		<div class="operating clearfix">
+			<div class="btn-publish" title="发布新帖"><a href="http://upfile2.kdnet.net/post.asp?action=new&boardid=1" target="_blank">发布新帖</a></div>
+			<div class="pages">
+				<div class="pagesmodule">
+					<form method="get" action="http://club.kdnet.net/list.asp?t=0&boardid=1&selTimeLimit=0&action=&topicmode=0&s=">页次：1/57111页&nbsp;&nbsp; <span class="c-sub"><select name="t" id="t" onchange="changelists(&#39;1&#39;)"><option value="0" selected="selected">按回帖时间排序</option><option value="1">按主帖时间排序</option></select> &nbsp;&nbsp;</span> <a href="http://club.kdnet.net/list.asp?t=0&boardid=1&selTimeLimit=0&action=&topicmode=0&s=&">刷新</a> <a href="http://club.kdnet.net/list.asp?t=0&boardid=1&selTimeLimit=0&action=&topicmode=0&s=&page=2&tid=2015-09-02%2012:20:49.340">下一页</a><div class="pages-go"><input type="text" name="page" value="1" class="input-boder"><input type="submit" name="go" value="GO" class="btn-pages"><input type="hidden" name="boardid" value="1"><input type="hidden" name="topicmode" value="0"></div></form>
+				</div>
+			</div>
+		</div>
+		<!--发帖/分页 End-->
+				 
+		<!--社区统计-->
+		<div class="statistics-club clearfix">
+			<div class="lf">
+				本版块主题总数：2855508 / 帖子总数：88901152<br>
+				今日论坛共发帖：<span class="c-alarm">13461</span> / 昨日发帖：37516 / 最高日发帖：75754
+			</div>
+			<div class="clublist-selected">跳转论坛至：
+			
+			<select onchange="if(this.options[this.selectedIndex].value!=&#39;&#39;){location = this.options[this.selectedIndex].value;}">
+			    	    <option value="">╋猫论天下</option><option value="list.asp?boardid=1" selected="">&nbsp;&nbsp;├猫眼看人</option><option value="list.asp?boardid=88" {boardid="88}">&nbsp;&nbsp;├商业创富</option><option value="list.asp?boardid=89" {boardid="89}">&nbsp;&nbsp;├时局深度</option><option value="list.asp?boardid=3" {boardid="3}">&nbsp;&nbsp;├经济风云</option><option value="list.asp?boardid=2" {boardid="2}">&nbsp;&nbsp;├文化散论</option><option value="list.asp?boardid=52" {boardid="52}">&nbsp;&nbsp;├原创评论</option><option value="list.asp?boardid=24" {boardid="24}">&nbsp;&nbsp;├中间地带</option><option value="list.asp?boardid=25" {boardid="25}">&nbsp;&nbsp;├律师之窗</option><option value="list.asp?boardid=15" {boardid="15}">&nbsp;&nbsp;├股市泛舟</option><option value="list.asp?boardid=44" {boardid="44}">&nbsp;&nbsp;├会员阅读</option><option value="list.asp?boardid=96" {boardid="96}">&nbsp;&nbsp;├史海钩沉</option><option value="list.asp?boardid=101" {boardid="101}">&nbsp;&nbsp;├舆情观察</option><option value="">╋生活资讯</option><option value="list.asp?boardid=92" {boardid="92}">&nbsp;&nbsp;├杂货讨论</option><option value="list.asp?boardid=9" {boardid="9}">&nbsp;&nbsp;├健康社会</option><option value="list.asp?boardid=29" {boardid="29}">&nbsp;&nbsp;├家长里短</option><option value="list.asp?boardid=35" {boardid="35}">&nbsp;&nbsp;├旅游时尚</option><option value="list.asp?boardid=45" {boardid="45}">&nbsp;&nbsp;├职场生涯</option><option value="list.asp?boardid=60" {boardid="60}">&nbsp;&nbsp;├咱们女人</option><option value="list.asp?boardid=62" {boardid="62}">&nbsp;&nbsp;├家有宝宝</option><option value="list.asp?boardid=63" {boardid="63}">&nbsp;&nbsp;├消费观察</option><option value="list.asp?boardid=61" {boardid="61}">&nbsp;&nbsp;├房产家居</option><option value="list.asp?boardid=30" {boardid="30}">&nbsp;&nbsp;├车友评车</option><option value="list.asp?boardid=58" {boardid="58}">&nbsp;&nbsp;├猫眼鉴宝</option><option value="">╋影音娱乐</option><option value="list.asp?boardid=33" {boardid="33}">&nbsp;&nbsp;├图画人生</option><option value="list.asp?boardid=86" {boardid="86}">&nbsp;&nbsp;├猫影无忌</option><option value="list.asp?boardid=26" {boardid="26}">&nbsp;&nbsp;├影视评论</option><option value="list.asp?boardid=40" {boardid="40}">&nbsp;&nbsp;├网络剧场</option><option value="list.asp?boardid=27" {boardid="27}">&nbsp;&nbsp;├音乐之声</option><option value="list.asp?boardid=16" {boardid="16}">&nbsp;&nbsp;├网友风采</option><option value="list.asp?boardid=7" {boardid="7}">&nbsp;&nbsp;├猫兄鼠妹</option><option value="list.asp?boardid=10" {boardid="10}">&nbsp;&nbsp;├笑话人生</option><option value="list.asp?boardid=56" {boardid="56}">&nbsp;&nbsp;├游戏天地</option><option value="">╋文化广场</option><option value="list.asp?boardid=55" {boardid="55}">&nbsp;&nbsp;├菁菁校园</option><option value="list.asp?boardid=4" {boardid="4}">&nbsp;&nbsp;├甜蜜旅程</option><option value="list.asp?boardid=6" {boardid="6}">&nbsp;&nbsp;├心灵驿站</option><option value="list.asp?boardid=5" {boardid="5}">&nbsp;&nbsp;├原创文学</option><option value="list.asp?boardid=54" {boardid="54}">&nbsp;&nbsp;├原创小说</option><option value="list.asp?boardid=31" {boardid="31}">&nbsp;&nbsp;├汉诗随笔</option><option value="list.asp?boardid=32" {boardid="32}">&nbsp;&nbsp;├闲话国粹</option><option value="list.asp?boardid=8" {boardid="8}">&nbsp;&nbsp;├体育观察</option><option value="list.asp?boardid=41" {boardid="41}">&nbsp;&nbsp;├开心科普</option><option value="list.asp?boardid=18" {boardid="18}">&nbsp;&nbsp;├IT 数码</option><option value="">╋地方频道</option><option value="list.asp?boardid=85" {boardid="85}">&nbsp;&nbsp;├会馆工作讨论区</option><option value="list.asp?boardid=73" {boardid="73}">&nbsp;&nbsp;├凯迪华南</option><option value="list.asp?boardid=75" {boardid="75}">&nbsp;&nbsp;├凯迪西南</option><option value="list.asp?boardid=77" {boardid="77}">&nbsp;&nbsp;├凯迪海南</option><option value="list.asp?boardid=80" {boardid="80}">&nbsp;&nbsp;├凯迪广州</option><option value="list.asp?boardid=97" {boardid="97}">&nbsp;&nbsp;├凯迪深圳</option><option value="list.asp?boardid=98" {boardid="98}">&nbsp;&nbsp;├北京会馆</option><option value="list.asp?boardid=99" {boardid="99}">&nbsp;&nbsp;├上海会馆</option><option value="list.asp?boardid=104" {boardid="104}">&nbsp;&nbsp;├河南会馆</option><option value="list.asp?boardid=105" {boardid="105}">&nbsp;&nbsp;├苏州会馆</option><option value="list.asp?boardid=106" {boardid="106}">&nbsp;&nbsp;├贵州会馆</option><option value="list.asp?boardid=107" {boardid="107}">&nbsp;&nbsp;├杭州会馆</option><option value="list.asp?boardid=123" {boardid="123}">&nbsp;&nbsp;├香港会馆</option><option value="list.asp?boardid=124" {boardid="124}">&nbsp;&nbsp;├台湾会馆</option><option value="list.asp?boardid=125" {boardid="125}">&nbsp;&nbsp;├美洲会馆</option><option value="">╋凯迪重庆</option><option value="list.asp?boardid=108" {boardid="108}">&nbsp;&nbsp;├重庆会馆</option><option value="list.asp?boardid=110" {boardid="110}">&nbsp;&nbsp;├猫眼观渝</option><option value="list.asp?boardid=111" {boardid="111}">&nbsp;&nbsp;├山城拍客</option><option value="list.asp?boardid=112" {boardid="112}">&nbsp;&nbsp;├重庆教育</option><option value="list.asp?boardid=113" {boardid="113}">&nbsp;&nbsp;├巴渝情缘</option><option value="list.asp?boardid=114" {boardid="114}">&nbsp;&nbsp;├猫人游记</option><option value="list.asp?boardid=115" {boardid="115}">&nbsp;&nbsp;├健康养生</option><option value="list.asp?boardid=116" {boardid="116}">&nbsp;&nbsp;├重庆车友</option><option value="list.asp?boardid=117" {boardid="117}">&nbsp;&nbsp;├两江房产</option><option value="list.asp?boardid=118" {boardid="118}">&nbsp;&nbsp;├渝民新婚</option><option value="list.asp?boardid=119" {boardid="119}">&nbsp;&nbsp;├麻辣吃货</option><option value="list.asp?boardid=120" {boardid="120}">&nbsp;&nbsp;├渝财有道</option><option value="list.asp?boardid=121" {boardid="121}">&nbsp;&nbsp;├时尚渝女</option><option value="list.asp?boardid=122" {boardid="122}">&nbsp;&nbsp;├公益重庆</option><option value="">╋站务</option><option value="list.asp?boardid=13" {boardid="13}">&nbsp;&nbsp;├站务专区</option><option value="list.asp?boardid=72" {boardid="72}">&nbsp;&nbsp;├企业家园</option><option value="list.asp?boardid=46" {boardid="46}">&nbsp;&nbsp;├十大美帖</option>凯迪视频<option value="list.asp?boardid=57" {boardid="57}">&nbsp;&nbsp;├视频创作</option>凯迪剧场微博<option value="list.asp?boardid=91" {boardid="91}">&nbsp;&nbsp;├商品发布</option> 
+			    	</select>
+			</div>
+		</div>
+		<!--社区统计 End-->
+		
+		<div class="clubcont-line "></div>	
+		<div class="banner b-border">
+			<div id="list17" style="width:0;height:0;visibility:hidden;overflow:hidden;">
+				<div style="width:728px;margin:0 auto; height:90px; overflow:hidden;">
+					
+					<div style="position: relative; display: inline; border: none; padding: 0px; margin: 0px; visibility: visible; overflow: hidden;">
+					<!-- list_banner2_728x90 -->
+					<script type="text/javascript">//<![CDATA[
+					ac_as_id = 101153;
+					ac_format = 0;
+					ac_mode = 1;
+					ac_group_id = 1;
+					ac_server_base_url = "afp.csbew.com/";
+					//]]></script>
+					<ins id="ac_js86_101153" style="display: none;"></ins><script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/k.js"></script><script type="text/javascript" charset="utf-8">
+    /* 凯迪-列表页横幅2 */
+	vm_ad_client = "13045134";
+	vm_ad_slot = "1343062251";
+	vm_ad_width = 728;
+	vm_ad_height = 90; 
+</script>
+<ins id="vamaker_13045134_1343062251_677918239748" class="ads_by_vamaker" style="display: inline-block; border: none; margin: 0px; padding: 0px; position: relative; visibility: visible; overflow: hidden; height: 90px; background-color: transparent;"><ins style="display: inline-table; border: none; margin: 0px; padding: 0px; position: relative; visibility: visible; width: 728px; height: 90px; background-color: transparent;"><ins style="display: block; border: none; margin: 0px; padding: 0px; position: relative; visibility: visible; z-index: 1; width: 728px; height: 90px; background: transparent;"><iframe id="vamaker_force_6779182314902550" frameborder="0" scrolling="no" marginwidth="0" marginheight="0" width="728" height="90" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/b.html" style="border: none; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; z-index: 1; background: transparent;"></iframe></ins></ins></ins><script type="text/javascript" charset="utf-8" id="vm_ad_13045134_1343062251_677918223285" class="vamaker" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/vamaker.js"></script>
+
+					</div>
+					
+				</div>	   
+			</div>
+		</div>
+       
+	   <div style="height:10px;border:1px solid #fff;border-width:0 1px 0 1px;"></div>
+	   <div class="clubcont-line "></div>
+		<div class="banner b-border">
+			<div id="list86">
+				<div style="width:728px;margin:0 auto; height:90px; overflow:hidden;">
+					
+					<div style="position: relative; display: inline; border: none; padding: 0px; margin: 0px; visibility: visible; overflow: hidden;">
+					<script type="text/javascript">//<![CDATA[
+					ac_as_id = 101155;
+					ac_format = 0;
+					ac_mode = 1;
+					ac_group_id = 1;
+					ac_server_base_url = "afp.csbew.com/";
+					//]]></script>
+					<ins id="ac_js86_101155" style="display: none;"></ins><script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/k.js"></script><div id="ac_wrap_1011550" style="width:728px"><script type="text/javascript">
+mx_as_id = 3005959;
+mx_server_base_url ="mega.mlt01.com/";
+mx_async = 0; 
+</script><ins id="mx_bjs_3005959" style="display: none;"></ins><script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/b.js"></script>
+<script src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/e.js" type="text/javascript"></script><script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/e.js"></script><script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/e.js"></script><script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/e.js"></script><script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/e.js"></script></div><img style="display:none" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/m(6).htm"><div id="ac_wrap_1011551" style="width:728px"><div style="position: relative; display: inline; border: none; padding: 0px; margin: 0px; visibility: visible; overflow: hidden;">
+<script type="text/javascript">
+	var allyes_siteid='126', allyes_output=1, allyes_channedid='723',allyes_ad_width='728',allyes_ad_height='90',allyes_adspaceid='181-13', allyes_host_addr='mmae.allyes.com';
+</script>
+<ins style="display: inline-block; border: none; margin: 0px; padding: 0px; position: relative; visibility: visible; width: 728px; height: 90px;"><ins style="display: block; border: none; margin: 0px; padding: 0px; position: relative; visibility: visible; width: 728px; height: 90px;"><iframe id="allyes_show_ads_42134421441167792165" frameborder="0" scrolling="no" width="728px" height="90px" style="margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; background: transparent;"></iframe></ins></ins><script id="allyes_mm_ad_126_723_181-13" type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/MediaMax.js"></script><iframe src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/adxcm_base_mm.html" width="0" height="0" marginheight="0" marginwidth="0" frameborder="0" style="position: absolute; top: 0px; left: 0px;"></iframe>
+</div>
+<script src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/e.js" type="text/javascript"></script><script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/e.js"></script><script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/e.js"></script><script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/e.js"></script><script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/e.js"></script></div><img style="display:none" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/m(7).htm">
+					</div>
+					
+				</div>	 
+			</div>
+		</div>
+
+		<!--推荐链接-->
+		<div class="link-title c-white"><a href="http://club.kdnet.net/list.asp?boardid=1#/#/#" class="current">推荐链接</a></div>
+		<div class="link-cont-box">
+		<div class="link-cont">
+			<ul class="link-text c-main clearfix">
+				<li><a href="http://bbs1.people.com.cn/" target="_blank">强国社区</a></li><li><a href="http://bbs.ifeng.com/" target="_blank">凤凰网论坛</a></li><li><a href="http://www.chinareform.org.kl1758.com/" target="_blank">中国改革网</a></li><li><a href="http://club.qingdaonews.com/" target="_blank">青青岛社区</a></li><li><a href="http://bbs.163.com/" target="_blank">网易论坛</a></li><li><a href="http://www.mala.cn/" target="_blank">麻辣社区</a></li><li><a href="http://www.jinbifun.com/" target="_blank">金碧坊</a></li><li><a href="http://bbs.ce.cn/bbs/index.php" target="_blank">中经论坛</a></li><li><a href="http://www1.kdnet.net/clubrank.asp" target="_blank">中文论坛排行榜</a></li><li><a href="http://www.jguo.cn/" target="_blank">中国传统文化 </a></li><li><a href="http://www.xcar.com.cn/" target="_blank">爱卡汽车网</a></li><li><a href="http://bbs.voc.com.cn/" target="_blank">华声论坛</a></li><li><a href="http://www.chinareform.org.cn/" target="_blank">中国改革论坛</a></li><li><a href="http://www.tiexue.net/" target="_blank">铁血网</a></li>
+			</ul>
+			<ul class="link-img clearfix">
+				
+			</ul>
+		</div>
+		</div>
+		<!--推荐链接 End-->
+        <!--尾部-->
+		<div class="footer-club">
+			本站律师声明：本站互动区域原创内容版权属作者和本站共同所有。<br>
+			网络非盈利转载须注明作者姓名和文章的来源出处，其他媒体利用除注明作者姓名和文章的来源出处外还须按规定付酬。侵权必究。<br>
+			法律顾问：广信君达律师事务所 刘东栓 赵广群律师<br><br>
+			Copyright &#169; 2000~2015 <span class="c-main">
+			<a href="http://www.kdnet.net/">kdnet.net</a></span> corporation. All Rights Reserved<br>
+			<span class="c-sub">
+			
+			<a href="http://about.kdnet.net/brief.php" target="_blank">关于凯迪</a> <span class="c-secsub">|</span> <a href="http://about.kdnet.net/join.php" target="_blank">联系我们</a> <span class="c-secsub">|</span> <a href="http://about.kdnet.net/join.php" target="_blank">广告服务</a> <span class="c-secsub">|</span> <a href="http://about.kdnet.net/copyright.php" target="_blank">法律声明</a> <span class="c-secsub">|
+		</span> <a href="http://about.kdnet.net/join-us.php" target="_blank">加入凯迪</a> <span class="c-secsub">|
+		</span> <a href="http://about.kdnet.net/sitemap.php" target="_blank">网站地图</a>
+			</span>
+		</div>
+		<!--尾部 End-->
+
+			
+	</div>
+
+        					<!--用户右侧-->
+					<div class="rf w188px web-right clearfix">
+		
+				     <div>
+				</div>
+				<!--个人中心（右）END-->
+		<div class="space10"></div>
+
+
+    <!--广告div-->
+	<div class="rf w180px clearfix">
+	
+		<div class="banner">
+		<div id="list18" style="width:0;height:0;visibility:hidden;overflow:hidden;">
+			
+			<div style="position: relative; display: inline; border: none; padding: 0px; margin: 0px; visibility: visible; overflow: hidden;">
+				<!-- 93957：列表页固定位——右矩形1 类型：固定广告位 尺寸：200x200-->
+				<script type="text/javascript">//<![CDATA[
+				ac_as_id = 93957;
+				ac_format = 0;
+				ac_mode = 1;
+				ac_group_id = 1;
+				ac_server_base_url = "afp.csbew.com/";
+				//]]></script>
+				<ins id="ac_js86_93957" style="display: none;"></ins><script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/k.js"></script><div id="ac_wrap_939570" style="width:200px"><script type="text/javascript">
+mx_as_id = 3006183;
+mx_server_base_url ="mega.mlt01.com/";
+mx_async = 0; 
+</script><ins id="mx_bjs_3006183" style="display: none;"></ins><script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/b.js"></script>
+<script src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/e.js" type="text/javascript"></script><script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/e.js"></script><script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/e.js"></script><script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/e.js"></script><script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/e.js"></script></div><img style="display:none" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/m(8).htm"><div id="ac_wrap_939571" style="width:200px"><div style="position: relative; display: inline; border: none; padding: 0px; margin: 0px; visibility: visible; overflow: hidden;">
+<script type="text/javascript">
+	var allyes_siteid='126', allyes_output=1, allyes_channedid='723',allyes_ad_width='200',allyes_ad_height='200',allyes_adspaceid='181-14', allyes_host_addr='mmae.allyes.com';
+</script>
+<ins style="display: inline-block; border: none; margin: 0px; padding: 0px; position: relative; visibility: visible; width: 200px; height: 200px;"><ins style="display: block; border: none; margin: 0px; padding: 0px; position: relative; visibility: visible; width: 200px; height: 200px;"><iframe id="allyes_show_ads_63851021441167792275" frameborder="0" scrolling="no" width="200px" height="200px" style="margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; background: transparent;"></iframe></ins></ins><script id="allyes_mm_ad_126_723_181-14" type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/MediaMax.js"></script><iframe src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/adxcm_base_mm.html" width="0" height="0" marginheight="0" marginwidth="0" frameborder="0" style="position: absolute; top: 0px; left: 0px;"></iframe>
+</div>
+<script src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/e.js" type="text/javascript"></script><script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/e.js"></script><script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/e.js"></script><script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/e.js"></script><script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/e.js"></script></div><img style="display:none" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/m(9).htm">
+			</div>
+			
+		</div>
+		</div>
+		<div class="space10"></div>
+
+		<!--最新热点-->
+		
+
+		<div class="gb-coffee">
+			<div class="gb-t">
+		    	<div class="gb-tl"></div>
+		        <div class="title"><a href="http://www.kcis.cn/" target="_blank">KCIS公共观察</a></div>
+		    	<div class="gb-tr"></div>
+		    </div>
+		    <div class="gb-c">
+  <ul class="hot-list-club">
+<li>
+<a href="http://www.kcis.cn/club/11130584" title="苏炳添：9秒99不是终点" target="_blank">苏炳添：9秒99不是终点</a>
+</li>
+<li>
+<a href="http://www.kcis.cn/club/11126895" title="文明广州2.0：走走停停吃吃喝喝中见文明" target="_blank">文明广州2.0：走走停停吃吃喝喝中见文明</a>
+</li>
+<li>
+<a href="http://www.kcis.cn/club/11124787" title="世界看天津：8·12天津滨海新区爆炸事故的外国声音" target="_blank">世界看天津：8·12天津滨海新区爆炸事故的外国声音</a>
+</li>
+</ul>
+</div>
+			
+			<div class="gb-b">
+		    	<div class="gb-bl"></div>
+		    	<div class="gb-br"></div>
+		    </div>
+		</div>
+		<!--最新热点 End-->
+
+		<div class="banner">
+		  <div id="list20" style="width:0;height:0;visibility:hidden;overflow:hidden;">
+			
+			<script type="text/javascript">//<![CDATA[
+			ac_as_id = 101143;
+			ac_format = 0;
+			ac_mode = 1;
+			ac_group_id = 1;
+			ac_server_base_url = "afp.csbew.com/";
+			//]]></script>
+			<ins id="ac_js86_101143" style="display: none;"></ins><script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/k.js"></script><div id="ac_wrap_1011430" style="width:200px"><script type="text/javascript">
+mx_as_id = 3005945;
+mx_server_base_url ="mega.mlt01.com/";
+mx_async = 0; 
+</script><ins id="mx_bjs_3005945" style="display: none;"></ins><script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/b.js"></script>
+<script src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/e.js" type="text/javascript"></script><script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/e.js"></script><script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/e.js"></script><script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/e.js"></script><script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/e.js"></script></div><img style="display:none" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/m(10).htm"><div id="ac_wrap_1011431" style="width:200px"><div style="position: relative; display: inline; border: none; padding: 0px; margin: 0px; visibility: visible; overflow: hidden;">
+<script type="text/javascript">
+	var allyes_siteid='126', allyes_output=1, allyes_channedid='723',allyes_ad_width='200',allyes_ad_height='200',allyes_adspaceid='181-6', allyes_host_addr='mmae.allyes.com';
+</script>
+<ins style="display: inline-block; border: none; margin: 0px; padding: 0px; position: relative; visibility: visible; width: 200px; height: 200px;"><ins style="display: block; border: none; margin: 0px; padding: 0px; position: relative; visibility: visible; width: 200px; height: 200px;"><iframe id="allyes_show_ads_37899021441167792390" frameborder="0" scrolling="no" width="200px" height="200px" style="margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; background: transparent;"></iframe></ins></ins><script id="allyes_mm_ad_126_723_181-6" type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/MediaMax.js"></script><iframe src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/adxcm_base_mm.html" width="0" height="0" marginheight="0" marginwidth="0" frameborder="0" style="position: absolute; top: 0px; left: 0px;"></iframe>
+</div>
+<script src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/e.js" type="text/javascript"></script><script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/e.js"></script><script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/e.js"></script><script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/e.js"></script><script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/e.js"></script></div><img style="display:none" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/m(11).htm">
+						
+		  </div>
+		</div>
+		<div class="space10"></div>
+		
+		
+  		<div class="gb-coffee">
+			<div class="gb-t">
+		    	<div class="gb-tl"></div>
+		        <div class="title"><a href="http://www.kdnet.net/" target="_blank">精彩推荐</a></div>
+		    	<div class="gb-tr"></div>
+		    </div>
+		    <div class="gb-c">
+				<ul class="hot-list-club">
+					<li>
+						<div id="list24" style="width:0;height:0;visibility:hidden;overflow:hidden;"></div>
+					</li>
+					<li>
+						<div id="list25" style="width:0;height:0;visibility:hidden;overflow:hidden;"></div>
+					</li>
+					<li>
+						<div id="list26" style="width:0;height:0;visibility:hidden;overflow:hidden;"></div>
+					</li>
+					<li class="no-border">
+						<div id="list27" style="width:0;height:0;visibility:hidden;overflow:hidden;"></div>
+					</li>
+				</ul>
+			</div>
+
+			<div class="gb-b">
+		    	<div class="gb-bl"></div>
+		    	<div class="gb-br"></div>
+		    </div>
+		</div>		
+        
+
+		<div class="banner">
+		  <div id="list21" style="width:0;height:0;visibility:hidden;overflow:hidden;">
+			
+			<div style="position: relative; display: inline; border: none; padding: 0px; margin: 0px; visibility: visible; overflow: hidden;">
+			<script type="text/javascript">//<![CDATA[
+			ac_as_id = 101145;
+			ac_format = 0;
+			ac_mode = 1;
+			ac_group_id = 1;
+			ac_server_base_url = "afp.csbew.com/";
+			//]]></script>
+			<ins id="ac_js86_101145" style="display: none;"></ins><script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/k.js"></script><div id="ac_wrap_1011450" style="width:200px"><script type="text/javascript">
+mx_as_id = 3005956;
+mx_server_base_url ="mega.mlt01.com/";
+mx_async = 0; 
+</script><ins id="mx_bjs_3005956" style="display: none;"></ins><script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/b.js"></script>
+<script src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/e.js" type="text/javascript"></script><script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/e.js"></script><script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/e.js"></script><script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/e.js"></script><script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/e.js"></script></div><img style="display:none" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/m(12).htm"><div id="ac_wrap_1011451" style="width:200px"><div style="position: relative; display: inline; border: none; padding: 0px; margin: 0px; visibility: visible; overflow: hidden;">
+<script type="text/javascript">
+	var allyes_siteid='126', allyes_output=1, allyes_channedid='723',allyes_ad_width='200',allyes_ad_height='200',allyes_adspaceid='181-15', allyes_host_addr='mmae.allyes.com';
+</script>
+<ins style="display: inline-block; border: none; margin: 0px; padding: 0px; position: relative; visibility: visible; width: 200px; height: 200px;"><ins style="display: block; border: none; margin: 0px; padding: 0px; position: relative; visibility: visible; width: 200px; height: 200px;"><iframe id="allyes_show_ads_20041111441167792503" frameborder="0" scrolling="no" width="200px" height="200px" style="margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; background: transparent;"></iframe></ins></ins><script id="allyes_mm_ad_126_723_181-15" type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/MediaMax.js"></script><iframe src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/adxcm_base_mm.html" width="0" height="0" marginheight="0" marginwidth="0" frameborder="0" style="position: absolute; top: 0px; left: 0px;"></iframe>
+</div>
+<script src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/e.js" type="text/javascript"></script><script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/e.js"></script><script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/e.js"></script><script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/e.js"></script><script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/e.js"></script></div><img style="display:none" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/m(13).htm">
+			</div>
+			
+		  </div>
+		</div>
+		<div class="space10"></div>
+		
+		<div id="list90" class="clearfix" style="width:0;height:0;visibility:hidden;overflow:hidden;">
+				
+					<div style="position: relative; display: inline; border: none; padding: 0px; margin: 0px; visibility: visible; overflow: hidden;">
+					<div style="margin:0;padding:0;width:200px;height:600px;overflow:hidden;background-color:#fff;">
+						<div style="margin:0;padding:0;width:200px;height:300px;overflow:hidden;background-color:#fff;">
+							<script type="text/javascript">
+							 document.write('<a style="display:none!important" id="tanx-a-mm_34021018_3435525_20598981"></a>');
+							 tanx_s = document.createElement("script");
+							 tanx_s.type = "text/javascript";
+							 tanx_s.charset = "gbk";
+							 tanx_s.id = "tanx-s-mm_34021018_3435525_20598981";
+							 tanx_s.async = true;
+							 tanx_s.src = "http://p.tanx.com/ex?i=mm_34021018_3435525_20598981";
+							 document.getElementsByTagName("head")[0].appendChild(tanx_s);
+							</script><ins style="display:inline-block;padding:0;margin:0;width:200px;height:300px;*zoom:1;*display:inline" id="tanxssp-outer-conmm_34021018_3435525_20598981"><div id="tanxssp_con_mm_34021018_3435525_20598981" style="overflow:hidden;display:inline-block;position:relative;width:200px;height:300px;*display:inline;*zoom:1;font:12px/1.5 tahoma,&#39;Hiragino Sans GB&#39;,&#39;microsoft yahei&#39;,sans-serif;"><iframe src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/T1NfnkFxdbXXbMsGbX.html" style="width:200px;height:300px" border="0" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowtransparency="true"></iframe><a id="iconmm_34021018_3435525_20598981" title="我也要申请橱窗推广" target="_blank" href="http://pro.taobao.com/index.htm?spm=a2320.7388781.1998051528.5.JOvNkN" style="overflow:hidden;width:15px;height:13px;right:20px;bottom:0px;display:block;position:absolute;cursor:pointer;z-index:250;">   <span id="icon_smallmm_34021018_3435525_20598981" style="border-right:2px solid #eee;float:none;width:13px;display:block;height:13px;"><img src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/TB1DmcoJXXXXXavXpXXXXXXXXXX-26-26.png" border="0" width="13"></span>   <span id="icon_bigmm_34021018_3435525_20598981" style="float:none;width:60px;height:13px;display: none;"><img src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/TB1Lt7aJXXXXXcjXVXXXXXXXXXX-117-26.png" width="60" border="0/"></span></a><a id="sxmm_34021018_3435525_20598981" href="javascript:;" style="width:20px;height:13px;right:0px;bottom:0px;display:block;position:absolute;cursor:pointer;z-index:250;">   <span id="sx1mm_34021018_3435525_20598981" style="float:none;width:20px;display:block;height:13px;"><img src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/TB1rRQpJXXXXXcvXXXXXXXXXXXX-40-26.png" width="20" border="0/"></span><div id="sxtipmm_34021018_3435525_20598981" style="display:none;width:80px;position:absolute;left:-38px;bottom:13px;"><img src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/TB1upAiJXXXXXa5aXXXXXXXXXXX-116-30.png" width="58" border="0/"></div></a></div></ins><a style="display:none!important" id="tanx-a-mm_34021018_3435525_20598981"></a>
+						</div>    
+						<div style="margin:0;padding:0;width:200px;height:100px;overflow:hidden;background-color:#fff;">
+							<script type="text/javascript">
+								 document.write('<a style="display:none!important" id="tanx-a-mm_34021018_3435525_20604307"></a>');
+								 tanx_s = document.createElement("script");
+								 tanx_s.type = "text/javascript";
+								 tanx_s.charset = "gbk";
+								 tanx_s.id = "tanx-s-mm_34021018_3435525_20604307";
+								 tanx_s.async = true;
+								 tanx_s.src = "http://p.tanx.com/ex?i=mm_34021018_3435525_20604307";
+								 document.getElementsByTagName("head")[0].appendChild(tanx_s);
+							</script><ins style="display:inline-block;padding:0;margin:0;width:200px;height:100px;*zoom:1;*display:inline" id="tanxssp-outer-conmm_34021018_3435525_20604307"><div id="tanxssp_con_mm_34021018_3435525_20604307" style="overflow:hidden;display:inline-block;position:relative;width:200px;height:100px;*display:inline;*zoom:1;font:12px/1.5 tahoma,&#39;Hiragino Sans GB&#39;,&#39;microsoft yahei&#39;,sans-serif;"><iframe src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/T1nCrmFwBXXXbMsGbX.html" style="width:200px;height:100px" border="0" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowtransparency="true"></iframe><a id="iconmm_34021018_3435525_20604307" title="我也要申请橱窗推广" target="_blank" href="http://pro.taobao.com/index.htm?spm=a2320.7388781.1998051528.5.JOvNkN" style="overflow:hidden;width:15px;height:13px;right:20px;bottom:0px;display:block;position:absolute;cursor:pointer;z-index:250;">   <span id="icon_smallmm_34021018_3435525_20604307" style="border-right:2px solid #eee;float:none;width:13px;display:block;height:13px;"><img src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/TB1DmcoJXXXXXavXpXXXXXXXXXX-26-26.png" border="0" width="13"></span>   <span id="icon_bigmm_34021018_3435525_20604307" style="float:none;width:60px;height:13px;display: none;"><img src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/TB1Lt7aJXXXXXcjXVXXXXXXXXXX-117-26.png" width="60" border="0/"></span></a><a id="sxmm_34021018_3435525_20604307" href="javascript:;" style="width:20px;height:13px;right:0px;bottom:0px;display:block;position:absolute;cursor:pointer;z-index:250;">   <span id="sx1mm_34021018_3435525_20604307" style="float:none;width:20px;display:block;height:13px;"><img src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/TB1rRQpJXXXXXcvXXXXXXXXXXXX-40-26.png" width="20" border="0/"></span><div id="sxtipmm_34021018_3435525_20604307" style="display:none;width:80px;position:absolute;left:-38px;bottom:13px;"><img src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/TB1upAiJXXXXXa5aXXXXXXXXXXX-116-30.png" width="58" border="0/"></div></a></div></ins><a style="display:none!important" id="tanx-a-mm_34021018_3435525_20604307"></a>
+
+						</div>  
+						<div style="margin:0;padding:0;width:200px;height:200px;overflow:hidden;background-color:#fff;">
+							<script type="text/javascript">
+								 document.write('<a style="display:none!important" id="tanx-a-mm_34021018_3435525_20608284"></a>');
+								 tanx_s = document.createElement("script");
+								 tanx_s.type = "text/javascript";
+								 tanx_s.charset = "gbk";
+								 tanx_s.id = "tanx-s-mm_34021018_3435525_20608284";
+								 tanx_s.async = true;
+								 tanx_s.src = "http://p.tanx.com/ex?i=mm_34021018_3435525_20608284";
+								 document.getElementsByTagName("head")[0].appendChild(tanx_s);
+							</script><ins style="display:inline-block;padding:0;margin:0;width:200px;height:200px;*zoom:1;*display:inline" id="tanxssp-outer-conmm_34021018_3435525_20608284"><div id="tanxssp_con_mm_34021018_3435525_20608284" style="overflow:hidden;display:inline-block;position:relative;width:200px;height:200px;*display:inline;*zoom:1;font:12px/1.5 tahoma,&#39;Hiragino Sans GB&#39;,&#39;microsoft yahei&#39;,sans-serif;"><iframe id="tanxssp-outer-iframemm_34021018_3435525_20608284" style="width: 200px; height: 200px;" border="0" frameborder="0" scrolling="no" marginwidth="0" allowtransparency="true" marginheight="0"></iframe><a style="display:none !important;" id="tanx_frameanchor_mm_34021018_3435525_20608284"></a><span style="width:20px;height:13px;right:0px;bottom:0px;display:block;position:absolute;z-index:250;">   <span style="float:none;width:20px;display:block;height:13px;"><img src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/TB1rRQpJXXXXXcvXXXXXXXXXXXX-40-26.png" width="20" border="0/"></span></span></div></ins><a style="display:none!important" id="tanx-a-mm_34021018_3435525_20608284"></a>
+						</div>
+					</div>
+					</div>
+						
+		</div>
+		<div class="space10"></div>
+		
+		<div style=" width:160px; height:600px; position:relative;" class="clearfix">
+			<div class="scllor-banner"><!-- id="Scllor-banner" 悬停ID-->
+			<div id="list19" style="width:0;height:0;visibility:hidden;overflow:hidden;">
+				<div style="position: relative; display: inline; border: none; padding: 0px; margin: 0px; visibility: visible; overflow: hidden;">
+					<script type="text/javascript">//<![CDATA[
+					ac_as_id = 96973;
+					ac_format = 0;
+					ac_mode = 1;
+					ac_group_id = 1;
+					ac_server_base_url = "afp.csbew.com/";
+					//]]></script>
+					<ins id="ac_js86_96973" style="display: none;"></ins><script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/k.js"></script><div id="ac_wrap_969730" style="width:160px"><script type="text/javascript">
+mx_as_id = 3002729;
+mx_server_base_url ="mega.mlt01.com/";
+mx_async = 0; 
+</script><ins id="mx_bjs_3002729" style="display: none;"></ins><script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/b.js"></script>
+<script src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/e.js" type="text/javascript"></script><script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/e.js"></script><script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/e.js"></script><script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/e.js"></script><script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/e.js"></script></div><img style="display:none" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/m(14).htm"><div id="ac_wrap_969731" style="width:160px"><script type="text/javascript" charset="utf-8">
+    /* 列表页右竖条2 */
+	vm_ad_client = "13045134";
+	vm_ad_slot = "1514263686";
+	vm_ad_width = 160;
+	vm_ad_height = 600; 
+</script>
+<ins id="vamaker_13045134_1514263686_677927573624" class="ads_by_vamaker" style="display: inline-block; border: none; margin: 0px; padding: 0px; position: relative; visibility: visible; overflow: hidden; height: 600px; background-color: transparent;"><ins style="display: inline-table; border: none; margin: 0px; padding: 0px; position: relative; visibility: visible; width: 160px; height: 600px; background-color: transparent;"><ins style="display: block; border: none; margin: 0px; padding: 0px; position: relative; visibility: visible; z-index: 1; width: 160px; height: 600px; background: transparent;"><iframe id="vamaker_force_6779275723516052" frameborder="0" scrolling="no" marginwidth="0" marginheight="0" width="160" height="600" src="about:blank" style="border: none; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; z-index: 1; background: transparent;"></iframe></ins></ins></ins><script type="text/javascript" charset="utf-8" id="vm_ad_13045134_1514263686_677927578394" class="vamaker" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/vamaker.js"></script>
+<script src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/e.js" type="text/javascript"></script><script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/e.js"></script><script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/e.js"></script><script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/e.js"></script><script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/e.js"></script></div><img style="display:none" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/m(15).htm">
+				</div>
+			</div>
+			</div>
+		</div>
+		
+
+
+		<div class="space10"></div>
+
+	</div>
+	<!--广告div  END-->
+	
+</div>
+<script type="text/javascript" language="javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/t_club.js"></script>
+<script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/loger.js"></script>
+<script type="text/javascript" language="javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/index.js"></script><!--AJAX版面-->
+
+	<div id="panda_club_dispbbs_s_59" style="display:none"><script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/p59.js"></script><a href="http://super.kdnet.net/track/click.php?adid=191&adp=59&adurl=http://www.kcis.cn/1249" target="_blank">2012上半年热点事件，你还记得哪件？</a></div>
+	<script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/globalpanda.js"></script>
+
+
+ <script type="text/javascript">
+  $(document).ready(function () { 
+  	$("#OverlayHelp").overlay({ mask:{color:'#000', opacity:0.5 },top:"0",right:"50",closeOnClick:true,closeOnEsc:true});
+	$("#OverlayHelp").click(function(){ $("#OverlayHelp").overlay().close(); })
+    $(".globalnav-ul li").hover(
+        function () {
+            $("ul", this).show();
+            $(this).addClass("hover");
+        }, 
+        function () {
+            $("ul", this).hide();  
+            $(this).removeClass("hover");       
+        }
+    );
+
+			//modify sunny 20131231 ad B
+			function tools(){
+			var adBannerH=$(".nav-con").height()+$(".proving-n-msg").outerHeight();
+			var ScllorbannerH=$(".web-right").outerHeight()-600;
+			var top=$(document).scrollTop();
+			if(($.browser.msie==true)&&($.browser.version==6.0)){
+				if(top>adBannerH)$("#ad-banner-left-cont").css({position:"absolute",top:top-adBannerH});
+				if(top>ScllorbannerH)$("#Scllor-banner").css({position:"absolute",top:top-adBannerH});
+			}else{
+				if(top>adBannerH)$("#ad-banner-left-cont").css({position:"fixed",top:100});
+				if(top>ScllorbannerH)$("#Scllor-banner").css({position:"fixed",top:adBannerH});
+			}
+			if(top<=adBannerH)$("#ad-banner-left-cont").css({position:"static",top:100});
+			if(top<=ScllorbannerH)$("#Scllor-banner").css({position:"static",top:0});
+			}
+			//modify sunny 20131231 ad E
+
+	$(function(){
+		window.onscroll=tools;
+		window.onresize=tools;
+	});
+
+	//话题 2014-10-10 
+$(function(){
+	$('.tax-r1 a').each(function(){
+		if($(this).index() > 1){
+			if($(this).hasClass('tax-r1all')){
+				$('.tax-r1 a').eq(0).after($('<a/>').html($(this).html()).addClass('tax-r1all').attr('href',$(this).attr('href')));
+				$(this).remove();
+			}
+		}
+	});
+
+	$('.tax-down-more').click(function(){
+		$(this).hide()
+		$('.tax-up-more').show();
+				$('.tax-r1').css({'height':'auto','box-shadow':'0 2px 2px -3px #000'});
+		})
+	$('.tax-up-more').click(function(){
+		$(this).hide()
+		$('.tax-down-more').show();
+				$('.tax-r1').css({'height':'25px','box-shadow':''});
+		})
+		//
+		$(document).click(function(e){
+			if($(e.target).is('.tax-down-more,.tax-up-more')){
+					return false;
+			}
+			$('.tax-down-more').show();
+			$('.tax-up-more').hide();
+			$('.tax-r1').css('height','25px');
+	})
+})
+
+});
+<!--
+var positions =55;
+//主菜单停留位置
+var loadtabs = new Array("1")
+document.domain = 'kdnet.net';
+
+/**   
+ *    
+ * @param {} sURL 收藏链接地址   
+ * @param {} sTitle 收藏标题   
+ */   
+
+$().ready(function(){
+	$.each($("a[name^='showreply']"),function(i,it){
+		 $(it).click(function(){ 
+		 	  var rootid = $(this).attr('name').split('_')[1];
+		 	  var boardid = $(this).attr('name').split('_')[2];
+		 	  //var f = $(this).parent().parent().parent();
+			  var f = $("tr[name^='showreply_" + rootid + "_" + boardid + "']");
+		 	  var img = $(this).children(".open-icon");
+		 	  if (img.attr('className') == null) img = $(this).children(".putaway-icon");
+		 	  if (img.attr('className') != 'open-icon') {
+					img.attr('className','open-icon');
+					f.next(".reply-cont").remove();
+		 	  } else {
+					var data = "a=fetchreply&boardid="+boardid+"&rootid=" + rootid;
+					$.ajax({
+					  url: "ajax_list.asp",
+					  type: "GET",
+					  data: data,
+					  cache: false,
+					  beforeSend:  function(){
+					  	$(this).attr('name','close_reply_'+rootid);
+					  	img.attr('className','putaway-icon');
+					    $(f).after('<tr class="reply-cont" id="reply_cont_'+rootid+'"><td colspan="5"><div class="reply-cont c-sub">正在读取关于本主题的跟贴，请稍侯……</div></td></tr>');
+					  },
+					  error: function(html){
+					    $(f).next(".reply-cont").html('<tr>读取本主题的跟贴失败，请重试！</tr>');
+					  },
+					  success: function(html){
+					    if (html.search("ul") == -1) {
+					    	if (html == "")
+							 $(f).next(".reply-cont").html('<tr>读取本主题的跟贴失败，请重试！</tr>');
+					    	else
+							 $(f).next(".reply-cont").html(html);
+					    } else {
+						     $(f).next(".reply-cont").html(html);
+					    }
+					  }
+				  });
+			}
+		 });
+	});
+});
+ 
+//-->
+
+</script>
+<script src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/jquery.1.5.1.min.js"></script>
+<script type="text/javascript" language="javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/jquery.tools.min.js"></script><!--jquery.tools-->
+<script src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/log.js"></script>
+<script>
+var tracking_starttime = "1441196591";
+tracking_log();
+</script><script src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/log.php"></script>
+
+
+		<script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/jquery.flash.min.js"></script>
+		<script type="text/javascript">
+		$(function(){
+			var $adident = {"page":"list","ident":[["list16",1],["list17",1],["list18",1],["list19",1],["list20",1],["list21",1],["list24",1],["list25",1],["list26",1],["list27",1],["dispbbs71",1],["club73",1],["list86",1],["list89",1],["list90",1]]};
+			$.ajax({
+				url:'http://super.cat898.com/?c=ad',
+				dataType:'script',
+				data:$adident,
+				timeout:5000,
+				success:function(e){
+				}
+			});
+		});
+		</script>
+		<div id="fmedia_club_list">
+		<!--<script type="text/javascript" src="http://panda.kdnet.net/data/fmedia/fmedia_club_list.js"></script>-->
+		</div>
+
+
+<script src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/popadlog.js"></script>
+<script type="text/javascript">
+	tracking_log_popad();
+
+	//更多个人信息显示、隐藏
+	$('.more-show').click(function(){
+		$(this).hide();
+		$('.detailed-more-cont').fadeIn();
+	});
+
+	$('.more-hide').click(function(){
+		$('.more-show').fadeIn();
+		$('.detailed-more-cont').hide();
+	});
+
+	document.onmousemove=function (){document.getElementById('update_flag').innerHTML=1;};
+	document.onscroll=function (){document.getElementById('update_flag').innerHTML=1;};
+
+	//-- 屏蔽的超级黑名单信息 -------------------------------------------------------------
+	$(".shieldshow").click( 
+		function () { 
+			$(this).parents('tr').hide(); 
+			$(this).parents('tr').prev('tr').fadeIn(); 
+		}
+	);
+</script>
+	
+	<div id="overlay-outer" style="position: absolute; top: 182px;">
+	<div class="clubforum-box" id="overlay">
+		<div class="contentWrap"></div>
+	</div>
+	</div>
+
+	<script language="javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/index.php"></script>
+<script type="text/javascript">//<![CDATA[
+ac_as_id = 93493;
+ac_format = 0;
+ac_mode = 1;
+ac_group_id = 1;
+ac_server_base_url = "afp.csbew.com/";
+//]]></script>
+<script>
+if(document.documentElement.clientWidth>1180 && deviceType!="phone")
+{
+    document.write("<script language='javascript' src='http://s.csbew.com/k.js'><\/script>");
+}
+</script><ins id="ac_js86_93493" style="display: none;"></ins><script language="javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/k.js"></script><div id="ac_wrap_934930" style="width:0px"><script src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/saved_resource"></script><script language="javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/saved_resource(1)"></script><script language="javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/red.js"></script>
+<script src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/e.js" type="text/javascript"></script><script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/e.js"></script><script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/e.js"></script><script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/e.js"></script><script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/e.js"></script></div><img style="display:none" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/m(16).htm"><div id="ac_wrap_934931" style="width:0px"><script src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/saved_resource(2)"></script><script language="javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/saved_resource(3)"></script><script language="javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/red.js"></script>
+<script src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/e.js" type="text/javascript"></script><script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/e.js"></script><script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/e.js"></script><script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/e.js"></script><script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/e.js"></script></div><img style="display:none" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/m(17).htm"><div id="ac_wrap_934932" style="width:0px"><!--SMARTmedia  Begin:-->
+<script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/sm.js"></script><script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/flash_fx.js"></script>
+<script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/kdnet++club++sm++show.js"></script><script language="JavaScript1.1" charset="GBK" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/s"></script><a href="http://www.allyes.com/" target="_top"><img src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/adfshow" style="display:none" width="0" height="0" border="0" alt=""></a>
+<script language="JavaScript">try{rem_inv();}catch(e) {}
+</script>
+<script>window.SMARTMEDIA_ABSTRAIN=true;</script>
+<script language="JavaScript">try{eval("allyes_smartmedia_floor_"+ADFCID2)();}catch(err){}</script>
+<!--SMARTmedia  End-->
+<script src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/e.js" type="text/javascript"></script><script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/e.js"></script><script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/e.js"></script><script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/e.js"></script><script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/e.js"></script></div><img style="display:none" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/m(18).htm"><div id="ac_wrap_934933" style="width:0px"><script type="text/javascript">
+mx_as_id = 3006094;
+mx_server_base_url ="mega.mlt01.com/";
+mx_async = 0; 
+</script><ins id="mx_bjs_3006094" style="display: none;"></ins><script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/b.js"></script><script type="text/javascript" src="./猫眼看人 凯迪社区 - 全球华人最具影响力的言论及媒体平台_files/mmp.htm" id="mx_bjs_$2495390331"></script></div></div></body></html>

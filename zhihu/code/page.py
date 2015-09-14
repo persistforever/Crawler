@@ -11,6 +11,7 @@ import os
 import random
 import sys
 import ConfigParser
+import codecs
 
 
 class Conf :
@@ -22,17 +23,17 @@ class Conf :
 		arr = []
 		cf = ConfigParser.ConfigParser()
 		cf.read(self.filename)
-		arr.append(int(cf.get('zhihu', 'start')))
-		arr.append(int(cf.get('zhihu', 'maindelta')))
-		arr.append(int(cf.get('zhihu', 'subdelta')))
+		arr.append(int(cf.get('zhihu', 'topicidx')))
+		# arr.append(int(cf.get('zhihu', 'maindelta')))
+		# arr.append(int(cf.get('zhihu', 'subdelta')))
 		return arr
 
 	def writeConf(self, arr) :
 		cf = ConfigParser.ConfigParser()
 		cf.add_section('zhihu')
-		cf.set('zhihu', 'start', str(arr[0]))
-		cf.set('zhihu', 'maindelta', str(arr[1]))
-		cf.set('zhihu', 'subdelta', str(arr[2]))
+		cf.set('zhihu', 'topicidx', str(arr[0]))
+		# cf.set('zhihu', 'maindelta', str(arr[1]))
+		# cf.set('zhihu', 'subdelta', str(arr[2]))
 		cf.write(open(self.filename, 'w'))
 
 
@@ -40,11 +41,20 @@ class Zhihu :
 	# attributes
 	mainurl = ''
 	qturl = 'http://www.zhihu.com/question/'
+	urlset = []
+	nqurlset = dict()
 	topictree = dict()
 
-	def __init__(self, mainurl) :
-		self.mainurl = mainurl
-		self.topictree['19776749'] = []
+	def __init__(self) :
+		self.urlset = []
+		self.nqurlset['http://www.zhihu.com/topic/19776749/questions'] = None
+		self.nqurlset['http://www.zhihu.com/topic/19778317/questions'] = None
+		self.nqurlset['http://www.zhihu.com/topic/19776751/questions'] = None
+		self.nqurlset['http://www.zhihu.com/topic/19778298/questions'] = None
+		self.nqurlset['http://www.zhihu.com/topic/19618774/questions'] = None
+		self.nqurlset['http://www.zhihu.com/topic/19778287/questions'] = None
+		self.nqurlset['http://www.zhihu.com/topic/19560891/questions'] = None
+		qturl = 'http://www.zhihu.com/question/'
 
 	def getQuestion(self, url) :
 		content = urllib2.urlopen(url).read()
@@ -56,19 +66,35 @@ class Zhihu :
 		topic, question, count = [], [], []
 		content = urllib2.urlopen(url).read()
 		soup = BeautifulSoup(content)
-		alist = soup.contents[2].contents[3].contents[5].contents[1].contents[1].contents[5].contents[1].findAll('a')
-		metalist = soup.contents[2].contents[3].contents[5].contents[1].contents[1].contents[5].contents[1].findAll('meta')
-		t = '19776749'
-		qnum = 0
-		for i in range(len(alist)) :
-			if alist[i]['href'].split('/')[-2] == 'question' :
-				self.topictree[t].append([alist[i]['href'].split('/')[-1], int(metalist[qnum*2]['content'])])
-				t = '19776749'
-				qnum += 1
-			else :
-				t = alist[i]['href'].split('/')[-1]
-				if t not in self.topictree :
-					self.topictree[t] = []
+		alltag = soup.findAll('div')
+		for tag in alltag :
+			if 'class' in [t[0] for t in tag.attrs] :
+				if tag['class'] == 'feed-item feed-item-hook question-item' :
+					selfqs = True
+					alldiv = tag.findAll('div') 
+					for div in alldiv :
+						if 'class' in [t[0] for t in div.attrs] :
+							if div['class'] == 'subtopic' :
+								selfqs = False
+								break
+					if selfqs == True :
+						alla = tag.findAll('a')
+						for a in alla :
+							if a['class'] == 'question_link' :
+								print a['href']
+
+	def getPageNum(self, url) :
+		pageset = []
+		content = urllib2.urlopen(url).read()
+		soup = BeautifulSoup(content)
+		alldiv = soup.findAll('div')
+		for div in alldiv :
+			if 'class' in [t[0] for t in div.attrs] :
+				if div['class'] == 'zm-invite-pager' :
+					alla = div.findAll('a')
+					for a in alla :
+						pageset.append(int(a['href'].split('=')[-1]))
+		return max(pageset)
 
 	def getPageList(self, startpage, maxpage) :
 		for page in range(startpage, startpage + maxpage) :
@@ -98,23 +124,29 @@ class Zhihu :
 						pass
 				if (num + 1) % 1000 == 0 :
 					time.sleep(int(random.random()*100%30))
-			print 'write topic ', topic, 'finished ...' 
+			print 'write topic ', topic, 'finished ...'
 
-	def process(self, startpage, deltapage, subdelta) :
-		page = startpage
-		while page < (startpage + deltapage) :
-			zhihu.getPageList(startpage, subdelta)
-			print zhihu.topictree
-			zhihu.storeTopic('E://data/zhihu')
-			page += subdelta
+	def importURL(self, name) :
+		with codecs.open(name, 'r', 'utf-8') as fo :
+			for line in fo.readlines() :
+				self.urlset.append(line.strip())
+
+	def process(self) :
+		self.importURL('../result/url.txt')
+		conf = Conf()
+		[topicidx] = conf.readConf()
+		while topicidx < len(self.urlset) :
+			topicurl = self.urlset[topicidx]
+			maxpage = zhihu.getPageNum(topicurl)
+			print maxpage
+			for page in range(1, min(maxpage, 10)) :
+				pageurl = topicurl + '?page=' + str(page)
+				qsurlset = self.getQuestionList(pageurl)
+			# topicidx += 1
+			# conf.writeConf([topicidx])
+			break
 
 
 
-conf = Conf()
-startpage, deltapage, subdelta = conf.readConf()
-
-zhihu = Zhihu('http://www.zhihu.com/topic/19776749/questions')
-zhihu.process(startpage, deltapage, subdelta)
-
-startpage += deltapage
-conf.writeConf([startpage, deltapage, subdelta])
+zhihu = Zhihu()
+zhihu.process()
