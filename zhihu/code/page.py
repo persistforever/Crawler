@@ -59,6 +59,7 @@ class Zhihu :
 		self.maindir = '../result/data'
 
 	def getQuestion(self, url) :
+		qtdata = ''
 		content = urllib2.urlopen(url).read()
 		soup = BeautifulSoup(content)
 		alltag = soup.findAll('div')
@@ -111,7 +112,10 @@ class Zhihu :
 					alla = div.findAll('a')
 					for a in alla :
 						pageset.append(int(a['href'].split('=')[-1]))
-		return max(pageset)
+		if pageset == [] :
+			return 1
+		else :
+			return max(pageset)
 
 	def getPageList(self, startpage, maxpage) :
 		for page in range(startpage, startpage + maxpage) :
@@ -127,7 +131,7 @@ class Zhihu :
 		subdir = self.maindir + '/' + str(topic)
 		if not os.path.exists(subdir) :
 			os.mkdir(subdir)
-		filepath = subdir + '/' + str(name) + '.txt'
+		filepath = subdir + '/' + str(name)
 		with open(filepath, 'a+') as fw :
 			fw.writelines('!!\n')
 			fw.writelines(str(data))
@@ -150,15 +154,22 @@ class Zhihu :
 				continue
 			maxpage = zhihu.getPageNum(topicurl)
 			print 'topic max page is', maxpage
-			while pageidx < min(maxpage+1, 6) :
+			while pageidx < maxpage+1 :
 				pageurl = topicurl + '?page=' + str(pageidx)
 				print 'now page url is', pageurl
-				qsurlset = self.getQuestionList(pageurl)
+				qsurlset = []
+				try:
+					qsurlset = self.getQuestionList(pageurl)
+				except Exception, e:
+					pass
 				for qsurl in qsurlset :
 					print 'now question url is', qsurl
-					data = self.getQuestion(qsurl)
-					name = pageidx / 100
-					self.storeQuestion(topicidx, name, data)
+					try:
+						data = self.getQuestion(qsurl)
+						name = pageidx / 100
+						self.storeQuestion(topicidx, name, data)
+					except Exception, e:
+						pass
 				pageidx += 1
 				conf.writeConf([topicidx, pageidx])
 				if pageidx % 100 == 0 :
@@ -166,8 +177,7 @@ class Zhihu :
 			topicidx += 1
 			pageidx = 1
 			conf.writeConf([topicidx, pageidx])
-			# time.sleep(int(random.random()*60%60)+1)
-			break
+			time.sleep(int(random.random()*60%60)+1)
 
 
 
