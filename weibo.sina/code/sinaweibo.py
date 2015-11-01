@@ -1,5 +1,4 @@
 # -*- encoding=utf-8 -*-
-
 from weibo import APIClient
 import json
 import time
@@ -84,17 +83,15 @@ class Weibo :
 		pair = []
 		qalist = []
 		for page in range(1, 3) :
-			try :
-				jsondata = self.client.comments.show.get(access_token = self.access_token, id=weiboid, count=200, page=page)
-				for comment in  jsondata['comments'] :
-					senduser = comment['user']['screen_name'] # [comment['text']], comment['created_at']
-					recvuser, content = self.findReplyComment(comment['text'])
-					if recvuser != None :
-						pair.append([senduser, recvuser, content])
-						qalist.append([senduser, recvuser, content, self.convertDate(comment['created_at'])])
-				time.sleep(60)
-			except Exception, e :
-				break
+			jsondata = self.client.comments.show.get(access_token = self.access_token, id=weiboid, count=200, page=page)
+			print jsondata
+			for comment in  jsondata['comments'] :
+				senduser = comment['user']['screen_name'] # [comment['text']], comment['created_at']
+				recvuser, content = self.findReplyComment(comment['text'])
+				if recvuser != None :
+					pair.append([senduser, recvuser, content])
+					qalist.append([senduser, recvuser, content, self.convertDate(comment['created_at'])])
+			time.sleep(60)
 		return qalist
 		# for senduser, recvuser, content, time in qalist :
 		# 	print senduser.encode(charset), recvuser.encode(charset), content.encode(charset), time
@@ -135,5 +132,6 @@ if __name__ == '__main__' :
 	weibo = Weibo()
 	# weibo.storeWeiboIdList()
 	# weibo.storeWeiboInfoList()
-	# infolist = weibo.getCommentsList('3880506963620373')
-	# weibo.extractQtAsPair(infolist)
+	infolist = weibo.getCommentsList('3881119298619039')
+	print infolist
+	weibo.extractQtAsPair(infolist)
