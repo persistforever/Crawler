@@ -88,7 +88,7 @@ class StaticTextFrame(wx.Frame):
         wx.Frame.__init__(self, None, -1, 'labeling', size=(1000, 350))  
         self.panel = wx.Panel(self, -1)
         self.corpus = Corpus()
-        self.corpus.importArticle('../data/labeling/money', '../data/labeling/label.txt')
+        self.corpus.importArticle('../data/labeling/car', '../data/labeling/label.txt')
 
         self.conf = Conf()
         [self.idx] = self.conf.readConf()
@@ -194,8 +194,8 @@ class StaticTextFrame(wx.Frame):
             self.idx += 1
         self.conf.writeConf([self.idx])
         self.corpus.writeLabel('../data/labeling/label.txt')
-        self.corpus.writeData('../output/labeling/money/unknowledgeable', \
-        	'../output/labeling/money/unknow', '../output/labeling/money/knowledgeable')
+        # self.corpus.writeData('../output/labeling/money/unknowledgeable', \
+        # 	'../output/labeling/money/unknow', '../output/labeling/money/knowledgeable')
         print 'already save'
 
 

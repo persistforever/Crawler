@@ -84,7 +84,6 @@ class PosExtractor :
             for idx in self.quantity :
                 article.qavg += meanset[idx]
                 article.qvar += varset[idx]
-            article.constrFeatureSet()
 
 
 class KnowledgableWordExtractor :
@@ -112,7 +111,7 @@ class KnowledgableWordExtractor :
                     worddict[word.name] += 1
             for word in article.spcontent :
                 if word.name in worddict :
-                    worddict[word.name] += 0
+                    worddict[word.name] += 1
             article.klwordnum = sum(worddict.values())
 
 

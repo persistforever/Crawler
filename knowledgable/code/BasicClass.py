@@ -1,4 +1,4 @@
-# -*- encoding = utf-8 -*-
+# -*- encoding = gb18030 -*-
 import codecs
 import ConfigParser
 import math
@@ -97,10 +97,12 @@ class Article :
             self.title = data[2]
             self.content = data[3]
             self.label = -1
+            self.subtitle = []
                 
     # ----- import methods -----
     def importInfo(self, data) :
         if len(data) >= 8 :
+            self.time = int(data[1])
             self.forwardnum = int(data[2])
             self.zannum = int(data[3])
             self.clicknum = int(data[4])
@@ -118,6 +120,15 @@ class Article :
             for part in content.split(' ') :
                 word = Word(part)
                 self.spcontent.append(word)
+    
+    def importSubTitle(self, data) :
+        sptitle = []
+        if len(data) >= 2 :
+            title = data[1]
+            for part in title.split(' ') :
+                word = Word(part)
+                sptitle.append(word)
+            self.subtitle.append(sptitle)
 
     def importLabel(self, data) :
         self.label = int(data[1])
@@ -132,8 +143,8 @@ class Article :
         self.keyword = []
         wordlist = data[1:]
         for w in wordlist :
-            word = Word(w.split('#')[0])
-            tfidf = float(w.split('#')[1])
+            word = Word(w.split('<#>')[0])
+            tfidf = float(w.split('<#>')[1])
             self.keyword.append([word, tfidf])
             
     def importFeatureSet(self, data) :
@@ -188,13 +199,33 @@ class Article :
     def printLabel(self) :
         return str(self.label)
     
-    def printLine(self) :
+    def printArticle(self) :
         line = ''
         line += self.id + u'\t'
         line += self.url + u'\t'
         line += self.title + u'\t'
         line += self.content + u'\t'
-        return line   
+        return line.strip()
+    
+    def printLine(self) :
+        line = ''
+        line += self.id + u'\t'
+        line += self.url + u'\t'
+        line += str(self.time) + u'\t'
+        line += self.title + u'\t'
+        line += self.content + u'\t'
+        line += self.printInfo() + u'\t'
+        return line.strip()
+    
+    def printInfo(self) :
+        line = ''
+        line += str(self.forwardnum) + u'\t'
+        line += str(self.zannum) + u'\t'
+        line += str(self.clicknum) + u'\t'
+        line += str(self.collectnum) + u'\t'
+        line += str(self.readtime) + u'\t'
+        line += str(self.finishrate) + u'\t'
+        return line.strip()
     
     def printSimplyLine(self) :
         line = ''

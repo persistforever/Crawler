@@ -7,6 +7,7 @@ import codecs
 import numpy as np
 import re
 from BasicClass import Article
+import gensim
 
 
 class TitleSimplifier :
@@ -17,6 +18,7 @@ class TitleSimplifier :
     # methods    
     def __init__(self) :
         self.spdict = self.importSpDict(self.sppath)
+        self.vecmodel = gensim.models.Word2Vec.load('vectors.txt')
         
     def importSpDict(self, sppath) :
         spdict = dict()
@@ -30,30 +32,60 @@ class TitleSimplifier :
         sentenceset = re.split(splitchar, article.title)
         return sentenceset
 
-    def sentenceScore(self, sentence, keyword) :
+    def featureSentenceScore(self, sentence, keyword) :
         top = 0
-        bottem = len(keyword)
-        for char in sentence :
-            if char in keyword :
-                top += 1
-            else :
-                bottem += 1
-        score = 1.0 * top / bottem + len(sentence) * 0.25
-        return score
+        bottem = len(sentence) + len(keyword)
+        stc = ''
+        keyline = ''
+        for word in keyword :
+            keyline += word.name
+        for word in sentence :
+            stc += word.name
+            for char in word.name :
+                if char in keyline :
+                    top += 1
+                    break
+        score = 1.0 * top / bottem + len([1 for t in sentence if t.feature == 'n']) * 0.01 + len(sentence) * 0.01
+        return [stc, score]
     
-    def simplifying(self, artlist) :
-        splitchar = '[\]\['
+    def modelSentenceScore(self, sentence, keyword) :
+        stc = ''
+        score = 0.0
+        for worda in sentence :
+            stc += worda.name
+            for wordb in keyword :
+                try:
+                    score += self.vecmodel.similarity(worda.name.encode('utf8'), wordb.name.encode('utf8'))
+                except Exception, e:
+                    pass
+        return [stc, score]
+
+    def splitTitle(self, artlist) :
+        splitchar = '[\[\]\|?'
         for sp in self.spdict :
             splitchar += sp
         splitchar += ' ]'
         for article in artlist :
             sentenceset = self.splitSentence(article, splitchar)
-            sentencelist = []
+            article.subtitle = []
             for sentence in sentenceset :
-                if sentence != '' :
-                    keyword = ''
-                    for word in article.keyword[0:5] :
-                        keyword += word[0].name
-                    sentencelist.append([sentence, self.sentenceScore(sentence, keyword)])
+                if sentence.strip() != '' :
+                    article.subtitle.append(sentence)
+                    
+    def featureSimplifying(self, artlist) :
+        for article in artlist :
+            sentencelist = []
+            for sentence in article.subtitle :
+                sentencescore = self.featureSentenceScore(sentence, [t[0] for t in article.keyword[0:20]])
+                sentencelist.append(sentencescore)
+            sentencelist = sorted(sentencelist, key=lambda x: x[1], reverse=True)
+            article.simplytitle = sentencelist[0][0]
+                    
+    def modelSimplifying(self, artlist) :
+        for article in artlist :
+            sentencelist = []
+            for sentence in article.subtitle :
+                sentencescore = self.modelSentenceScore(sentence, [t[0] for t in article.keyword[0:20]])
+                sentencelist.append(sentencescore)
             sentencelist = sorted(sentencelist, key=lambda x: x[1], reverse=True)
             article.simplytitle = sentencelist[0][0]
