@@ -3,8 +3,8 @@ import codecs
 import numpy as np
 import Filter
 import Extractor
-# import Classifier
-import TitleSimplifier
+import Classifier
+import Simplifier
 import math
 from BasicClass import Article
 
@@ -81,14 +81,15 @@ class Corpus :
             
     def importTestDataSet(self, datapath) :
         with codecs.open(datapath, 'r', 'gb18030') as fo :
-            data = [np.array(line.strip().split('\t')) for line in fo.readlines()]
-        dataset = [t[1:] for t in data]
-        self.testdataset = np.array(dataset, dtype=float)
-        self.testdataset = self.normalization(self.testdataset)
-        for idx in range(len(data)) :
-            id = data[idx][0]
-            if id in self.iddict :
-                self.iddict[id].importFeatureSet(list(self.testdataset[idx]))
+            datalist = [np.array(line.strip().split('\t')) for line in fo.readlines()]
+        dataset = [t[1:] for t in datalist]
+        testdataset = np.array(dataset, dtype=float)
+        testdataset = self.normalization(testdataset)
+        self.testdataset = dict()
+        for idx in range(len(datalist)) :
+            id = datalist[idx][0]
+            if id not in self.testdataset :
+                self.testdataset[id] = list(testdataset[idx])
         print 'importing testing dataset finished ...'
         
     def importKnowledgable(self, datapath) :
@@ -109,64 +110,11 @@ class Corpus :
         print 'importing subtitle finished ...'
             
     # ----- process methods -----
-    def canImport(self, data) :
-        if len(data) >= 4 :
-            if len(data[0]) > 0 and len(data[1]) > 0 and len(data[2]) > 0 and len(data[3]) > 0 :
-                return True
-            return False
-        
     def constrIdDict(self) :
         self.iddict = dict()
         for article in self.artlist :
             if article.id not in self.iddict :
                 self.iddict[article.id] = article
-
-    def filtering(self) :
-        print len(self.artlist)
-        filter = Filter.CollectionFilter(num=10000)
-        self.artlist = filter.filtering(self.artlist)
-        print len(self.artlist)
-        filter = Filter.ContentLengthFilter(length=200)
-        self.artlist = filter.filtering(self.artlist)
-        print len(self.artlist)
-        print 'filtering finished ...'
-    
-    def selectKeyWord(self) : 
-        self.length = len(self.artlist)
-        for wordlist in [t.spcontent for t in self.artlist] :
-            wordset = set([t.toString() for t in wordlist])
-            for word in wordset :
-                if word not in self.idfdict.keys() :
-                    self.idfdict[word] = 0
-                self.idfdict[word] += 1
-        for word in self.idfdict :
-            self.idfdict[word] = math.log(1.0 * self.length / (self.idfdict[word] + 1), math.e)
-        print 'cal IDF value finished ...'
-        for article in self.artlist :
-            article.calTFIDF(self.idfdict)
-            article.selectKeyWord(keywordnum=200)
-        print 'selecting keyword finished ...'
-    
-    def extracting(self) :
-        extractor = Extractor.KnowledgableWordExtractor()
-        extractor.extractFeature(self.artlist)
-        extractor = Extractor.PosExtractor()
-        extractor.extractFeature(self.artlist)
-        extractor = Extractor.PersonExtractor()
-        extractor.extractFeature(self.artlist)
-        extractor = Extractor.TokenExtractor()
-        extractor.extractFeature(self.artlist)
-        print 'extracting feature finished ...'
-
-    def constrDataSet(self) :
-        self.dataset, self.label = [], []
-        for article in self.artlist :
-            article.constrFeatureSet()
-            self.dataset.append(np.array(article.featureset))
-            self.label.append(article.label)
-        self.dataset = np.array(self.dataset)
-        self.label = np.array(self.label)
-        print 'constructing dataset finished ...'
     
     def testClassifier(self) :
         classifier = Classifier.SVMClassifier()
@@ -192,26 +140,18 @@ class Corpus :
         print 'training classifier finished ...'
         self.testlabel = {}.fromkeys(self.testdataset.keys(), -1)
         for artid in self.testdataset :
-            self.testlabel[artid] = classifier.testing(np.array(self.testdataset[artid][:]), clf)
-            self.testlabel[artid] = self.testlabel[artid][0][1]
+        	self.testlabel[artid] = classifier.testing(np.array(self.testdataset[artid][0:]).reshape(1, -1), clf)
+        	self.testlabel[artid] = self.testlabel[artid][0][1]
         sortedlist = list(sorted(self.testlabel.iteritems(), key=lambda x: x[1], reverse=True))
         return sortedlist
         print 'testing classifier finished ...'
-        
-    def titleSpliting(self) :
-        artlist = []
-        for article in self.artlist :
-            if article.label == 1 :
-                artlist.append(article)
-        simplifier = TitleSimplifier.TitleSimplifier()
-        simplifier.splitTitle(artlist)
 
     def titleSimplifying(self) :
         artlist = []
         for article in self.artlist :
             if article.label == 1 :
                 artlist.append(article)
-        simplifier = TitleSimplifier.TitleSimplifier()
+        simplifier = Simplifier.TitleSimplifier()
         # simplifier.featureSimplifying(artlist)
         simplifier.modelSimplifying(artlist)
         print 'simpltfying title finished ...'
@@ -267,60 +207,79 @@ class Corpus :
                     for sub in article.subtitle :
                         fw.writelines(article.printId().encode('gb18030') + '\t' + sub.encode('gb18030') + '\n')
                 
-    def writeResult(self, datapath, artlist, rate=0.1) :
+    def writeKnowledgableArticle(self, datapath, artlist, rate=0.1) :
         outnum = int(rate * len(artlist))
         outartlist =artlist[0: (outnum+1)]
         with open(datapath, 'w') as fw :
             for article in outartlist :
-                fw.writelines(article.printLine().encode('gb18030') + '\n')
+                fw.writelines(article[0].encode('gb18030') + '\n')
 
 
-# ---------- use collect number to filter ----------
-'''
-corpus = Corpus()
-corpus.importArticle('../data/2/article')
-corpus.importInfo('../data/2/info')
-corpus.filtering()
-corpus.writeLine('../output/2/origindata')
-'''
-
-# ---------- construct dataset ----------
-'''
-corpus = Corpus()
-corpus.importArticle('../output/6/article')
-corpus.importSplit('../output/6/split')
-corpus.importInfo('../output/6/info')
-corpus.importKeyWord('../output/6/keyword')
-corpus.extracting()
-corpus.constrDataSet()
-corpus.writeTestDataSet('../output/6/testdataset')
-'''
-
-# ---------- title spliting ----------
-'''
-corpus = Corpus()
-corpus.importArticle('../data/0/article')
-corpus.importKnowledgable('../output/0/knowledgablearticle')
-corpus.titleSpliting()
-corpus.writeSplitTitle('../output/0/subtitle')
-'''
+# ---------- FilePath : list of file path ----------
+class FilePath :
+    # attributes
+    maindir = 'E://file/knowledgable/'
+    
+    # methods
+    def getInputArticle(self, type) :
+        return self.maindir + 'input/' + type + '/article'
+    
+    def getInputInfo(self, type) :
+        return self.maindir + 'input/' + type + '/info'
+    
+    def getInputTraindataset(self, type) :
+        return self.maindir + 'input/' + type + '/traindataset'
+    
+    def getOuputOrigindata(self, type) :
+        return self.maindir + 'output/' + type + '/origindata'
+    
+    def getOutputArticle(self, type) :
+        return self.maindir + 'output/' + type + '/article'
+    
+    def getOutputInfo(self, type) :
+        return self.maindir + 'output/' + type + '/info'
+    
+    def getOutputSplit(self, type) :
+        return self.maindir + 'output/' + type + '/split'
+    
+    def getOutputKeyword(self, type) :
+        return self.maindir + 'output/' + type + '/keyword'
+    
+    def getOutputTestdataset(self, type) :
+        return self.maindir + 'output/' + type + '/testdataset'
+    
+    def getOutputKnowledgablearticle(self, type) :
+        return self.maindir + 'output/' + type + '/knowledgablearticle'
+    
+    def getOutputSubtitle(self, type) :
+        return self.maindir + 'output/' + type + '/subtitle'
+    
+    def getOutputSimplyArticle(self, type) :
+        return self.maindir + 'output/' + type + '/simplyknowledgablearticle'
+    
 
 # ---------- classifying ----------
-'''
-corpus = Corpus()
-corpus.importTrainDataSet('../data/traindata/6_traindataset')
-corpus.importTestDataSet('../output/6/testdataset')
-sortedlist = corpus.classifying()
-corpus.writeResult('../output/6/knowledgablearticle', sortedlist, rate=0.2)
-'''
+def classifying(type) :
+	corpus = Corpus()
+	filepath = FilePath()
+	corpus.importTrainDataSet(filepath.getInputTraindataset(type))
+	corpus.importTestDataSet(filepath.getOutputTestdataset(type))
+	sortedlist = corpus.classifying()
+	corpus.writeKnowledgableArticle(filepath.getOutputKnowledgablearticle(type), sortedlist, rate=0.2)
 
 # ---------- title simplifying ----------
-'''
-corpus = Corpus()
-corpus.importArticle('../output/6/article')
-corpus.importKnowledgable('../output/6/knowledgablearticle')
-corpus.importSubTitle('../output/6/subtitle')
-corpus.importKeyWord('../output/6/keyword')
-corpus.titleSimplifying()
-corpus.writeSimplyArticle('../output/6/simplyknowledgablearticle')
-'''
+def titleSimplifying(type) :
+	corpus = Corpus()
+	filepath = FilePath()
+	corpus.importArticle(filepath.getOutputArticle(type))
+	corpus.importKnowledgable(filepath.getOutputKnowledgablearticle(type))
+	corpus.importSubTitle(filepath.getOutputSubtitle(type))
+	corpus.importKeyWord(filepath.getOutputKeyword(type))
+	corpus.titleSimplifying()
+	corpus.writeSimplyArticle(filepath.getOutputSimplyArticle(type))
+
+
+# ---------- MAIN ----------
+type = '4'
+# classifying(type)
+titleSimplifying(type)
